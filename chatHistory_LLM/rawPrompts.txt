@@ -2,8 +2,9 @@
 Hey there! Can you write a quick python script that requests an SOC 2018 Detailed Occupation Group number (eg. "15-1251") and returns the name of the group (in this case: "Computer Programmers")
 We may need to start by processing the excel file "soc_structure_2018.xlsx" into a JSON structure of some kind that is... more easily accessible programatically... rather than just... visually clear for a human to inspect :-P
 
-Codex Worked for: 4 min, 41 sec
-
+[--------------------------------]
+[ Codex Worked for 4 min, 41 sec ]
+[--------------------------------]
 
 
 [Prompt 2:]
@@ -14,8 +15,9 @@ that file is called "soc_structure_2018_danEdit_flattened.xlsx"
 Can you take a look at that and build a new json that has nested groups for each level?
 THEN can you write a new script "lookup_SOC_v2.py" that returns the group type, any parent categories if applicable, then again, the group name :-)
 
-Codex worked for 5 min, 45 sec
-
+[--------------------------------]
+[ Codex worked for 5 min, 45 sec ]
+[--------------------------------]
 
 [Prompt 3:]
 
@@ -24,5 +26,62 @@ lol, shoot, sorry - (need a small refoctor) I should have been more thoughtful, 
 first one should be something like... "extractFlattenedGroups.py" or something less clunky (that creates the nested group json) :-)
 second should be the lookup v2 that JUST navigates that json and returns the group details (like it currently does) :-D <3
 
-Codex worked for 3 min, 25 sec
+[--------------------------------]
+[ Codex worked for 3 min, 25 sec ]
+[--------------------------------]
+
+
+[Prompt 4:]
+amazing once again :-)
+alright, a couple small changes to the lookup script
+
+[Change #1]
+an you tweak the output so it appears in the console something like this:
+PS V:\repoLocation2\SOC_2026_classExpansion> python scripts/lookup_SOC_v2.py 15-1251
+Group Name: Computer Programmers
+Group Type: Detailed
+
+Parent Categories:
+  Major: 15-0000 - Computer and Mathematical Occupations
+  Minor: 15-1200 - Computer Occupations
+  Broad: 15-1250 - Software and Web Developers, Programmers, and Testers
+
+(so- name first, type on the next line, extra line break, then the Parent categories)
+
+[Change #2]
+For the higher level categories, can you ALSO add a "1 level down" section called "Child Categories:" that lists all the categories -within- that higher level group, just... only a single level down (no need to spell out the entire tree recursively) (lol... at least not yet)
+
+tyty!
+
+[--------------------------------]
+[ Codex worked for 1 min, 25 sec ]
+[--------------------------------]
+
+[Prompt #5:]
+this... is phenomenal, thank you SO much!
+
+two more changes before we start building the crosswalk with O*NET
+
+1) can you add to (then re-run) the "build_soc_nested_groups.py" script to pull each of the detailed group descriptions from this excel file: "ExtractedDetailedGroupDescriptions.xlsx" SOOOO creative, I know :-P
+then:
+1.1) sanitize them if needed for json format
+and
+1.2) add them to the nested groups json (obviously JUST for the detailed groups)
+
+THEN 
+
+2) Can you ALSO add a section (to the same script file) that pulls in two groups of titles from the direct match title file: "soc_2018_direct_match_title_file.xlsx"
+-
+2.1) there's a subset of "Illustrative Examples" marked with an "x" in a separate column - maybe pull these in under a sub-list like "key_title_examples"
+and
+2.2) pull in the rest of the title match entries as like... "other_title_examples"
+
+All of that make sense?
+tyty <3
+
+
+[--------------------------------]
+[ Codex worked for 5 min, 31 sec ]
+[--------------------------------]
+
 

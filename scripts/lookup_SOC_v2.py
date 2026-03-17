@@ -82,18 +82,30 @@ def lookup_group(hierarchy: dict[str, object], code: str) -> dict[str, object] |
             continue
 
         node, parents = result
+        children = [
+            {
+                "code": str(child["code"]),
+                "group_type": str(child["group_type"]),
+                "name": str(child["name"]),
+            }
+            for child in node.get("children", [])
+        ]
         return {
             "code": str(node["code"]),
             "group_type": str(node["group_type"]),
             "group_name": str(node["name"]),
             "parents": parents,
+            "child_categories": children,
         }
 
     return None
 
 
 def print_text_result(result: dict[str, object]) -> None:
+    print(f'Group Name: {result["group_name"]}')
+    print()
     print(f'Group Type: {result["group_type"]}')
+    print()
     parents = result["parents"]
     if parents:
         print("Parent Categories:")
@@ -101,7 +113,13 @@ def print_text_result(result: dict[str, object]) -> None:
             print(f'  {parent["group_type"]}: {parent["code"]} - {parent["name"]}')
     else:
         print("Parent Categories: None")
-    print(f'Group Name: {result["group_name"]}')
+
+    child_categories = result["child_categories"]
+    if child_categories:
+        print()
+        print("Child Categories:")
+        for child in child_categories:
+            print(f'  {child["group_type"]}: {child["code"]} - {child["name"]}')
 
 
 def main() -> int:
