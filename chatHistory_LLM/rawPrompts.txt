@@ -1,0 +1,28 @@
+[Prompt 1:]
+Hey there! Can you write a quick python script that requests an SOC 2018 Detailed Occupation Group number (eg. "15-1251") and returns the name of the group (in this case: "Computer Programmers")
+We may need to start by processing the excel file "soc_structure_2018.xlsx" into a JSON structure of some kind that is... more easily accessible programatically... rather than just... visually clear for a human to inspect :-P
+
+Codex Worked for: 4 min, 41 sec
+
+
+
+[Prompt 2:]
+
+incredible :-) works great thank you - okay... 
+I've done the legwork of conditionally enriching the sctructure sheet, then flattening it so each row has a filled out column of its higher level categories :-)
+that file is called "soc_structure_2018_danEdit_flattened.xlsx"
+Can you take a look at that and build a new json that has nested groups for each level?
+THEN can you write a new script "lookup_SOC_v2.py" that returns the group type, any parent categories if applicable, then again, the group name :-)
+
+Codex worked for 5 min, 45 sec
+
+
+[Prompt 3:]
+
+This is fantastic, thank you again :-)
+lol, shoot, sorry - (need a small refoctor) I should have been more thoughtful, can you split this up into two scripts (update the readme accordingly, like you've been doing)
+first one should be something like... "extractFlattenedGroups.py" or something less clunky (that creates the nested group json) :-)
+second should be the lookup v2 that JUST navigates that json and returns the group details (like it currently does) :-D <3
+
+Codex worked for _ min, _ sec
+
