@@ -17,7 +17,18 @@ The script reads `sourceDocs/soc_structure_2018.xlsx`, extracts the detailed occ
 
 ## SOC 2018 nested hierarchy lookup
 
-Use `scripts/lookup_SOC_v2.py` to build a nested hierarchy from `sourceDocs/soc_structure_2018_danEdit_flattened.xlsx` and look up any SOC group code.
+Use `scripts/build_soc_nested_groups.py` to create the nested hierarchy JSON from `sourceDocs/soc_structure_2018_danEdit_flattened.xlsx`.
+
+Examples:
+
+```bash
+python scripts/build_soc_nested_groups.py
+python scripts/build_soc_nested_groups.py --output scripts/soc_2018_nested_groups.json
+```
+
+The script writes the nested hierarchy to `scripts/soc_2018_nested_groups.json`.
+
+Use `scripts/lookup_SOC_v2.py` to read that JSON and return the group type, any parent categories, and the group name for a code.
 
 Examples:
 
@@ -25,7 +36,4 @@ Examples:
 python scripts/lookup_SOC_v2.py 15-1251
 python scripts/lookup_SOC_v2.py 15-1250
 python scripts/lookup_SOC_v2.py --json 15-1251
-python scripts/lookup_SOC_v2.py --refresh 15-1251
 ```
-
-The script writes the nested hierarchy to `scripts/soc_2018_nested_groups.json` and returns the group type, any parent categories, and the group name for the code you query.

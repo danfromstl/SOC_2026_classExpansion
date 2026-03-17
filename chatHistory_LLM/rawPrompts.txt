@@ -24,5 +24,5 @@ lol, shoot, sorry - (need a small refoctor) I should have been more thoughtful, 
 first one should be something like... "extractFlattenedGroups.py" or something less clunky (that creates the nested group json) :-)
 second should be the lookup v2 that JUST navigates that json and returns the group details (like it currently does) :-D <3
 
-Codex worked for _ min, _ sec
+Codex worked for 3 min, 25 sec
 
