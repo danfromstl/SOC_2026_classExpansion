@@ -85,3 +85,49 @@ tyty <3
 [--------------------------------]
 
 
+[Prompt #6:]
+
+
+INCREDIBLE.
+I continue to be... just... astonsihed :-P
+thank you again
+
+alright... 
+We're moving on to the big guns now :-D
+
+Can you "parse" or... I guess process the excel sheet: "2019_to_SOC_Crosswalk.xlsx" into a json called something like... 'soc2018_to_onet2019_crosswalk.json'?
+
+I'll take a quick look at it, then will tell you how I want to start using it :-)
+
+
+[--------------------------------]
+[ Codex worked for 2 min, 44 sec ]
+[--------------------------------]
+
+
+[Prompt #7:]
+
+this is phenomenal once again, thank you <3
+
+alright... can you now "fork" the script 'lookup v2' into "soc_lookup_v3.py" that does all the things that v2 did AND uses the 'by_soc_2018_code' section to output the sub-groups (for any listed soc code) as well as a count, so-
+
+something like:
+"
+      Group Name: Compliance Officers
+	  Group Type: Detailed
+      
+	  ...
+	  	  
+	  O*NET Subgroups: (7)
+		  13-1041.00 - Compliance Officers
+		  13-1041.01 - Environmental Compliance Inspectors
+		  13-1041.03 - Equal Opportunity Representatives and Officers
+		  13-1041.04 - Government Property Inspectors and Investigators
+		  13-1041.06 - Coroners
+		  13-1041.07 - Regulatory Affairs Specialists
+		  13-1041.08 - Customs Brokers"
+
+
+[--------------------------------]
+[ Codex worked for 1 min, 44 sec ]
+[--------------------------------]

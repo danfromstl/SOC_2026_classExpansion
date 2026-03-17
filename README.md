@@ -42,3 +42,32 @@ python scripts/lookup_SOC_v2.py 15-1251
 python scripts/lookup_SOC_v2.py 15-1250
 python scripts/lookup_SOC_v2.py --json 15-1251
 ```
+
+Use `scripts/soc_lookup_v3.py` when you also want the matching O*NET-SOC 2019 subgroup list from `scripts/soc2018_to_onet2019_crosswalk.json`.
+
+Examples:
+
+```bash
+python scripts/soc_lookup_v3.py 13-1041
+python scripts/soc_lookup_v3.py 15-1250
+python scripts/soc_lookup_v3.py --json 13-1041
+```
+
+The script keeps the v2 hierarchy output and adds `O*NET Subgroups` with a count for any SOC code that appears in the crosswalk JSON.
+
+## SOC 2018 to O*NET-SOC 2019 Crosswalk
+
+Use `scripts/build_soc2018_to_onet2019_crosswalk.py` to convert `sourceDocs/2019_to_SOC_Crosswalk.xlsx` into JSON.
+
+Examples:
+
+```bash
+python scripts/build_soc2018_to_onet2019_crosswalk.py
+python scripts/build_soc2018_to_onet2019_crosswalk.py --output scripts/soc2018_to_onet2019_crosswalk.json
+```
+
+The script writes `scripts/soc2018_to_onet2019_crosswalk.json` with:
+
+- `rows` for the raw crosswalk entries
+- `by_soc_2018_code` for SOC-first lookup
+- `by_onet_soc_2019_code` for O*NET-first lookup
