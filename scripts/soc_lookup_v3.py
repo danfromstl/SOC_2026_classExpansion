@@ -13,6 +13,7 @@ from pathlib import Path
 CODE_PATTERN = re.compile(r"^\d{2}-\d{4}$")
 DEFAULT_CACHE_PATH = Path(__file__).resolve().with_name("soc_2018_nested_groups.json")
 DEFAULT_CROSSWALK_PATH = Path(__file__).resolve().with_name("soc2018_to_onet2019_crosswalk.json")
+DEFAULT_TASKS_PATH = Path(__file__).resolve().with_name("tasks_to_dwas.json")
 
 
 def parse_args() -> argparse.Namespace:
@@ -35,6 +36,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_CROSSWALK_PATH,
         help=f"Path to the SOC/O*NET crosswalk JSON. Defaults to {DEFAULT_CROSSWALK_PATH}",
+    )
+    parser.add_argument(
+        "--tasks",
+        type=Path,
+        default=DEFAULT_TASKS_PATH,
+        help=f"Path to the Tasks to DWAs JSON. Defaults to {DEFAULT_TASKS_PATH}",
     )
     parser.add_argument(
         "--json",
@@ -61,6 +68,13 @@ def load_crosswalk(crosswalk_path: Path) -> dict[str, object]:
     return load_json(
         crosswalk_path,
         "SOC/O*NET crosswalk JSON not found. Run scripts/build_soc2018_to_onet2019_crosswalk.py first",
+    )
+
+
+def load_tasks(tasks_path: Path) -> dict[str, object]:
+    return load_json(
+        tasks_path,
+        "Tasks to DWAs JSON not found. Run scripts/build_tasks_to_dwas.py first",
     )
 
 
@@ -95,11 +109,15 @@ def find_group(
 def lookup_group(
     hierarchy: dict[str, object],
     crosswalk: dict[str, object],
+    tasks_data: dict[str, object],
     code: str,
 ) -> dict[str, object] | None:
     by_soc_2018_code = crosswalk.get("by_soc_2018_code", {})
     if not isinstance(by_soc_2018_code, dict):
         raise ValueError("Crosswalk JSON is missing a valid by_soc_2018_code section.")
+    by_onet_soc_code = tasks_data.get("by_onet_soc_code", {})
+    if not isinstance(by_onet_soc_code, dict):
+        raise ValueError("Tasks to DWAs JSON is missing a valid by_onet_soc_code section.")
 
     for major_group in hierarchy.get("major_groups", []):
         result = find_group(major_group, code)
@@ -132,6 +150,52 @@ def lookup_group(
                     and "onet_soc_2019_title" in occupation
                 ]
 
+        tasks_by_onet_subgroup: list[dict[str, object]] = []
+        total_task_count = 0
+        if str(node["group_type"]) == "Detailed":
+            for subgroup in onet_subgroups:
+                subgroup_code = subgroup["onet_soc_2019_code"]
+                task_bucket = by_onet_soc_code.get(subgroup_code)
+                if not isinstance(task_bucket, dict):
+                    continue
+
+                task_entries = task_bucket.get("tasks", [])
+                if not isinstance(task_entries, list):
+                    continue
+
+                tasks_for_subgroup = []
+                for task_entry in task_entries:
+                    if not isinstance(task_entry, dict):
+                        continue
+                    dwas = task_entry.get("dwas", [])
+                    if not isinstance(dwas, list):
+                        continue
+                    tasks_for_subgroup.append(
+                        {
+                            "task_id": str(task_entry.get("task_id", "")),
+                            "task": str(task_entry.get("task", "")),
+                            "dwas": [
+                                {
+                                    "dwa_id": str(dwa.get("dwa_id", "")),
+                                    "dwa_title": str(dwa.get("dwa_title", "")),
+                                }
+                                for dwa in dwas
+                                if isinstance(dwa, dict)
+                            ],
+                        }
+                    )
+
+                if tasks_for_subgroup:
+                    total_task_count += len(tasks_for_subgroup)
+                    tasks_by_onet_subgroup.append(
+                        {
+                            "onet_soc_2019_code": subgroup["onet_soc_2019_code"],
+                            "onet_soc_2019_title": subgroup["onet_soc_2019_title"],
+                            "task_count": len(tasks_for_subgroup),
+                            "tasks": tasks_for_subgroup,
+                        }
+                    )
+
         return {
             "code": str(node["code"]),
             "group_type": str(node["group_type"]),
@@ -140,6 +204,8 @@ def lookup_group(
             "child_categories": children,
             "onet_subgroups": onet_subgroups,
             "onet_subgroup_count": len(onet_subgroups),
+            "tasks_by_onet_subgroup": tasks_by_onet_subgroup,
+            "task_count_total": total_task_count,
         }
 
     return None
@@ -171,6 +237,19 @@ def print_text_result(result: dict[str, object]) -> None:
     for subgroup in result["onet_subgroups"]:
         print(f'  {subgroup["onet_soc_2019_code"]} - {subgroup["onet_soc_2019_title"]}')
 
+    if result["group_type"] == "Detailed":
+        print()
+        print(f'Detailed Tasks: ({result["task_count_total"]})')
+        for subgroup in result["tasks_by_onet_subgroup"]:
+            print(
+                f'  {subgroup["onet_soc_2019_code"]} - {subgroup["onet_soc_2019_title"]} '
+                f'({subgroup["task_count"]})'
+            )
+            for task in subgroup["tasks"]:
+                print(f'    Task {task["task_id"]}: {task["task"]}')
+                for dwa in task["dwas"]:
+                    print(f'      {dwa["dwa_id"]} - {dwa["dwa_title"]}')
+
 
 def main() -> int:
     args = parse_args()
@@ -178,6 +257,7 @@ def main() -> int:
     try:
         hierarchy = load_hierarchy(args.cache)
         crosswalk = load_crosswalk(args.crosswalk)
+        tasks_data = load_tasks(args.tasks)
     except Exception as exc:  # pragma: no cover - defensive CLI error handling
         print(f"Failed to load SOC lookup data: {exc}", file=sys.stderr)
         return 1
@@ -187,7 +267,7 @@ def main() -> int:
         print(f'Invalid SOC code: "{code}". Expected format NN-NNNN.', file=sys.stderr)
         return 1
 
-    result = lookup_group(hierarchy, crosswalk, code)
+    result = lookup_group(hierarchy, crosswalk, tasks_data, code)
     if result is None:
         print(f'No SOC 2018 group was found for code "{code}".', file=sys.stderr)
         return 1

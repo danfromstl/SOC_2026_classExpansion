@@ -131,3 +131,27 @@ something like:
 [--------------------------------]
 [ Codex worked for 1 min, 44 sec ]
 [--------------------------------]
+
+
+
+[Prompt #8]
+
+Incredible :-)
+
+Thank you thank you <3
+
+Alright... this job may take a bit longer...
+Can you do effectively the exact same process for the Excel Sheet: "Tasks to DWAs.xlsx"
+
+- Create a script to build a json of the table's data
+- Add a section to lookup v3 that outputs a list of all the tasks listed for any -detailed- groups (BUT! please make sure to output the DWA IDs and the DWA titles (since many tasks are broken down into multiple DWAs)
+
+That make sense so far?
+
+
+[--------------------------------]
+[ Codex worked for ? min, ?? sec ]
+[--------------------------------]
+
+
+
