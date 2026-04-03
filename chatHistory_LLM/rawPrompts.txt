@@ -150,8 +150,128 @@ That make sense so far?
 
 
 [--------------------------------]
-[ Codex worked for ? min, ?? sec ]
+[ Codex worked for 5 min, 17 sec ]
 [--------------------------------]
 
 
+Prompt #9
+
+Incredible :-)
+
+Now: Next big task...
+
+Can you help me build another new script that uses all-mpnet-base-v2 from scentence transformers to add embeddings for every single task and DWA?
+
+(while... hopefully... capturing duplicates so you don't wast a ton of extra compute?)
+
+
+[---------------------------------]
+[ Codex worked for 24 min, 42 sec ]
+[---------------------------------]
+
+
+
+
+Prompt #10
+
+
+
+ummm.... woah...
+
+that was... way more than I realized you'd be capable of on your own O.O - amazing :-D
+
+since the json is so large (and larger than github's 100MB limit) I published it as a release v.0.3.embed_att1 :-P
+
+NEXT STEPS: (and WOW we're making so much progress) 
+1) Can you take a look at the two new .jsonl files in the directory called 'jobPostings' and let me know if they're formatted... "cleanly" ...enough? to use as test data for this new library of task embeddings? 
+If not, please feel free to suggest changes to it
+
+2) (If it is) Can you write another script that takes the "text" field from each job posting item, embeds it with mpnet_base_v2 and does a search for the closest tasks in the embedding json?
+
+I understand stuff like "2-3 years of experience preferred" isn't going to find much similarity, but that's fine for now... I'm still tinkering :-)
+
+3) Can you then -RUN- that script for the "fisrtTwoExamples" json and output the results to a NEW json file with the top 5 results for each job listing item that looks (roughly) like this:
+
+mastercard job posting item id blah blah - text of item
+1. top similar task id - match score - task text
+2. second similar task  - match score - task text
+3. third  - match score - task text
+4 fourht  - match score - task text
+5th  - match score - task text
+
+next entry
+
+etc.
+etc.
+
+(but of course... make it actually usable, lol)
+
+
+[--------------------------------]
+[ Codex worked for 5 min, 41 sec ]
+[--------------------------------]
+
+
+Prompt #11
+
+
+incredible.
+
+exactly what I wanted :-D <3 :-O
+
+can you do the same process for the next three listings (in the other .josnl)
+
+
+[-------------------------------]
+[ Codex worked for 1 min, 1 sec ]
+[-------------------------------]
+
+
+Prompt #12
+
+Phenomenal, tyty
+
+Alright - time for some human inspection :-P 
+
+Can you output ALL of the matches from both jsons into an excel spreadsheet with these specific columns? (image attached with example data from the Microsoft listing)
+
+If it helps, here's the flattened text:
+OriginID	Job Name	Category	Listing Text	Dan Notes	Task Text	Rank	Score	Task ID	O-SOC Code	O-SOC Title
+200015570.1	Microsoft Senior Product Manager	role	Build enterprise-grade product experiences across team and divisional boundaries.		Train team members in the customer applications of technologies.	1	0.567697	9699	41-9031.00	Sales Engineers
+200015570.2	Microsoft Senior Product Manager	role	Build enterprise-grade product experiences across team and divisional boundaries.		Train team members in the customer applications of technologies.	2	0.554451	3244	11-2011.00	Advertising and Promotions Managers
+
+
+[--------------------------------]
+[ Codex worked for 3 min, 56 sec ]
+[--------------------------------]
+
+
+Prompt #13
+
+This is all beautiful, thank you
+
+Can you write up a detailed summary of
+- all the source documents we've used
+- all the scripts you've written
+- and all of the outputs and data files we've produced
+
+thank YOUUUUU <3
+
+
+
+[--------------------------------]
+[ Codex worked for 1 min, 11 sec ]
+[--------------------------------]
+
+
+Prompt #14
+
+Fabulous :-) thank you 
+
+yes, please cook up a project summary and add an appropriately detailed version of that summary to the repo's readme (if it isn't already there) :-)
+
+
+[--------------------------------]
+[ Codex worked for 1 min, 26 sec ]
+[--------------------------------]
 

@@ -1,0 +1,3195 @@
+{
+  "input_jsonl_path": "jobPostings\\job_postings_itemized_for_embeddings.jsonl",
+  "task_embedding_json": "V:\\repoLocation2\\SOC_2026_classExpansion\\scripts\\task_dwa_embeddings_all_mpnet_base_v2.json",
+  "model_name": "sentence-transformers/all-mpnet-base-v2",
+  "top_k": 5,
+  "item_count": 54,
+  "results": [
+    {
+      "id": "emerson_senior_product_manager_26002939__overview__001",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "overview",
+      "text": "Manage the full product lifecycle for assigned product lines.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.664365,
+          "task_id": "8951",
+          "task": "Manage the logistical aspects of product life cycles, including coordination or provisioning of samples, and the minimization of obsolescence.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "0fd08b0bcb3c8b9712daf1862a1f4c0a057665515e362717ba23b1195e01d1bf"
+        },
+        {
+          "rank": 2,
+          "score": 0.66396,
+          "task_id": "9678",
+          "task": "Plan and modify product configurations to meet customer needs.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "77aabb42cddac5cd71f8ca6b1c42774377f3ff236db07a52cc90d093f457b0a5"
+        },
+        {
+          "rank": 3,
+          "score": 0.606266,
+          "task_id": "15698",
+          "task": "Participate in the coordination of engineering changes, product line extensions, or new product launches to ensure orderly and timely transitions in material or production flow.",
+          "onet_soc_code": "11-3071.04",
+          "onet_soc_title": "Supply Chain Managers",
+          "embedding_key": "6be00fd06d79dc86a2acf334b29cad4ef41fe28107e374689e7fdf4337147d69"
+        },
+        {
+          "rank": 4,
+          "score": 0.600207,
+          "task_id": "8467",
+          "task": "Plan and develop new products and production processes.",
+          "onet_soc_code": "51-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Production and Operating Workers",
+          "embedding_key": "4239729605f5bc95c6e5cf0cf17febe938169d3ac8173f0c5cf34a4b36da1c74"
+        },
+        {
+          "rank": 5,
+          "score": 0.586141,
+          "task_id": "9693",
+          "task": "Attend company training seminars to become familiar with product lines.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "5edd501cd656914ce1bd5badc83454d1a784b40c5bb5340dca40c77da8f8e2b0"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__overview__002",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "overview",
+      "text": "Work cross-functionally to develop and launch new products.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.725475,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 2,
+          "score": 0.707009,
+          "task_id": "20715",
+          "task": "Collaborate with vendors to obtain or develop desired products.",
+          "onet_soc_code": "13-1022.00",
+          "onet_soc_title": "Wholesale and Retail Buyers, Except Farm Products",
+          "embedding_key": "d89fcccc7418db8d0b3bf6d2f2fd9178531329562ee864664ebeecee6326a286"
+        },
+        {
+          "rank": 3,
+          "score": 0.69592,
+          "task_id": "8467",
+          "task": "Plan and develop new products and production processes.",
+          "onet_soc_code": "51-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Production and Operating Workers",
+          "embedding_key": "4239729605f5bc95c6e5cf0cf17febe938169d3ac8173f0c5cf34a4b36da1c74"
+        },
+        {
+          "rank": 4,
+          "score": 0.690517,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 5,
+          "score": 0.684354,
+          "task_id": "9696",
+          "task": "Develop sales plans to introduce products in new markets.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "0f8a0353ca561feae4ba67e83ee9db54a3f87a8f580913995419574289403ece"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__overview__003",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "overview",
+      "text": "Responsibilities include idea generation, product discovery, customer and market analysis, project management, customer support, and helping drive market acceptance after launch.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.734287,
+          "task_id": "22540",
+          "task": "Develop marketing plans for finished products, collaborating with sales associates to supervise product distribution.",
+          "onet_soc_code": "27-2012.00",
+          "onet_soc_title": "Producers and Directors",
+          "embedding_key": "1fd658ba6dc90444786d5fb0e5bbe5ea3ba81354074963eb8fd8f0db54cb3017"
+        },
+        {
+          "rank": 2,
+          "score": 0.699893,
+          "task_id": "21223",
+          "task": "Develop comprehensive marketing strategies, using knowledge of products and technologies, markets, and regulations.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "242483cd4f53c01716be861b2c23ad0468c8a49816a03f978e8bdd0e960c2fd4"
+        },
+        {
+          "rank": 3,
+          "score": 0.693586,
+          "task_id": "41",
+          "task": "Review plans and confer with research or support staff to develop new products or processes.",
+          "onet_soc_code": "11-3051.00",
+          "onet_soc_title": "Industrial Production Managers",
+          "embedding_key": "2ef070def39b324d294115d49224e9e01bfeb75a26ddd9fa7e377fff1422af14"
+        },
+        {
+          "rank": 4,
+          "score": 0.687917,
+          "task_id": "7392",
+          "task": "Provide technical support to designers, marketing and sales departments, suppliers, engineers and other team members throughout the product development and implementation process.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "64ce4aa7c96fec3e5f54f2530c6e057ef0d3b5674a14179d4d30b4c95d30d541"
+        },
+        {
+          "rank": 5,
+          "score": 0.674873,
+          "task_id": "15417",
+          "task": "Participate in the development of product specifications.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "7a135d8ec2a302f745f256a5909c013b28f07ed5ed1d8fc4b47520774fbbbdae"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__004",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Position product portfolios to win in the market by assessing portfolio financial health, monitoring market trends and competitors, and identifying portfolio gaps and opportunities.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.619277,
+          "task_id": "8122",
+          "task": "Monitor market conditions, product innovations, and competitors' products, prices, and sales.",
+          "onet_soc_code": "41-4012.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+          "embedding_key": "3aadee9a7a82202752fef7ffcb6dc9832ee11ac0943e0d9b76ed32bd5d3a661d"
+        },
+        {
+          "rank": 2,
+          "score": 0.612463,
+          "task_id": "16148",
+          "task": "Analyze competitive market strategies through analysis of related product, market, or share trends.",
+          "onet_soc_code": "15-2051.01",
+          "onet_soc_title": "Business Intelligence Analysts",
+          "embedding_key": "766b4615ae18f01156d01fd8f1854d97756b44f7f207a3aa2ae5593bd770d639"
+        },
+        {
+          "rank": 3,
+          "score": 0.609629,
+          "task_id": "15669",
+          "task": "Monitor financial or operational performance of individual investments to ensure portfolios meet risk goals.",
+          "onet_soc_code": "11-3031.03",
+          "onet_soc_title": "Investment Fund Managers",
+          "embedding_key": "bc49160c4def915bafb9d7a2d13fb59d3658e7ada1fa39e6847a92b30821d9a4"
+        },
+        {
+          "rank": 4,
+          "score": 0.578044,
+          "task_id": "20188",
+          "task": "Monitor financial market trends to ensure that client plans are responsive.",
+          "onet_soc_code": "13-2052.00",
+          "onet_soc_title": "Personal Financial Advisors",
+          "embedding_key": "164e1e36eef55bea570887a95d6bb7048c4966b720e7d021af654f7772d21618"
+        },
+        {
+          "rank": 5,
+          "score": 0.575618,
+          "task_id": "5437",
+          "task": "Seek and provide information to help companies determine their position in the marketplace.",
+          "onet_soc_code": "13-1161.00",
+          "onet_soc_title": "Market Research Analysts and Marketing Specialists",
+          "embedding_key": "937170c87133efdfaf12cfa9e0e5a74a6c0345ad04bd0fa596bd2df3f3c646f2"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__005",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Conduct customer, market, and product discovery and analysis for roadmap projects.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.673218,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 2,
+          "score": 0.658114,
+          "task_id": "5433",
+          "task": "Collect and analyze data on customer demographics, preferences, needs, and buying habits to identify potential markets and factors affecting product demand.",
+          "onet_soc_code": "13-1161.00",
+          "onet_soc_title": "Market Research Analysts and Marketing Specialists",
+          "embedding_key": "6acf5a99c359a14f61552ab3952f568e542c89584e9c39bdafb9b2c62fca88ba"
+        },
+        {
+          "rank": 3,
+          "score": 0.651751,
+          "task_id": "16147",
+          "task": "Analyze technology trends to identify markets for future product development or to improve sales of existing products.",
+          "onet_soc_code": "15-2051.01",
+          "onet_soc_title": "Business Intelligence Analysts",
+          "embedding_key": "5ee627cfec544c22b646d7cf1d0c84a5c5b99f45951461f5f79536b2c9edb3e2"
+        },
+        {
+          "rank": 4,
+          "score": 0.650877,
+          "task_id": "1413",
+          "task": "Research and analyze customer design proposals, specifications, manuals, or other data to evaluate the feasibility, cost, or maintenance requirements of designs or applications.",
+          "onet_soc_code": "17-2141.00",
+          "onet_soc_title": "Mechanical Engineers",
+          "embedding_key": "05994127254dc5bab9a805bc4a95909fab69def4a5a5616aba59c8580c5768a9"
+        },
+        {
+          "rank": 5,
+          "score": 0.647212,
+          "task_id": "21913",
+          "task": "Analyze data to determine feasibility of product proposals.",
+          "onet_soc_code": "17-2121.00",
+          "onet_soc_title": "Marine Engineers and Naval Architects",
+          "embedding_key": "4323a50ffd550c3476e75047896ecc0d70503a17b47e8677b34eb9b29c584a22"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__006",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Partner with sales teams and customers to bring the voice of the customer into business cases and prioritization.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.752839,
+          "task_id": "18957",
+          "task": "Communicate with customers, sales staff, or marketing staff to determine customer needs.",
+          "onet_soc_code": "15-1241.00",
+          "onet_soc_title": "Computer Network Architects",
+          "embedding_key": "ba8f381175a9f101a27416c5e81e43eb4207f38440dcf0fb07191b41722b0361"
+        },
+        {
+          "rank": 2,
+          "score": 0.741842,
+          "task_id": "9680",
+          "task": "Collaborate with sales teams to understand customer requirements, to promote the sale of company products, and to provide sales support.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "a6b076c3c27b80ce36fb57bdaeae999e240a5d46494cb6d6474302b26c0bcfb1"
+        },
+        {
+          "rank": 3,
+          "score": 0.72708,
+          "task_id": "8933",
+          "task": "Develop an understanding of customers' needs and take actions to ensure that such needs are met.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "a85eae2f6bcc5542e702baaa8b7370ed844105dd893caf6a7960572091c11937"
+        },
+        {
+          "rank": 4,
+          "score": 0.717359,
+          "task_id": "21588",
+          "task": "Develop and maintain client relationships.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "6c3d83da47b05ed01c3169b8670c83759e33cc974f83d116ff810b47e061d14f"
+        },
+        {
+          "rank": 5,
+          "score": 0.708955,
+          "task_id": "15426",
+          "task": "Confer with marketing and sales departments to define client requirements and expectations.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "5a5ff4a09ca126b2801e5c661f6aaab82f93ea0d3c032b082a01254338c51fc4"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__007",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Collaborate with Engineering and Operations on technology, capabilities, design, ergonomics, and early-stage solution ideation.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.710337,
+          "task_id": "3587",
+          "task": "Confer with scientific, engineering, and technical personnel to resolve design, research, and testing problems.",
+          "onet_soc_code": "17-2171.00",
+          "onet_soc_title": "Petroleum Engineers",
+          "embedding_key": "a0938e6f9a55dd5beea02e28684b61a544725fe115771da7e7e12f48f7594f4b"
+        },
+        {
+          "rank": 2,
+          "score": 0.673836,
+          "task_id": "1347",
+          "task": "Confer with engineers, customers, or others to discuss existing or potential engineering projects or products.",
+          "onet_soc_code": "17-2071.00",
+          "onet_soc_title": "Electrical Engineers",
+          "embedding_key": "af97b30a1e06f7dfeffdceaf691bec5a7637ed51bca6f6ff980ee16b81d4f2a1"
+        },
+        {
+          "rank": 3,
+          "score": 0.669842,
+          "task_id": "16951",
+          "task": "Collaborate with engineers to research, analyze, or resolve complex transportation design issues.",
+          "onet_soc_code": "19-3099.01",
+          "onet_soc_title": "Transportation Planners",
+          "embedding_key": "753bb893cc63bcf6896998a84a2c3b20be6c1c08bf040421add3f4563ab173af"
+        },
+        {
+          "rank": 4,
+          "score": 0.665744,
+          "task_id": "3112",
+          "task": "Confer with engineering, supervisory, or manufacturing personnel to exchange technical information.",
+          "onet_soc_code": "51-4041.00",
+          "onet_soc_title": "Machinists",
+          "embedding_key": "ee34bb0a45900c8674b0f8ca84574d1514e325f7e145f371ba92ef238018f0e9"
+        },
+        {
+          "rank": 5,
+          "score": 0.651134,
+          "task_id": "14670",
+          "task": "Collaborate with engineers or software developers to select appropriate design solutions or ensure the compatibility of system components.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "a20458c4ad3e5d1f3ad0a587e35a6a973bfeef1f7a95c4695f4f65ba62323a06"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__008",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Lead new product development projects using global, cross-functional teams and Emerson\u2019s stage-gate and management processes.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.675512,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 2,
+          "score": 0.600383,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 3,
+          "score": 0.590767,
+          "task_id": "8467",
+          "task": "Plan and develop new products and production processes.",
+          "onet_soc_code": "51-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Production and Operating Workers",
+          "embedding_key": "4239729605f5bc95c6e5cf0cf17febe938169d3ac8173f0c5cf34a4b36da1c74"
+        },
+        {
+          "rank": 4,
+          "score": 0.565506,
+          "task_id": "15417",
+          "task": "Participate in the development of product specifications.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "7a135d8ec2a302f745f256a5909c013b28f07ed5ed1d8fc4b47520774fbbbdae"
+        },
+        {
+          "rank": 5,
+          "score": 0.558581,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__009",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Report on key project milestones and ensure accountability across teams.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.799203,
+          "task_id": "16153",
+          "task": "Monitor the performance of project team members, providing and documenting performance feedback.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "679bbed49873ecddace8c5ff6b4433043e7b51c0987fba2fe315f9f37f49eed1"
+        },
+        {
+          "rank": 2,
+          "score": 0.761312,
+          "task_id": "21470",
+          "task": "Monitor project milestones and deliverables.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "a083981e68ffed87d770cd18ff7da4db0aa9539d52e783fe35429ae170370c10"
+        },
+        {
+          "rank": 3,
+          "score": 0.75732,
+          "task_id": "21471",
+          "task": "Monitor the performance of project team members to provide performance feedback.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "4890d2204d20201af644382fcede63af9c7008778001c44c693b61fd268071b5"
+        },
+        {
+          "rank": 4,
+          "score": 0.72577,
+          "task_id": "16157",
+          "task": "Monitor or track project milestones and deliverables.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "5043f67598e68e1d7ea67feb13ac95d7f68d79914c6855d3e34650f86c2856bd"
+        },
+        {
+          "rank": 5,
+          "score": 0.72061,
+          "task_id": "1373",
+          "task": "Develop proposed project objectives and targets and report to management on progress in attaining them.",
+          "onet_soc_code": "17-2081.00",
+          "onet_soc_title": "Environmental Engineers",
+          "embedding_key": "bbfc6a4ad0058d78b1b73dbda2871b16e3e29024654b8224c88ce94b700253c8"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__010",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Collaborate with sales on customer-focused product portfolios and differentiated assortments.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.688721,
+          "task_id": "20717",
+          "task": "Conduct sales meetings to introduce new merchandise.",
+          "onet_soc_code": "13-1022.00",
+          "onet_soc_title": "Wholesale and Retail Buyers, Except Farm Products",
+          "embedding_key": "9bc2fb53bc3b714afc03cf377063ac1ed6f4ea7a905d1e51525a109a236b3b8a"
+        },
+        {
+          "rank": 2,
+          "score": 0.68329,
+          "task_id": "9680",
+          "task": "Collaborate with sales teams to understand customer requirements, to promote the sale of company products, and to provide sales support.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "a6b076c3c27b80ce36fb57bdaeae999e240a5d46494cb6d6474302b26c0bcfb1"
+        },
+        {
+          "rank": 3,
+          "score": 0.68148,
+          "task_id": "16189",
+          "task": "Collaborate with other marketing staff to integrate and complement marketing strategies across multiple sales channels.",
+          "onet_soc_code": "13-1161.01",
+          "onet_soc_title": "Search Marketing Strategists",
+          "embedding_key": "4f315163d58b4ad02d9153648155b722230993a18217bb1ff4ee5d6106c220b0"
+        },
+        {
+          "rank": 4,
+          "score": 0.677347,
+          "task_id": "9271",
+          "task": "Collaborate with others to obtain products or other display items.",
+          "onet_soc_code": "27-1026.00",
+          "onet_soc_title": "Merchandise Displayers and Window Trimmers",
+          "embedding_key": "0acbfb13eb749527c9758b60b8471e3f0b6533bcd43c0bcbde62e7e8c4e0a51a"
+        },
+        {
+          "rank": 5,
+          "score": 0.666518,
+          "task_id": "9086",
+          "task": "Confer with customers to determine how to tailor materials to their needs.",
+          "onet_soc_code": "19-2032.00",
+          "onet_soc_title": "Materials Scientists",
+          "embedding_key": "f2b51c18ebdf9a771ff95558196d72546ce1e30ae0197bcfdacdb213647acf9c"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__role__011",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "role",
+      "text": "Build deep category expertise and serve as a point of contact for customer and channel needs.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.580481,
+          "task_id": "680",
+          "task": "Recommend and provide advice on a wide variety of products and services.",
+          "onet_soc_code": "41-2021.00",
+          "onet_soc_title": "Counter and Rental Clerks",
+          "embedding_key": "94c215a9fbe34b4922cdfe21b867e4a1b56f991feadf47156b4de807e17f2105"
+        },
+        {
+          "rank": 2,
+          "score": 0.532107,
+          "task_id": "13198",
+          "task": "Identify interested and qualified customers to provide them with additional information.",
+          "onet_soc_code": "41-9011.00",
+          "onet_soc_title": "Demonstrators and Product Promoters",
+          "embedding_key": "e4eb4325e4504c8748ef3d737b98e9a4fd0043419b287520e58ee16c93f594d4"
+        },
+        {
+          "rank": 3,
+          "score": 0.524351,
+          "task_id": "3229",
+          "task": "Identify and develop contacts for promotional campaigns and industry programs that meet identified buyer targets, such as dealers, distributors, or consumers.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "8a28eb1444c96b9f50ad3e82f83745270c1d209907fae24602f7f64254029ff3"
+        },
+        {
+          "rank": 4,
+          "score": 0.524088,
+          "task_id": "13243",
+          "task": "Listen to customer requests, referring to alphabetical or geographical directories to answer questions and provide telephone information.",
+          "onet_soc_code": "43-2021.00",
+          "onet_soc_title": "Telephone Operators",
+          "embedding_key": "97a653654310f5fb511e704a07314913691b436652df75bd0e048860ba5cac77"
+        },
+        {
+          "rank": 5,
+          "score": 0.521947,
+          "task_id": "5437",
+          "task": "Seek and provide information to help companies determine their position in the marketplace.",
+          "onet_soc_code": "13-1161.00",
+          "onet_soc_title": "Market Research Analysts and Marketing Specialists",
+          "embedding_key": "937170c87133efdfaf12cfa9e0e5a74a6c0345ad04bd0fa596bd2df3f3c646f2"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__012",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Bachelor\u2019s degree in marketing, engineering, finance, or equivalent, with 5+ years of relevant experience, or a relevant master\u2019s degree with 3+ years of experience.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.50095,
+          "task_id": "1121",
+          "task": "Perform marketing and public relations activities.",
+          "onet_soc_code": "11-9081.00",
+          "onet_soc_title": "Lodging Managers",
+          "embedding_key": "e092a75f7c9d2e2404b8505643f8ad04d70aa5946ef69f867ac6caf531c4dc59"
+        },
+        {
+          "rank": 2,
+          "score": 0.485656,
+          "task_id": "12871",
+          "task": "Manage business and financial affairs for clients, such as arranging travel and lodging, selling tickets, and directing marketing and advertising activities.",
+          "onet_soc_code": "13-1011.00",
+          "onet_soc_title": "Agents and Business Managers of Artists, Performers, and Athletes",
+          "embedding_key": "7700f3e57c2591d5d42775ac93d5a9efe44014025012c6563b96751ab6b9c540"
+        },
+        {
+          "rank": 3,
+          "score": 0.48525,
+          "task_id": "4610",
+          "task": "Manage or operate real estate offices, handling associated business details.",
+          "onet_soc_code": "41-9021.00",
+          "onet_soc_title": "Real Estate Brokers",
+          "embedding_key": "2e9d7c8dbf5321aca42b5c76d2bf4c809935529567431106c7bc70db6234e2f0"
+        },
+        {
+          "rank": 4,
+          "score": 0.48425,
+          "task_id": "2313",
+          "task": "Perform marketing and advertising services.",
+          "onet_soc_code": "35-9031.00",
+          "onet_soc_title": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
+          "embedding_key": "b4bdbb975fd6be4becb4a3dd8d4671bfb82c76008509a87abd48bed27d5f7868"
+        },
+        {
+          "rank": 5,
+          "score": 0.478054,
+          "task_id": "21223",
+          "task": "Develop comprehensive marketing strategies, using knowledge of products and technologies, markets, and regulations.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "242483cd4f53c01716be861b2c23ad0468c8a49816a03f978e8bdd0e960c2fd4"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__013",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Experience successfully bringing new retail consumer products to market.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.695514,
+          "task_id": "9696",
+          "task": "Develop sales plans to introduce products in new markets.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "0f8a0353ca561feae4ba67e83ee9db54a3f87a8f580913995419574289403ece"
+        },
+        {
+          "rank": 2,
+          "score": 0.6777,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 3,
+          "score": 0.662786,
+          "task_id": "9259",
+          "task": "Develop product packaging, display, and pricing strategies.",
+          "onet_soc_code": "27-1012.00",
+          "onet_soc_title": "Craft Artists",
+          "embedding_key": "f97b735a8ea084545ef1553079f3216cacba51000e000667eeb246cd7026e00d"
+        },
+        {
+          "rank": 4,
+          "score": 0.649423,
+          "task_id": "21223",
+          "task": "Develop comprehensive marketing strategies, using knowledge of products and technologies, markets, and regulations.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "242483cd4f53c01716be861b2c23ad0468c8a49816a03f978e8bdd0e960c2fd4"
+        },
+        {
+          "rank": 5,
+          "score": 0.647893,
+          "task_id": "22540",
+          "task": "Develop marketing plans for finished products, collaborating with sales associates to supervise product distribution.",
+          "onet_soc_code": "27-2012.00",
+          "onet_soc_title": "Producers and Directors",
+          "embedding_key": "1fd658ba6dc90444786d5fb0e5bbe5ea3ba81354074963eb8fd8f0db54cb3017"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__014",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Proven cross-functional team leadership.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.52091,
+          "task_id": "20229",
+          "task": "Coach senior executives and managers on leadership and performance.",
+          "onet_soc_code": "19-3032.00",
+          "onet_soc_title": "Industrial-Organizational Psychologists",
+          "embedding_key": "fcc3893db36921fce3dc7b54b01f026d831edd8732a750e7e17aaa08886d76b3"
+        },
+        {
+          "rank": 2,
+          "score": 0.495514,
+          "task_id": "7378",
+          "task": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "e6ed8fa9fa46ef9d86b9017fb95be4bb117ebd2b7fa4e873ae236506cf6d1d49"
+        },
+        {
+          "rank": 3,
+          "score": 0.479553,
+          "task_id": "19208",
+          "task": "Mentor or train staff to lead group exercise.",
+          "onet_soc_code": "29-1128.00",
+          "onet_soc_title": "Exercise Physiologists",
+          "embedding_key": "4276746d2f937330b3c56d08eaf0f47c4277ac42e3bbbfb9856021f617ec613a"
+        },
+        {
+          "rank": 4,
+          "score": 0.466322,
+          "task_id": "16153",
+          "task": "Monitor the performance of project team members, providing and documenting performance feedback.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "679bbed49873ecddace8c5ff6b4433043e7b51c0987fba2fe315f9f37f49eed1"
+        },
+        {
+          "rank": 5,
+          "score": 0.462905,
+          "task_id": "21471",
+          "task": "Monitor the performance of project team members to provide performance feedback.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "4890d2204d20201af644382fcede63af9c7008778001c44c693b61fd268071b5"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__015",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Ability to collaborate across multiple stakeholders and functions.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.639082,
+          "task_id": "11245",
+          "task": "Collaborate with colleagues to exchange information, such as selling strategies or marketing information.",
+          "onet_soc_code": "41-4011.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+          "embedding_key": "07ae2c6391bc3ad33132c908f8ad629a0f2f0aff8b9cde79fd1916b72de4657f"
+        },
+        {
+          "rank": 2,
+          "score": 0.634498,
+          "task_id": "21235",
+          "task": "Facilitate consumer relations or the relationship between parts of the company, such as the managers and employees, or different branch offices.",
+          "onet_soc_code": "11-2032.00",
+          "onet_soc_title": "Public Relations Managers",
+          "embedding_key": "39a688e515072043bfda81ee8526a39e88f705d953ba866bdaa2518250b8d9d3"
+        },
+        {
+          "rank": 3,
+          "score": 0.634383,
+          "task_id": "8935",
+          "task": "Collaborate with other departments as necessary to meet customer requirements, to take advantage of sales opportunities or, in the case of shortages, to minimize negative impacts on a business.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "4b70ec418494c0901f2c2e6d8c9b4baa3ee1e83072d3eff24d8e58c732f09340"
+        },
+        {
+          "rank": 4,
+          "score": 0.61015,
+          "task_id": "16213",
+          "task": "Consult with multiple stakeholders to define requirements and implement online features.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "b5ae08f4723d306b67993de59b2d54cce031eaefbbeec0aaab256ab4762bccb8"
+        },
+        {
+          "rank": 5,
+          "score": 0.600752,
+          "task_id": "8840",
+          "task": "Serve as liaisons between organizations, shareholders, and outside organizations.",
+          "onet_soc_code": "11-1011.00",
+          "onet_soc_title": "Chief Executives",
+          "embedding_key": "c1849ad92564073fed83650075d1483ef10305f1a27beeca2b21833ae0faa679"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__016",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Strong written and verbal communication skills.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.562954,
+          "task_id": "21000",
+          "task": "Write text, such as stories, articles, editorials, or newsletters.",
+          "onet_soc_code": "27-3041.00",
+          "onet_soc_title": "Editors",
+          "embedding_key": "3950ab9a95d55390306b701299379c6514bb159ab1f720b80641877e21d27081"
+        },
+        {
+          "rank": 2,
+          "score": 0.54648,
+          "task_id": "21127",
+          "task": "Teach writing or communication classes.",
+          "onet_soc_code": "25-1123.00",
+          "onet_soc_title": "English Language and Literature Teachers, Postsecondary",
+          "embedding_key": "f5abf98a06fd66a7a32c55cba4512118a558c3fbad003ede7ee628a698abfbf2"
+        },
+        {
+          "rank": 3,
+          "score": 0.533814,
+          "task_id": "22633",
+          "task": "Establish and maintain relationships with individuals who are credible sources of information.",
+          "onet_soc_code": "27-3023.00",
+          "onet_soc_title": "News Analysts, Reporters, and Journalists",
+          "embedding_key": "a43409347e15494651f1397a98a4e673873ef4064cc993f673e5c2c498a4f828"
+        },
+        {
+          "rank": 4,
+          "score": 0.519084,
+          "task_id": "8610",
+          "task": "Earn and maintain appropriate certifications.",
+          "onet_soc_code": "53-3011.00",
+          "onet_soc_title": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+          "embedding_key": "7c7bb6980ffd2aae8dcb9ed8bd009a08b96a99211e3bfa64f0a0b37a025969aa"
+        },
+        {
+          "rank": 5,
+          "score": 0.515624,
+          "task_id": "6328",
+          "task": "Provide assistance to students in college writing centers.",
+          "onet_soc_code": "25-1123.00",
+          "onet_soc_title": "English Language and Literature Teachers, Postsecondary",
+          "embedding_key": "16d54de0ee7204767c7c144e59f6876a58fe8e4b113aea43458a83a488e6c49f"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__017",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Self-motivation and initiative.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.496161,
+          "task_id": "6507",
+          "task": "Prepare children for later grades by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+          "onet_soc_code": "25-2012.00",
+          "onet_soc_title": "Kindergarten Teachers, Except Special Education",
+          "embedding_key": "d3b2ef740731df99d44e5098d4c839ea0f1f314d5b49cedf396032b27d5d1d41"
+        },
+        {
+          "rank": 2,
+          "score": 0.491593,
+          "task_id": "19070",
+          "task": "Encourage students to explore learning opportunities or persevere with challenging tasks to prepare them for later grades.",
+          "onet_soc_code": "25-2051.00",
+          "onet_soc_title": "Special Education Teachers, Preschool",
+          "embedding_key": "2ae32ee46f5a0a13667a1369a2f51841540bb15a36329a6cd1164f9dbe50dc33"
+        },
+        {
+          "rank": 3,
+          "score": 0.491593,
+          "task_id": "22366",
+          "task": "Encourage students to explore learning opportunities or persevere with challenging tasks to prepare them for later grades.",
+          "onet_soc_code": "25-2056.00",
+          "onet_soc_title": "Special Education Teachers, Elementary School",
+          "embedding_key": "2ae32ee46f5a0a13667a1369a2f51841540bb15a36329a6cd1164f9dbe50dc33"
+        },
+        {
+          "rank": 4,
+          "score": 0.490075,
+          "task_id": "5611",
+          "task": "Prepare students for later educational experiences by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+          "onet_soc_code": "21-1012.00",
+          "onet_soc_title": "Educational, Guidance, and Career Counselors and Advisors",
+          "embedding_key": "778092198ae7fcf025dae3557257b2962124bf963472cd8a1193a5e666760213"
+        },
+        {
+          "rank": 5,
+          "score": 0.490075,
+          "task_id": "6622",
+          "task": "Prepare students for later educational experiences by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+          "onet_soc_code": "25-2023.00",
+          "onet_soc_title": "Career/Technical Education Teachers, Middle School",
+          "embedding_key": "778092198ae7fcf025dae3557257b2962124bf963472cd8a1193a5e666760213"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__018",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Analytical ability, including quantitative analysis and spreadsheet/database tools.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.626147,
+          "task_id": "10903",
+          "task": "Perform complex calculations as part of the analysis and evaluation of data, using computers.",
+          "onet_soc_code": "19-2012.00",
+          "onet_soc_title": "Physicists",
+          "embedding_key": "6f5ae6000b3734717d19386693e7943f0398228449ef90ff15d526d047e4d751"
+        },
+        {
+          "rank": 2,
+          "score": 0.622473,
+          "task_id": "15983",
+          "task": "Provide application or analytical support to researchers or traders on issues such as valuations or data.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "335ee07e6985dab99ad1d1edaefe6b71838e082c994310f5b30d1a933ce67dc1"
+        },
+        {
+          "rank": 3,
+          "score": 0.621194,
+          "task_id": "21969",
+          "task": "Write technical reports and draw charts that display statistics and data.",
+          "onet_soc_code": "17-3012.00",
+          "onet_soc_title": "Electrical and Electronics Drafters",
+          "embedding_key": "b3fb5e035e928fbba5bb20d5e2570cb9c1efc31fb1737061a8844d9896979d23"
+        },
+        {
+          "rank": 4,
+          "score": 0.61425,
+          "task_id": "9788",
+          "task": "Compute and analyze data, using statistical formulas and computers or calculators.",
+          "onet_soc_code": "43-9111.00",
+          "onet_soc_title": "Statistical Assistants",
+          "embedding_key": "d2ad25f73d1596bba6a5b73f479ab2c247f9565c4cdb6e5e6cf49388b904b17b"
+        },
+        {
+          "rank": 5,
+          "score": 0.588078,
+          "task_id": "16144",
+          "task": "Create business intelligence tools or systems, including design of related databases, spreadsheets, or outputs.",
+          "onet_soc_code": "15-2051.01",
+          "onet_soc_title": "Business Intelligence Analysts",
+          "embedding_key": "ed4b0564203003ecfc17b318f9004d3aec4cb34ad36b680a82cda592d5697197"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__019",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "Experience participating in product discovery and customer research.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.662341,
+          "task_id": "5439",
+          "task": "Conduct research on consumer opinions and marketing strategies, collaborating with marketing professionals, statisticians, pollsters, and other professionals.",
+          "onet_soc_code": "13-1161.00",
+          "onet_soc_title": "Market Research Analysts and Marketing Specialists",
+          "embedding_key": "249930e20ca1d2b0a3776361c1e76b47d48351aac0358879c7542c067a64794f"
+        },
+        {
+          "rank": 2,
+          "score": 0.652635,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 3,
+          "score": 0.627008,
+          "task_id": "9688",
+          "task": "Research and identify potential customers for products or services.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "ad969b42b987fbbe30a312cb248e0625955b4b4ff0eefb0e794b2968dbc84009"
+        },
+        {
+          "rank": 4,
+          "score": 0.623115,
+          "task_id": "1775",
+          "task": "Plan or conduct market or public opinion research to test products or determine potential for product success, communicating results to client or management.",
+          "onet_soc_code": "27-3031.00",
+          "onet_soc_title": "Public Relations Specialists",
+          "embedding_key": "6ca15f1219cb615215f3794db87dc5cf46f6ca8bb166d724c976a7129645cef4"
+        },
+        {
+          "rank": 5,
+          "score": 0.621654,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__requirement__020",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "requirement",
+      "text": "U.S. work authorization; no sponsorship provided.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.471731,
+          "task_id": "9450",
+          "task": "Examine immigration applications, visas, and passports and interview persons to determine eligibility for admission, residence, and travel in the U.S.",
+          "onet_soc_code": "33-3051.04",
+          "onet_soc_title": "Customs and Border Protection Officers",
+          "embedding_key": "b088942502d6fd0e3d9391f7ed494234fec4958446c7c0d341be26feea7a6f8f"
+        },
+        {
+          "rank": 2,
+          "score": 0.445723,
+          "task_id": "23694",
+          "task": "Direct workers in transportation or related services, such as pumping, moving, storing, or loading or unloading of materials.",
+          "onet_soc_code": "53-1043.00",
+          "onet_soc_title": "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
+          "embedding_key": "43888ce934bb196cde063c523a0f29ccc392be6e6fa8595d3a45477c420c81f7"
+        },
+        {
+          "rank": 3,
+          "score": 0.43733,
+          "task_id": "3691",
+          "task": "Assist with operations of general facilities, such as visitor centers.",
+          "onet_soc_code": "19-1031.03",
+          "onet_soc_title": "Park Naturalists",
+          "embedding_key": "ba781591d59d2f00d806a928923f29ee0d724e0d60f7d106e57e6f574546f7ec"
+        },
+        {
+          "rank": 4,
+          "score": 0.435965,
+          "task_id": "13703",
+          "task": "Provide assistance to extraction craft workers, such as earth drillers and derrick operators.",
+          "onet_soc_code": "47-5081.00",
+          "onet_soc_title": "Helpers--Extraction Workers",
+          "embedding_key": "589b607eb955b53e98efaa498ef59dc248d59619484466dc9fdefc19a8c28959"
+        },
+        {
+          "rank": 5,
+          "score": 0.431723,
+          "task_id": "6996",
+          "task": "Provide transportation or escort for expeditions, such as shopping trips or visits to doctors or dentists.",
+          "onet_soc_code": "39-9041.00",
+          "onet_soc_title": "Residential Advisors",
+          "embedding_key": "97bddfcd97cd44d09330966ad968f7ce151e60f6ad8ec8bfe1fdfdcecee6d26a"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__preferred__021",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "preferred",
+      "text": "Financial modeling and business case development.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.616867,
+          "task_id": "21590",
+          "task": "Employ financial models to develop solutions to financial problems or to assess the financial or capital impact of transactions.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "4a442d8234e1dd57f2ee467ddd00789328d73e1a14fe23d9fad3ad80d541ed9f"
+        },
+        {
+          "rank": 2,
+          "score": 0.594835,
+          "task_id": "12904",
+          "task": "Analyze financial information obtained from clients to determine strategies for meeting clients' financial objectives.",
+          "onet_soc_code": "13-2052.00",
+          "onet_soc_title": "Personal Financial Advisors",
+          "embedding_key": "97688401fbf25049cde77aae1ee79fc3d6e3c742ca28fae4faf45e89e28d5ba9"
+        },
+        {
+          "rank": 3,
+          "score": 0.591375,
+          "task_id": "23204",
+          "task": "Develop financial plans, based on analysis of clients' financial status.",
+          "onet_soc_code": "41-3031.00",
+          "onet_soc_title": "Securities, Commodities, and Financial Services Sales Agents",
+          "embedding_key": "d6d397029264241479354e2bc5c04c47faf7ea30c68150e69ed8b7576aa6a2c3"
+        },
+        {
+          "rank": 4,
+          "score": 0.569968,
+          "task_id": "20952",
+          "task": "Present the results of mathematical modeling and data analysis to management or other end users.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "0f724861acb1d971fc51c034433f53d305e76ab039dfc2833a5a7cb96e22bf28"
+        },
+        {
+          "rank": 5,
+          "score": 0.562536,
+          "task_id": "21579",
+          "task": "Advise clients on aspects of capitalization, such as amounts, sources, or timing.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "13e878209cf26de11f1f25865fd2dc58d82cdaf56bdbf117461b0fb66e8e8e25"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__preferred__022",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "preferred",
+      "text": "Leadership in product/customer discovery and research.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.584143,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 2,
+          "score": 0.568746,
+          "task_id": "5437",
+          "task": "Seek and provide information to help companies determine their position in the marketplace.",
+          "onet_soc_code": "13-1161.00",
+          "onet_soc_title": "Market Research Analysts and Marketing Specialists",
+          "embedding_key": "937170c87133efdfaf12cfa9e0e5a74a6c0345ad04bd0fa596bd2df3f3c646f2"
+        },
+        {
+          "rank": 3,
+          "score": 0.555673,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 4,
+          "score": 0.554862,
+          "task_id": "889",
+          "task": "Advise management regarding customer satisfaction, product performance, or suggestions for product improvements.",
+          "onet_soc_code": "49-2094.00",
+          "onet_soc_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+          "embedding_key": "2b09de8eb0f6f0c2667d2674828730bf57b662678aa328ca110efcd295873aa7"
+        },
+        {
+          "rank": 5,
+          "score": 0.554227,
+          "task_id": "5504",
+          "task": "Write and present reports of research findings.",
+          "onet_soc_code": "19-3092.00",
+          "onet_soc_title": "Geographers",
+          "embedding_key": "29e5d4b5924d870d4ff64894acf490392606c01ab618e24640a806db9e861191"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__preferred__023",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "preferred",
+      "text": "Experience supporting new product development processes.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.709871,
+          "task_id": "15417",
+          "task": "Participate in the development of product specifications.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "7a135d8ec2a302f745f256a5909c013b28f07ed5ed1d8fc4b47520774fbbbdae"
+        },
+        {
+          "rank": 2,
+          "score": 0.709386,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 3,
+          "score": 0.671609,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 4,
+          "score": 0.669944,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 5,
+          "score": 0.668397,
+          "task_id": "41",
+          "task": "Review plans and confer with research or support staff to develop new products or processes.",
+          "onet_soc_code": "11-3051.00",
+          "onet_soc_title": "Industrial Production Managers",
+          "embedding_key": "2ef070def39b324d294115d49224e9e01bfeb75a26ddd9fa7e377fff1422af14"
+        }
+      ]
+    },
+    {
+      "id": "emerson_senior_product_manager_26002939__preferred__024",
+      "job_key": "emerson_senior_product_manager_26002939",
+      "job_name": "Emerson Senior Product Manager",
+      "company": "Emerson",
+      "title": "Senior Product Manager",
+      "location": "St. Louis, MO",
+      "job_id": "26002939",
+      "category": "preferred",
+      "text": "Project management software experience.",
+      "source_file": "Senior Product Manager - Emerson Career Site Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.686981,
+          "task_id": "18970",
+          "task": "Develop or maintain project reporting systems.",
+          "onet_soc_code": "15-1241.00",
+          "onet_soc_title": "Computer Network Architects",
+          "embedding_key": "8f49619e6015cebea354772d3173bf3a1d28aa263c82455a03bf00c9842f78c0"
+        },
+        {
+          "rank": 2,
+          "score": 0.683078,
+          "task_id": "8945",
+          "task": "Provide project management services, including the provision and analysis of technical data.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "e1d9d2c229d609c4fb836bcd6035a0292d4905c8a1c30f05a0db13e79c1df413"
+        },
+        {
+          "rank": 3,
+          "score": 0.660434,
+          "task_id": "8938",
+          "task": "Develop and implement technical project management tools, such as plans, schedules, and responsibility and compliance matrices.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "b7d0f38148e986bfe0ae47dafa6dd42bb2889b963aee7f7dcd98fd670bb4f5b2"
+        },
+        {
+          "rank": 4,
+          "score": 0.648591,
+          "task_id": "16157",
+          "task": "Monitor or track project milestones and deliverables.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "5043f67598e68e1d7ea67feb13ac95d7f68d79914c6855d3e34650f86c2856bd"
+        },
+        {
+          "rank": 5,
+          "score": 0.642004,
+          "task_id": "21465",
+          "task": "Create project status presentations for delivery to customers or project personnel.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "4e5789199129e8aad80be8401c903f0acba704213c43e72c76392408727d66cd"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__overview__001",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "overview",
+      "text": "Evaluate the impact of new technology by assessing current solutions and working with the Process Architecture team to understand work and systems.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.673478,
+          "task_id": "16269",
+          "task": "Evaluate processes and technologies, and suggest revisions to increase productivity and efficiency.",
+          "onet_soc_code": "15-2051.02",
+          "onet_soc_title": "Clinical Data Managers",
+          "embedding_key": "35cc6f259c5d7ceb98a93933a2771469c8c8c34ffe0f7a76c6aeb18430442ddb"
+        },
+        {
+          "rank": 2,
+          "score": 0.663055,
+          "task_id": "16809",
+          "task": "Evaluate new technologies to enhance or complement current research.",
+          "onet_soc_code": "19-1029.02",
+          "onet_soc_title": "Molecular and Cellular Biologists",
+          "embedding_key": "dfe8ca6b7edd928d3911cd81e6d5a542d018d13603ccc74a887c2b45c5077cef"
+        },
+        {
+          "rank": 3,
+          "score": 0.639476,
+          "task_id": "16960",
+          "task": "Evaluate new technologies and methods to make recommendations regarding their use.",
+          "onet_soc_code": "19-4099.01",
+          "onet_soc_title": "Quality Control Analysts",
+          "embedding_key": "4936ac9c87a0d68bd242c60205cfa92a2c3181f5dc0813eb863e756585293ef2"
+        },
+        {
+          "rank": 4,
+          "score": 0.637695,
+          "task_id": "16469",
+          "task": "Analyze existing development or manufacturing procedures and suggest improvements.",
+          "onet_soc_code": "17-2199.05",
+          "onet_soc_title": "Mechatronics Engineers",
+          "embedding_key": "697e60d4a6fa1165817816709893f4ceb3d2ab83116498c58a3e229ef14fef77"
+        },
+        {
+          "rank": 5,
+          "score": 0.624316,
+          "task_id": "22030",
+          "task": "Develop manufacturing infrastructure to integrate or deploy new manufacturing processes.",
+          "onet_soc_code": "17-3026.00",
+          "onet_soc_title": "Industrial Engineering Technologists and Technicians",
+          "embedding_key": "783637fa66526caef8a63d54d1d1942317f527ec9b42d6c77358bfbb0e012498"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__overview__002",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "overview",
+      "text": "Collaborate with stakeholders to define solution capabilities and create shared understanding of both the business need and the proposed approach.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.716588,
+          "task_id": "21463",
+          "task": "Communicate with key stakeholders to determine project requirements and objectives.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "dd492a3683a3bdeb6b018a2ec901af9a9b086f059a352306458c46780bd1fd4d"
+        },
+        {
+          "rank": 2,
+          "score": 0.708847,
+          "task_id": "16213",
+          "task": "Consult with multiple stakeholders to define requirements and implement online features.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "b5ae08f4723d306b67993de59b2d54cce031eaefbbeec0aaab256ab4762bccb8"
+        },
+        {
+          "rank": 3,
+          "score": 0.660379,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 4,
+          "score": 0.658579,
+          "task_id": "7378",
+          "task": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "e6ed8fa9fa46ef9d86b9017fb95be4bb117ebd2b7fa4e873ae236506cf6d1d49"
+        },
+        {
+          "rank": 5,
+          "score": 0.651647,
+          "task_id": "21836",
+          "task": "Recommend data-driven solutions to key stakeholders.",
+          "onet_soc_code": "15-2051.00",
+          "onet_soc_title": "Data Scientists",
+          "embedding_key": "cd0f748bebde2c08d819f554e0b486b22e5260ee9bd189f2ee517bc1b05cf57f"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__overview__003",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "overview",
+      "text": "Collaborate with internal and external partners on initiatives spanning multiple business functions.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.658188,
+          "task_id": "23048",
+          "task": "Collaborate with other offices and agencies to exchange information and coordinate activities.",
+          "onet_soc_code": "33-3021.00",
+          "onet_soc_title": "Detectives and Criminal Investigators",
+          "embedding_key": "a4bc3ecb95d80f1e378fdf8419444e6fd20ae5a5d35691064b469c20dfd9ab2e"
+        },
+        {
+          "rank": 2,
+          "score": 0.652244,
+          "task_id": "16189",
+          "task": "Collaborate with other marketing staff to integrate and complement marketing strategies across multiple sales channels.",
+          "onet_soc_code": "13-1161.01",
+          "onet_soc_title": "Search Marketing Strategists",
+          "embedding_key": "4f315163d58b4ad02d9153648155b722230993a18217bb1ff4ee5d6106c220b0"
+        },
+        {
+          "rank": 3,
+          "score": 0.648445,
+          "task_id": "21262",
+          "task": "Communicate with and provide guidance for external vendors and service providers to ensure the organization, department, or work unit's business needs are met.",
+          "onet_soc_code": "11-3012.00",
+          "onet_soc_title": "Administrative Services Managers",
+          "embedding_key": "4baf7c983d009ca5d77c75f9ca28d542bbb932cc4ac57a76689e9da873286d48"
+        },
+        {
+          "rank": 4,
+          "score": 0.646449,
+          "task_id": "3503",
+          "task": "Collaborate with programmers, underwriters, accounts, claims experts, and senior management to help companies develop plans for new lines of business or improvements to existing business.",
+          "onet_soc_code": "15-2011.00",
+          "onet_soc_title": "Actuaries",
+          "embedding_key": "d1beb164708a68e46d89e142b161ac0060519c4a87d8d585a516e413c3cd8182"
+        },
+        {
+          "rank": 5,
+          "score": 0.632987,
+          "task_id": "16778",
+          "task": "Confer with departments, such as marketing, business development, or operations, to coordinate product development or improvement.",
+          "onet_soc_code": "19-1029.01",
+          "onet_soc_title": "Bioinformatics Scientists",
+          "embedding_key": "c6efcadd0578626c68ee83f9285214e75f5fbc2d6b0c31ab5d87863546972503"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__overview__004",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "overview",
+      "text": "Potentially lead one or more Product Managers or Product Owners.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.691157,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 2,
+          "score": 0.673044,
+          "task_id": "18831",
+          "task": "Conduct market research and analyze industry trends.",
+          "onet_soc_code": "11-9171.00",
+          "onet_soc_title": "Funeral Home Managers",
+          "embedding_key": "10d229eee401e2cd867b72567ac21fbea8e09991f9def51a2feefa1815901c07"
+        },
+        {
+          "rank": 3,
+          "score": 0.671511,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 4,
+          "score": 0.670577,
+          "task_id": "18963",
+          "task": "Design, organize, and deliver product awareness, skills transfer, or product education sessions for staff or suppliers.",
+          "onet_soc_code": "15-1241.00",
+          "onet_soc_title": "Computer Network Architects",
+          "embedding_key": "f1cd451df885b574622dee7187f3bd0e8d70740a0462a296b92490aa0c80bd99"
+        },
+        {
+          "rank": 5,
+          "score": 0.665195,
+          "task_id": "15417",
+          "task": "Participate in the development of product specifications.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "7a135d8ec2a302f745f256a5909c013b28f07ed5ed1d8fc4b47520774fbbbdae"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__overview__005",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "overview",
+      "text": "Clearly document and communicate opportunities to stakeholders at different levels.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.686993,
+          "task_id": "21463",
+          "task": "Communicate with key stakeholders to determine project requirements and objectives.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "dd492a3683a3bdeb6b018a2ec901af9a9b086f059a352306458c46780bd1fd4d"
+        },
+        {
+          "rank": 2,
+          "score": 0.640955,
+          "task_id": "8942",
+          "task": "Explain proposed solutions to customers, management, or other interested parties through written proposals and oral presentations.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "690c80b360898579c5ba64c991054e09f799ff0023aa212315ab61a20944da8f"
+        },
+        {
+          "rank": 3,
+          "score": 0.616491,
+          "task_id": "7381",
+          "task": "Collaborate with senior managers and decision makers to identify and solve a variety of problems and to clarify management objectives.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "61e7ac4e6a3ed9b973bfb99f905d81969fcbfafe7e8a7c40da00eb3bc6150b67"
+        },
+        {
+          "rank": 4,
+          "score": 0.605847,
+          "task_id": "22959",
+          "task": "Write and present department budgets to upper management or other stakeholders.",
+          "onet_soc_code": "33-1091.00",
+          "onet_soc_title": "First-Line Supervisors of Security Workers",
+          "embedding_key": "cfa7b8c6fb904ec6f480ee3bd3f3163cc634412f1c8571d3cad911ad19ecf5ac"
+        },
+        {
+          "rank": 5,
+          "score": 0.601272,
+          "task_id": "19811",
+          "task": "Develop plans or materials to communicate organizational activities that are beneficial to the environment, public safety, or other important social issues.",
+          "onet_soc_code": "27-3031.00",
+          "onet_soc_title": "Public Relations Specialists",
+          "embedding_key": "1e9b3046d9cd7439f0fe102b72935619e79896405b7b09d376c94893c4e7db17"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__role__006",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "role",
+      "text": "Understand and advocate for customer problems and business goals.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.84016,
+          "task_id": "8933",
+          "task": "Develop an understanding of customers' needs and take actions to ensure that such needs are met.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "a85eae2f6bcc5542e702baaa8b7370ed844105dd893caf6a7960572091c11937"
+        },
+        {
+          "rank": 2,
+          "score": 0.809649,
+          "task_id": "3155",
+          "task": "Listen to and resolve customers' complaints regarding products or services.",
+          "onet_soc_code": "53-3031.00",
+          "onet_soc_title": "Driver/Sales Workers",
+          "embedding_key": "45c28be169887b8df90aabed4c10663844e3cf0819254931f26b332f29183265"
+        },
+        {
+          "rank": 3,
+          "score": 0.797403,
+          "task_id": "21311",
+          "task": "Establish and maintain relationships with individual or business customers or provide assistance with problems these customers may encounter.",
+          "onet_soc_code": "11-3031.00",
+          "onet_soc_title": "Financial Managers",
+          "embedding_key": "a250caadc9438ab323c0f3ce5f1163b55fe3e98ea41c8aaae07bd9da380699ea"
+        },
+        {
+          "rank": 4,
+          "score": 0.790249,
+          "task_id": "3417",
+          "task": "Handle customer complaints and take appropriate action to resolve them.",
+          "onet_soc_code": "13-2072.00",
+          "onet_soc_title": "Loan Officers",
+          "embedding_key": "e4e9bd7b19c4e09c555d1e66341bcb219301a233f9d0fcce46e8a30297bff730"
+        },
+        {
+          "rank": 5,
+          "score": 0.787934,
+          "task_id": "17612",
+          "task": "Respond to customer inquiries or complaints.",
+          "onet_soc_code": "11-9179.02",
+          "onet_soc_title": "Spa Managers",
+          "embedding_key": "18f15a17f210ca4b7a839c13867cd9c079b6b8e504cfcc76e450e2faf51c308c"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__role__007",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "role",
+      "text": "Define the problem to be solved.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.618082,
+          "task_id": "7207",
+          "task": "Design or coordinate successive phases of problem analysis, solution proposals, or testing.",
+          "onet_soc_code": "11-9121.00",
+          "onet_soc_title": "Natural Sciences Managers",
+          "embedding_key": "3c6d81669ef267e824dae141a9e4e3a2dd3febb563b3d941b2da8134a07f30b0"
+        },
+        {
+          "rank": 2,
+          "score": 0.613594,
+          "task_id": "7277",
+          "task": "Analyze data gathered and develop solutions or alternative methods of proceeding.",
+          "onet_soc_code": "13-1111.00",
+          "onet_soc_title": "Management Analysts",
+          "embedding_key": "7f8651e9582abb9154b8ae32117124acbfa66935c36e4f68fb0b1529b15c88ff"
+        },
+        {
+          "rank": 3,
+          "score": 0.573737,
+          "task_id": "2637",
+          "task": "Prepare reports to provide answers in response to specific problems.",
+          "onet_soc_code": "43-4111.00",
+          "onet_soc_title": "Interviewers, Except Eligibility and Loan",
+          "embedding_key": "cf5d17cdcaf307e4b3b1246f9af40abb1782ed9919f06038731238c11ffd68c6"
+        },
+        {
+          "rank": 4,
+          "score": 0.561137,
+          "task_id": "7368",
+          "task": "Develop computational methods for solving problems that occur in areas of science and engineering or that come from applications in business or industry.",
+          "onet_soc_code": "15-2021.00",
+          "onet_soc_title": "Mathematicians",
+          "embedding_key": "8e8f715331db2d20c7b5be7ba98a0afca1b78f460a2e40155c92699362995b08"
+        },
+        {
+          "rank": 5,
+          "score": 0.556753,
+          "task_id": "14629",
+          "task": "Conduct logical analyses of business, scientific, engineering, and other technical problems, formulating mathematical models of problems for solution by computers.",
+          "onet_soc_code": "15-1221.00",
+          "onet_soc_title": "Computer and Information Research Scientists",
+          "embedding_key": "97d043f4eaf191ff84c6e4b7ca80689dc25782ae29842ff21975bc2d61eea555"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__role__008",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "role",
+      "text": "Develop and communicate business cases, vision, and strategy to stakeholders.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.753052,
+          "task_id": "21463",
+          "task": "Communicate with key stakeholders to determine project requirements and objectives.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "dd492a3683a3bdeb6b018a2ec901af9a9b086f059a352306458c46780bd1fd4d"
+        },
+        {
+          "rank": 2,
+          "score": 0.713956,
+          "task_id": "18040",
+          "task": "Contribute to the development or implementation of business unit strategic and operating plans.",
+          "onet_soc_code": "11-9199.01",
+          "onet_soc_title": "Regulatory Affairs Managers",
+          "embedding_key": "18539aa840aa9523f826c43e3fa264602a918fcdc1418f946ef5a6958514a835"
+        },
+        {
+          "rank": 3,
+          "score": 0.713579,
+          "task_id": "1373",
+          "task": "Develop proposed project objectives and targets and report to management on progress in attaining them.",
+          "onet_soc_code": "17-2081.00",
+          "onet_soc_title": "Environmental Engineers",
+          "embedding_key": "bbfc6a4ad0058d78b1b73dbda2871b16e3e29024654b8224c88ce94b700253c8"
+        },
+        {
+          "rank": 4,
+          "score": 0.707804,
+          "task_id": "9663",
+          "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+          "onet_soc_code": "41-1012.00",
+          "onet_soc_title": "First-Line Supervisors of Non-Retail Sales Workers",
+          "embedding_key": "91a4fc279f19869af7a6ca2d6e0bb6e4e570f357270d393a74172ae72065fdda"
+        },
+        {
+          "rank": 5,
+          "score": 0.707804,
+          "task_id": "675",
+          "task": "Confer with company officials to develop methods and procedures to increase sales, expand markets, and promote business.",
+          "onet_soc_code": "41-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Retail Sales Workers",
+          "embedding_key": "91a4fc279f19869af7a6ca2d6e0bb6e4e570f357270d393a74172ae72065fdda"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__role__009",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "role",
+      "text": "Ensure alignment with company strategy and goals.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.659044,
+          "task_id": "976",
+          "task": "Develop and interpret organizational goals, policies, and procedures.",
+          "onet_soc_code": "11-3021.00",
+          "onet_soc_title": "Computer and Information Systems Managers",
+          "embedding_key": "2dea1ddda2958f7540200ef4f1b3ea7df6c7cf9dc0492d31533bab52a1107c0d"
+        },
+        {
+          "rank": 2,
+          "score": 0.659044,
+          "task_id": "14630",
+          "task": "Develop and interpret organizational goals, policies, and procedures.",
+          "onet_soc_code": "15-1221.00",
+          "onet_soc_title": "Computer and Information Research Scientists",
+          "embedding_key": "2dea1ddda2958f7540200ef4f1b3ea7df6c7cf9dc0492d31533bab52a1107c0d"
+        },
+        {
+          "rank": 3,
+          "score": 0.64689,
+          "task_id": "18595",
+          "task": "Formulate strategic plans for the institution.",
+          "onet_soc_code": "11-9033.00",
+          "onet_soc_title": "Education Administrators, Postsecondary",
+          "embedding_key": "fd632ea64e991b71c8ac3400f383071a2625ae0c2267e7e7f5773655a784c766"
+        },
+        {
+          "rank": 4,
+          "score": 0.636916,
+          "task_id": "17606",
+          "task": "Develop staff service or retail goals and guide staff in goal achievement.",
+          "onet_soc_code": "11-9179.02",
+          "onet_soc_title": "Spa Managers",
+          "embedding_key": "8c51f0470aab6d2dea94e9d63fa0caeb8808640362d34f881444a71010b8560e"
+        },
+        {
+          "rank": 5,
+          "score": 0.636741,
+          "task_id": "21523",
+          "task": "Examine whether the organization's objectives are reflected in its management activities, and whether employees understand the objectives.",
+          "onet_soc_code": "13-2011.00",
+          "onet_soc_title": "Accountants and Auditors",
+          "embedding_key": "e353390d11f4b77af523674f9cff9026cc46e12681c6c415704034774b2a2d6a"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__role__010",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "role",
+      "text": "Collaborate with Product Strategy and Development, Digital Product, and Technology teams to define and prioritize the roadmap.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.654279,
+          "task_id": "14697",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1254.00",
+          "onet_soc_title": "Web Developers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        },
+        {
+          "rank": 2,
+          "score": 0.654279,
+          "task_id": "21689",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1255.00",
+          "onet_soc_title": "Web and Digital Interface Designers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        },
+        {
+          "rank": 3,
+          "score": 0.648636,
+          "task_id": "16778",
+          "task": "Confer with departments, such as marketing, business development, or operations, to coordinate product development or improvement.",
+          "onet_soc_code": "19-1029.01",
+          "onet_soc_title": "Bioinformatics Scientists",
+          "embedding_key": "c6efcadd0578626c68ee83f9285214e75f5fbc2d6b0c31ab5d87863546972503"
+        },
+        {
+          "rank": 4,
+          "score": 0.646549,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 5,
+          "score": 0.625169,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__requirement__011",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "requirement",
+      "text": "Must reside in the St. Louis metro area.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.445949,
+          "task_id": "17436",
+          "task": "Assist in training technicians, medical students, residents, or other staff members.",
+          "onet_soc_code": "29-2099.01",
+          "onet_soc_title": "Neurodiagnostic Technologists",
+          "embedding_key": "252326830cbd3d8a11a930484350e4cd8047467988662c46337945e5a3004daf"
+        },
+        {
+          "rank": 2,
+          "score": 0.421283,
+          "task_id": "16465",
+          "task": "Provide consultation or training on topics such as mechatronics or automated control.",
+          "onet_soc_code": "17-2199.05",
+          "onet_soc_title": "Mechatronics Engineers",
+          "embedding_key": "a5253f4c001c70b8daba9802bc55af9b0cadbe6ed610f068a7953825d97f166d"
+        },
+        {
+          "rank": 3,
+          "score": 0.390133,
+          "task_id": "17801",
+          "task": "Contact residents or building owners to schedule appointments.",
+          "onet_soc_code": "47-4099.03",
+          "onet_soc_title": "Weatherization Installers and Technicians",
+          "embedding_key": "3d34b867a279e157f38ca69bea18ea82ec0b1fe13371810c9f01f78220822bfb"
+        },
+        {
+          "rank": 4,
+          "score": 0.388342,
+          "task_id": "3243",
+          "task": "Contact organizations to explain services and facilities offered.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "82e0bf324dba3567e20d92316b323ad92db841d73d33d9b7308076188d698e3c"
+        },
+        {
+          "rank": 5,
+          "score": 0.388282,
+          "task_id": "17110",
+          "task": "Provide training to medical students or staff members.",
+          "onet_soc_code": "29-1217.00",
+          "onet_soc_title": "Neurologists",
+          "embedding_key": "dc7c4575652196e7c14738850b328d617c57106d207370c59c4a47b16947dbc8"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__requirement__012",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "requirement",
+      "text": "Bachelor\u2019s degree.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.463183,
+          "task_id": "9099",
+          "task": "Teach in colleges and universities.",
+          "onet_soc_code": "19-2032.00",
+          "onet_soc_title": "Materials Scientists",
+          "embedding_key": "2c6472eef99aa3766c82c0f11ba9fd04b3cb9ff7594b28b3dc3c96fb5d415c51"
+        },
+        {
+          "rank": 2,
+          "score": 0.463183,
+          "task_id": "9020",
+          "task": "Teach in colleges and universities.",
+          "onet_soc_code": "17-2131.00",
+          "onet_soc_title": "Materials Engineers",
+          "embedding_key": "2c6472eef99aa3766c82c0f11ba9fd04b3cb9ff7594b28b3dc3c96fb5d415c51"
+        },
+        {
+          "rank": 3,
+          "score": 0.456134,
+          "task_id": "185",
+          "task": "Teach or supervise students and perform research at universities and colleges.",
+          "onet_soc_code": "19-1029.04",
+          "onet_soc_title": "Biologists",
+          "embedding_key": "fa125bff6a7a43ba6f4a364cac90c3c38be026fee4c87f13e0f705cca8191c0f"
+        },
+        {
+          "rank": 4,
+          "score": 0.455144,
+          "task_id": "5217",
+          "task": "Teach classes or courses to students.",
+          "onet_soc_code": "11-9032.00",
+          "onet_soc_title": "Education Administrators, Kindergarten through Secondary",
+          "embedding_key": "4bc12974e1c649150709bbfeb05e2ea40e8099fd50fa7ec80aa263516f8e1a38"
+        },
+        {
+          "rank": 5,
+          "score": 0.4534,
+          "task_id": "17282",
+          "task": "Teach or train medical and clinical staff.",
+          "onet_soc_code": "29-1229.03",
+          "onet_soc_title": "Urologists",
+          "embedding_key": "b1b59280dcc798e39738405ed94d29329ba1f39c99f71b923c56cfe56e197feb"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__requirement__013",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "requirement",
+      "text": "At least 5 years of experience as a Product Owner/Manager, Product Development Manager, Technical Project Manager, Business Analyst, or equivalent.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.583147,
+          "task_id": "15417",
+          "task": "Participate in the development of product specifications.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "7a135d8ec2a302f745f256a5909c013b28f07ed5ed1d8fc4b47520774fbbbdae"
+        },
+        {
+          "rank": 2,
+          "score": 0.569591,
+          "task_id": "13560",
+          "task": "Read blueprints and specifications to determine job requirements.",
+          "onet_soc_code": "47-2132.00",
+          "onet_soc_title": "Insulation Workers, Mechanical",
+          "embedding_key": "49a5ed3274ba3bb8ea3c59e41983b895a32f062fd158f9dcf5ff0d15394ba3a2"
+        },
+        {
+          "rank": 3,
+          "score": 0.53889,
+          "task_id": "7392",
+          "task": "Provide technical support to designers, marketing and sales departments, suppliers, engineers and other team members throughout the product development and implementation process.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "64ce4aa7c96fec3e5f54f2530c6e057ef0d3b5674a14179d4d30b4c95d30d541"
+        },
+        {
+          "rank": 4,
+          "score": 0.530652,
+          "task_id": "7398",
+          "task": "Direct technicians, engineering designers or other technical support personnel as needed.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "5fb70849891c8b919f6b141f2d89a336ff21dec970d790478566762bcb1e64e8"
+        },
+        {
+          "rank": 5,
+          "score": 0.522234,
+          "task_id": "22540",
+          "task": "Develop marketing plans for finished products, collaborating with sales associates to supervise product distribution.",
+          "onet_soc_code": "27-2012.00",
+          "onet_soc_title": "Producers and Directors",
+          "embedding_key": "1fd658ba6dc90444786d5fb0e5bbe5ea3ba81354074963eb8fd8f0db54cb3017"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__requirement__014",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "requirement",
+      "text": "Proven ability to create and deliver impactful presentations to varied audiences.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.706692,
+          "task_id": "17215",
+          "task": "Deliver presentations to lay or professional audiences.",
+          "onet_soc_code": "29-1229.05",
+          "onet_soc_title": "Preventive Medicine Physicians",
+          "embedding_key": "ef49509eeca5803bff8838afdf646923318007155eafc838c07baefd39e584f2"
+        },
+        {
+          "rank": 2,
+          "score": 0.549149,
+          "task_id": "6291",
+          "task": "Prepare and deliver lectures to undergraduate or graduate students on topics such as public speaking, media criticism, and oral traditions.",
+          "onet_soc_code": "25-1122.00",
+          "onet_soc_title": "Communications Teachers, Postsecondary",
+          "embedding_key": "d9591ded0b1e05faaa9a3287e3787eab2a0ddfaef9a17ea7f14542524678ff1e"
+        },
+        {
+          "rank": 3,
+          "score": 0.547009,
+          "task_id": "22234",
+          "task": "Write about and present research findings for a variety of specialized and general audiences.",
+          "onet_soc_code": "19-3091.00",
+          "onet_soc_title": "Anthropologists and Archeologists",
+          "embedding_key": "fa6da56b7486850729df1b8fb6d34065373910e2ab3e11d4f05ac7c9f6b2ad99"
+        },
+        {
+          "rank": 4,
+          "score": 0.535111,
+          "task_id": "18930",
+          "task": "Secure speakers for charitable events, community meetings, or conferences to increase awareness of charitable, nonprofit, or political causes.",
+          "onet_soc_code": "13-1131.00",
+          "onet_soc_title": "Fundraisers",
+          "embedding_key": "6e548b2653c704a9aeac7a9b36849762ebb4153eab222addf9503713f1a8fbac"
+        },
+        {
+          "rank": 5,
+          "score": 0.534934,
+          "task_id": "3944",
+          "task": "Moderate panels or discussion shows on topics such as current affairs, art, or education.",
+          "onet_soc_code": "27-3011.00",
+          "onet_soc_title": "Broadcast Announcers and Radio Disc Jockeys",
+          "embedding_key": "898c3194a21b5fb0169d66cab37a6ea3110c0f7858dbad8b33b30e6d63996555"
+        }
+      ]
+    },
+    {
+      "id": "enterprise_mobility_product_manager_ii_enterprise_applications__requirement__015",
+      "job_key": "enterprise_mobility_product_manager_ii_enterprise_applications",
+      "job_name": "Enterprise Mobility Product Manager II - Enterprise Applications",
+      "company": "Enterprise Mobility",
+      "title": "Product Manager II - Enterprise Applications",
+      "location": "St. Louis, MO",
+      "job_id": "",
+      "category": "requirement",
+      "text": "Must be authorized to work in the U.S. without needing sponsorship.",
+      "source_file": "Product Manager II - Enterprise Applications _ Enterprise Mobility Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.493013,
+          "task_id": "9450",
+          "task": "Examine immigration applications, visas, and passports and interview persons to determine eligibility for admission, residence, and travel in the U.S.",
+          "onet_soc_code": "33-3051.04",
+          "onet_soc_title": "Customs and Border Protection Officers",
+          "embedding_key": "b088942502d6fd0e3d9391f7ed494234fec4958446c7c0d341be26feea7a6f8f"
+        },
+        {
+          "rank": 2,
+          "score": 0.425512,
+          "task_id": "3933",
+          "task": "Make promotional appearances at public or private events to represent their employers.",
+          "onet_soc_code": "27-3011.00",
+          "onet_soc_title": "Broadcast Announcers and Radio Disc Jockeys",
+          "embedding_key": "fb80a5d0b28f61708566d24f98a4f54fe4028fc359c0446e2ce4a716f629b326"
+        },
+        {
+          "rank": 3,
+          "score": 0.405216,
+          "task_id": "21448",
+          "task": "Advise licensees or other individuals or groups concerning licensing, permit, or passport regulations.",
+          "onet_soc_code": "13-1041.00",
+          "onet_soc_title": "Compliance Officers",
+          "embedding_key": "e23b8fa8e070dace305b50106bbcc901d64b2aecac0068c1722f8260b99bcc3f"
+        },
+        {
+          "rank": 4,
+          "score": 0.401724,
+          "task_id": "20100",
+          "task": "Organize and direct study abroad programs.",
+          "onet_soc_code": "25-1124.00",
+          "onet_soc_title": "Foreign Language and Literature Teachers, Postsecondary",
+          "embedding_key": "1c9562f0bbdc6f3aa5798461bad767cd9989fb13d8df535397d8ce19eb18b5aa"
+        },
+        {
+          "rank": 5,
+          "score": 0.396421,
+          "task_id": "11025",
+          "task": "Hire and supervise workers who help locate people with specified attributes and talents.",
+          "onet_soc_code": "27-2012.04",
+          "onet_soc_title": "Talent Directors",
+          "embedding_key": "2696ed44fd4b079637f19596bce3fa68350ea0267f50bd9f02916a28f8e9b2b6"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__overview__001",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "overview",
+      "text": "This role sits within Microsoft Security, specifically supporting Microsoft Entra Conditional Access.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.550413,
+          "task_id": "5319",
+          "task": "Monitor use of data files and regulate access to safeguard information in computer files.",
+          "onet_soc_code": "15-1212.00",
+          "onet_soc_title": "Information Security Analysts",
+          "embedding_key": "371e8d4db1810a458dd43ea5af9cfd59318b29943d32dbe6e64e642fe0e42c29"
+        },
+        {
+          "rank": 2,
+          "score": 0.549011,
+          "task_id": "21296",
+          "task": "Develop, recommend, or manage security procedures for operations or processes, such as security call centers, access control, and reporting tools.",
+          "onet_soc_code": "11-3013.01",
+          "onet_soc_title": "Security Managers",
+          "embedding_key": "742db26caca0b7dff26aa15540873dd39413d7356c8ff13c540d8f0de0575aaa"
+        },
+        {
+          "rank": 3,
+          "score": 0.542974,
+          "task_id": "2133",
+          "task": "Monitor and authorize entrance and departure of employees, visitors, and other persons to guard against theft and maintain security of premises.",
+          "onet_soc_code": "33-9032.00",
+          "onet_soc_title": "Security Guards",
+          "embedding_key": "96c43aee0aacc31f8d05350465ecc2f4e9d3276299410705bd994207f5db09de"
+        },
+        {
+          "rank": 4,
+          "score": 0.542407,
+          "task_id": "21779",
+          "task": "Provide technical support to computer users for installation and use of security products.",
+          "onet_soc_code": "15-1299.05",
+          "onet_soc_title": "Information Security Engineers",
+          "embedding_key": "9fc3fca6d937c856cdbe0c1d723073db8723f636cf2638e6cac7a159451feee1"
+        },
+        {
+          "rank": 5,
+          "score": 0.541547,
+          "task_id": "5323",
+          "task": "Review violations of computer security procedures and discuss procedures with violators to ensure violations are not repeated.",
+          "onet_soc_code": "15-1212.00",
+          "onet_soc_title": "Information Security Analysts",
+          "embedding_key": "67e0b0c5caaebb1b4db8969cb0d892da187cd1e6f257e783a6124c9472491e49"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__overview__002",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "overview",
+      "text": "Help customers manage secure access to organizational resources as part of Microsoft\u2019s Zero Trust solution.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.589317,
+          "task_id": "16180",
+          "task": "Assist in the development of online transaction or security policies.",
+          "onet_soc_code": "13-1161.01",
+          "onet_soc_title": "Search Marketing Strategists",
+          "embedding_key": "3b454df9916b2901bbf47590f3f2725e67ec70d33a4615727f8141f4d8c3630a"
+        },
+        {
+          "rank": 2,
+          "score": 0.575539,
+          "task_id": "14674",
+          "task": "Provide customers or installation teams guidelines for implementing secure systems.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "91c2225d358787d768a07e6c1ae8d7ee952faf8d0f564672fd5b68edf0e878f6"
+        },
+        {
+          "rank": 3,
+          "score": 0.559829,
+          "task_id": "16234",
+          "task": "Assist in determining document management policies to facilitate efficient, legal, and secure access to electronic content.",
+          "onet_soc_code": "15-1299.03",
+          "onet_soc_title": "Document Management Specialists",
+          "embedding_key": "689801d556817098cde4a921b19db2350ff52e7f1256b0759d844a8851c4c5f7"
+        },
+        {
+          "rank": 4,
+          "score": 0.55907,
+          "task_id": "5313",
+          "task": "Train users and promote security awareness to ensure system security and to improve server and network efficiency.",
+          "onet_soc_code": "15-1212.00",
+          "onet_soc_title": "Information Security Analysts",
+          "embedding_key": "5cd1aa724697c49e0a5ec1b65f1f7da79fa04ab3a38d5e32a1e38677ef1b873b"
+        },
+        {
+          "rank": 5,
+          "score": 0.556801,
+          "task_id": "21753",
+          "task": "Discuss security solutions with information technology teams or management.",
+          "onet_soc_code": "15-1299.04",
+          "onet_soc_title": "Penetration Testers",
+          "embedding_key": "d60b81998c3456a936a536309c14d8372999c63c06fe229eed0e1b8f30bd2e37"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__overview__003",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "overview",
+      "text": "The team is looking for a Senior Product Manager to join Microsoft\u2019s identity cloud and security work.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.444058,
+          "task_id": "18183",
+          "task": "Provide technical expertise or support related to manufacturing.",
+          "onet_soc_code": "17-2112.03",
+          "onet_soc_title": "Manufacturing Engineers",
+          "embedding_key": "fead3b8acfa3f8e532738006e20071a33af629e5a335781a7fe32c5120d34544"
+        },
+        {
+          "rank": 2,
+          "score": 0.439106,
+          "task_id": "983",
+          "task": "Identify staff vacancies and recruit, interview, and select applicants.",
+          "onet_soc_code": "11-3121.00",
+          "onet_soc_title": "Human Resources Managers",
+          "embedding_key": "aba6978e656ee939b5e9cd6d40a47c8ae797de899ba97e762a1de5212d856daf"
+        },
+        {
+          "rank": 3,
+          "score": 0.4293,
+          "task_id": "21779",
+          "task": "Provide technical support to computer users for installation and use of security products.",
+          "onet_soc_code": "15-1299.05",
+          "onet_soc_title": "Information Security Engineers",
+          "embedding_key": "9fc3fca6d937c856cdbe0c1d723073db8723f636cf2638e6cac7a159451feee1"
+        },
+        {
+          "rank": 4,
+          "score": 0.425616,
+          "task_id": "9711",
+          "task": "Recruit, interview, and select employees.",
+          "onet_soc_code": "43-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Office and Administrative Support Workers",
+          "embedding_key": "5373dca6032ef8b4e248d61801df4f356b35caac7c38216dc02a848535b38dda"
+        },
+        {
+          "rank": 5,
+          "score": 0.416885,
+          "task_id": "7392",
+          "task": "Provide technical support to designers, marketing and sales departments, suppliers, engineers and other team members throughout the product development and implementation process.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "64ce4aa7c96fec3e5f54f2530c6e057ef0d3b5674a14179d4d30b4c95d30d541"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__role__004",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "role",
+      "text": "Anticipate unmet customer needs and market opportunities for enhancements to Entra Conditional Access.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.520799,
+          "task_id": "1222",
+          "task": "Evaluate and select providers of services according to customer requirements.",
+          "onet_soc_code": "13-1121.00",
+          "onet_soc_title": "Meeting, Convention, and Event Planners",
+          "embedding_key": "2ac544fc01bb6adda3c39683ee2106d720f89ddee8a9653c794c5299c6ba0cf9"
+        },
+        {
+          "rank": 2,
+          "score": 0.511319,
+          "task_id": "21359",
+          "task": "Implement specific customer requirements, such as internal reporting or customized transportation metrics.",
+          "onet_soc_code": "11-3071.00",
+          "onet_soc_title": "Transportation, Storage, and Distribution Managers",
+          "embedding_key": "771c7e4bec0161f871e16c7505b9373e80128cdf665950a48844d5a09c0568c2"
+        },
+        {
+          "rank": 3,
+          "score": 0.497844,
+          "task_id": "13198",
+          "task": "Identify interested and qualified customers to provide them with additional information.",
+          "onet_soc_code": "41-9011.00",
+          "onet_soc_title": "Demonstrators and Product Promoters",
+          "embedding_key": "e4eb4325e4504c8748ef3d737b98e9a4fd0043419b287520e58ee16c93f594d4"
+        },
+        {
+          "rank": 4,
+          "score": 0.479235,
+          "task_id": "23230",
+          "task": "Emphasize or recommend service features based on knowledge of customers' needs and vendor capabilities and limitations.",
+          "onet_soc_code": "41-3091.00",
+          "onet_soc_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+          "embedding_key": "0fefec03a38f70caaf04de9dd0accafe07298ea6f24da21338eb8ad16d3ef17c"
+        },
+        {
+          "rank": 5,
+          "score": 0.476549,
+          "task_id": "13248",
+          "task": "Provide assistance for customers with special billing requests.",
+          "onet_soc_code": "43-2021.00",
+          "onet_soc_title": "Telephone Operators",
+          "embedding_key": "c11df91a381e8fbaf2e272d856f3ff62590d6a5d916fc60bc587267bf44537da"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__role__005",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "role",
+      "text": "Build enterprise-grade product experiences across team and divisional boundaries.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.567697,
+          "task_id": "9699",
+          "task": "Train team members in the customer applications of technologies.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "19681b1e585171f6ca8a6a368b143f685d434dab36287aa935837f376b27524e"
+        },
+        {
+          "rank": 2,
+          "score": 0.554451,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 3,
+          "score": 0.548581,
+          "task_id": "18963",
+          "task": "Design, organize, and deliver product awareness, skills transfer, or product education sessions for staff or suppliers.",
+          "onet_soc_code": "15-1241.00",
+          "onet_soc_title": "Computer Network Architects",
+          "embedding_key": "f1cd451df885b574622dee7187f3bd0e8d70740a0462a296b92490aa0c80bd99"
+        },
+        {
+          "rank": 4,
+          "score": 0.521792,
+          "task_id": "11256",
+          "task": "Provide feedback to product design teams so that products can be tailored to clients' needs.",
+          "onet_soc_code": "41-4011.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+          "embedding_key": "0cd6ab3a63620de69bf1f6d4b1f86b38299365f0182cef67c84b9926c05eba97"
+        },
+        {
+          "rank": 5,
+          "score": 0.521463,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__role__006",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "role",
+      "text": "Drive engagement with cross-functional internal partnerships, external partners, early-adopter customers, executive leadership, and other stakeholders to gather input and support roadmap plans.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.593168,
+          "task_id": "16213",
+          "task": "Consult with multiple stakeholders to define requirements and implement online features.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "b5ae08f4723d306b67993de59b2d54cce031eaefbbeec0aaab256ab4762bccb8"
+        },
+        {
+          "rank": 2,
+          "score": 0.5904,
+          "task_id": "21463",
+          "task": "Communicate with key stakeholders to determine project requirements and objectives.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "dd492a3683a3bdeb6b018a2ec901af9a9b086f059a352306458c46780bd1fd4d"
+        },
+        {
+          "rank": 3,
+          "score": 0.583688,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 4,
+          "score": 0.57879,
+          "task_id": "21836",
+          "task": "Recommend data-driven solutions to key stakeholders.",
+          "onet_soc_code": "15-2051.00",
+          "onet_soc_title": "Data Scientists",
+          "embedding_key": "cd0f748bebde2c08d819f554e0b486b22e5260ee9bd189f2ee517bc1b05cf57f"
+        },
+        {
+          "rank": 5,
+          "score": 0.545038,
+          "task_id": "16138",
+          "task": "Communicate with customers, competitors, suppliers, professional organizations, or others to stay abreast of industry or business trends.",
+          "onet_soc_code": "15-2051.01",
+          "onet_soc_title": "Business Intelligence Analysts",
+          "embedding_key": "11df6a5b973fbfde1e57dcff0d27b334d0c40926e666429e79fb6f6dd8bb57d2"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__role__007",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "role",
+      "text": "Ensure roadmap alignment with team OKRs and KPIs.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.591625,
+          "task_id": "374",
+          "task": "Identify and document goals, anticipated progress, and plans for reevaluation.",
+          "onet_soc_code": "29-1123.00",
+          "onet_soc_title": "Physical Therapists",
+          "embedding_key": "e77809434a95a62ce83b36c273a31b216fbe7da5bf88ba548129d0f13f9b3f8e"
+        },
+        {
+          "rank": 2,
+          "score": 0.538523,
+          "task_id": "7210",
+          "task": "Determine scientific or technical goals within broad outlines provided by top management and make detailed plans to accomplish these goals.",
+          "onet_soc_code": "11-9121.00",
+          "onet_soc_title": "Natural Sciences Managers",
+          "embedding_key": "b3c2b9f1aa17b3bb8359cda5be566d097a5e204e1c2a3d839df9f75f95e4d6f7"
+        },
+        {
+          "rank": 3,
+          "score": 0.533607,
+          "task_id": "20326",
+          "task": "Identify appropriate Key Performance Indicators (KPIs) and report key metrics from digital campaigns.",
+          "onet_soc_code": "13-1161.01",
+          "onet_soc_title": "Search Marketing Strategists",
+          "embedding_key": "5be0147e2b384c9234ea14e2eb6a03669a671b799ba30ea7d55d143bcff5d6e4"
+        },
+        {
+          "rank": 4,
+          "score": 0.530321,
+          "task_id": "18595",
+          "task": "Formulate strategic plans for the institution.",
+          "onet_soc_code": "11-9033.00",
+          "onet_soc_title": "Education Administrators, Postsecondary",
+          "embedding_key": "fd632ea64e991b71c8ac3400f383071a2625ae0c2267e7e7f5773655a784c766"
+        },
+        {
+          "rank": 5,
+          "score": 0.528388,
+          "task_id": "20178",
+          "task": "Establish scientific or technical goals within broad outlines provided by top management.",
+          "onet_soc_code": "11-9041.00",
+          "onet_soc_title": "Architectural and Engineering Managers",
+          "embedding_key": "27d762f2082c426cd1217ca1f6a952a1c73d47a4464974e6f3b9b3099099e533"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__role__008",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "role",
+      "text": "Embody Microsoft\u2019s culture and values.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.524683,
+          "task_id": "9706",
+          "task": "Implement corporate or departmental policies, procedures, and service standards in conjunction with management.",
+          "onet_soc_code": "43-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Office and Administrative Support Workers",
+          "embedding_key": "199bb32fdb6f5d2b1a74f4634460bc8b156d4fd9aa3cb1b29b25e6faf886f4c1"
+        },
+        {
+          "rank": 2,
+          "score": 0.514807,
+          "task_id": "1086",
+          "task": "Establish standards for personnel performance and customer service.",
+          "onet_soc_code": "11-9051.00",
+          "onet_soc_title": "Food Service Managers",
+          "embedding_key": "690a0dedb2618696d9a800013371dded700d9824d4bf6fd25b56f32a5a7d3bde"
+        },
+        {
+          "rank": 3,
+          "score": 0.505835,
+          "task_id": "1400",
+          "task": "Communicate with management and user personnel to develop production and design standards.",
+          "onet_soc_code": "17-2112.00",
+          "onet_soc_title": "Industrial Engineers",
+          "embedding_key": "379e2ac8448ac433ddc6de2ea0bbc4c4b79bed3925d0195c7529eb23638ccbfe"
+        },
+        {
+          "rank": 4,
+          "score": 0.501491,
+          "task_id": "21299",
+          "task": "Monitor and ensure a sound, ethical environment.",
+          "onet_soc_code": "11-3013.01",
+          "onet_soc_title": "Security Managers",
+          "embedding_key": "8698e48b2e9cc9598e17a964bc3f8ad3ddc44925f20ef1953e1c0f13ed37a3c6"
+        },
+        {
+          "rank": 5,
+          "score": 0.498066,
+          "task_id": "976",
+          "task": "Develop and interpret organizational goals, policies, and procedures.",
+          "onet_soc_code": "11-3021.00",
+          "onet_soc_title": "Computer and Information Systems Managers",
+          "embedding_key": "2dea1ddda2958f7540200ef4f1b3ea7df6c7cf9dc0492d31533bab52a1107c0d"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__requirement__009",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "requirement",
+      "text": "Bachelor\u2019s degree and 5+ years of experience in product, service, or program management or software development, or equivalent experience.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.554473,
+          "task_id": "3481",
+          "task": "Supervise computer programmers or other systems analysts or serve as project leaders for particular systems projects.",
+          "onet_soc_code": "15-1211.00",
+          "onet_soc_title": "Computer Systems Analysts",
+          "embedding_key": "5cab2a9c107d86f7dad9e3730c15293cbcc96243f7536f8e1ccd92c620566514"
+        },
+        {
+          "rank": 2,
+          "score": 0.53215,
+          "task_id": "21669",
+          "task": "Develop or direct software system testing or validation procedures, programming, or documentation.",
+          "onet_soc_code": "15-1252.00",
+          "onet_soc_title": "Software Developers",
+          "embedding_key": "9212a34188f3ab41f9c57dadf466f3aaebf79f1dd13e2a6ee1fb5b2b9471cc6d"
+        },
+        {
+          "rank": 3,
+          "score": 0.525547,
+          "task_id": "13560",
+          "task": "Read blueprints and specifications to determine job requirements.",
+          "onet_soc_code": "47-2132.00",
+          "onet_soc_title": "Insulation Workers, Mechanical",
+          "embedding_key": "49a5ed3274ba3bb8ea3c59e41983b895a32f062fd158f9dcf5ff0d15394ba3a2"
+        },
+        {
+          "rank": 4,
+          "score": 0.515538,
+          "task_id": "14672",
+          "task": "Provide technical guidance or support for the development or troubleshooting of systems.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "dca18d26646589884c4599f6594beed97c3705a019b2e176b9b0a041026f144a"
+        },
+        {
+          "rank": 5,
+          "score": 0.513565,
+          "task_id": "7404",
+          "task": "Provide training and support to system designers and users.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "bd87725918a95ed7589c590683a3415fb73e096a605944b31fb58e60542f5025"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__requirement__010",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "requirement",
+      "text": "2+ years as a Product Manager working with identity or security enterprise products.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.540718,
+          "task_id": "21489",
+          "task": "Engineer, install, maintain, or repair security systems, programmable logic controls, or other security-related electronic systems.",
+          "onet_soc_code": "13-1199.07",
+          "onet_soc_title": "Security Management Specialists",
+          "embedding_key": "43d172ea11e2a9c0687c070c9c669cef11d231e8a9981812db5b0683ee4a33b0"
+        },
+        {
+          "rank": 2,
+          "score": 0.537055,
+          "task_id": "4410",
+          "task": "Act as oversight or security agents for management or customers.",
+          "onet_soc_code": "33-9031.00",
+          "onet_soc_title": "Gambling Surveillance Officers and Gambling Investigators",
+          "embedding_key": "1a2ecd60671d1d54caba8564b5b550bc7b7cd9dfe346efb8fd0cf949b396d7b3"
+        },
+        {
+          "rank": 3,
+          "score": 0.501482,
+          "task_id": "3481",
+          "task": "Supervise computer programmers or other systems analysts or serve as project leaders for particular systems projects.",
+          "onet_soc_code": "15-1211.00",
+          "onet_soc_title": "Computer Systems Analysts",
+          "embedding_key": "5cab2a9c107d86f7dad9e3730c15293cbcc96243f7536f8e1ccd92c620566514"
+        },
+        {
+          "rank": 4,
+          "score": 0.494436,
+          "task_id": "21779",
+          "task": "Provide technical support to computer users for installation and use of security products.",
+          "onet_soc_code": "15-1299.05",
+          "onet_soc_title": "Information Security Engineers",
+          "embedding_key": "9fc3fca6d937c856cdbe0c1d723073db8723f636cf2638e6cac7a159451feee1"
+        },
+        {
+          "rank": 5,
+          "score": 0.492371,
+          "task_id": "6147",
+          "task": "Provide professional consulting services to government or industry.",
+          "onet_soc_code": "25-1072.00",
+          "onet_soc_title": "Nursing Instructors and Teachers, Postsecondary",
+          "embedding_key": "b79cc304210272e1517f14285ebdac44e916346582e8c809b3352b6303f2628b"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__requirement__011",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "requirement",
+      "text": "Ability to meet Microsoft, customer, and government security screening requirements, including Microsoft Cloud Background Check.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.467451,
+          "task_id": "15966",
+          "task": "Conduct or oversee collection of corporate intelligence to avoid fraud, financial crime, cyber attack, terrorism, and infrastructure failure.",
+          "onet_soc_code": "13-1199.04",
+          "onet_soc_title": "Business Continuity Planners",
+          "embedding_key": "5cd1275d8a19ee5c501508c845f49095e0ee391a0aa55c1ae9fa6b95d6648c09"
+        },
+        {
+          "rank": 2,
+          "score": 0.456227,
+          "task_id": "21781",
+          "task": "Review security assessments for computing environments or check for compliance with cybersecurity standards and regulations.",
+          "onet_soc_code": "15-1299.05",
+          "onet_soc_title": "Information Security Engineers",
+          "embedding_key": "d6d5191f676ba718c671e3c9cc144d2e1d3dea13a0eb4729b461bccf972cf1a1"
+        },
+        {
+          "rank": 3,
+          "score": 0.454215,
+          "task_id": "15637",
+          "task": "Serve as a confidential point of contact for employees to communicate with management, seek clarification on issues or dilemmas, or report irregularities.",
+          "onet_soc_code": "11-9199.02",
+          "onet_soc_title": "Compliance Managers",
+          "embedding_key": "0f6fc103b5335f03bfc68200b9a8d59ffd1203ecc1d5e171705ba3100cbab96d"
+        },
+        {
+          "rank": 4,
+          "score": 0.44701,
+          "task_id": "9736",
+          "task": "Compile, record, and evaluate personal and financial data to verify completeness and accuracy, and to determine eligibility status.",
+          "onet_soc_code": "43-4061.00",
+          "onet_soc_title": "Eligibility Interviewers, Government Programs",
+          "embedding_key": "725bca1871d27f574da30ccf147284cc8fe28fbb96449f69dbdce4632d71c617"
+        },
+        {
+          "rank": 5,
+          "score": 0.436745,
+          "task_id": "2690",
+          "task": "Process and review employment applications to evaluate qualifications or eligibility of applicants.",
+          "onet_soc_code": "43-4161.00",
+          "onet_soc_title": "Human Resources Assistants, Except Payroll and Timekeeping",
+          "embedding_key": "774767719ea2d9f96993f2fcea26c645f913df6f7a187e85fd0879a33e3352fa"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__preferred__012",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "preferred",
+      "text": "2+ years taking a product, feature, or experience to market.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.496292,
+          "task_id": "9696",
+          "task": "Develop sales plans to introduce products in new markets.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "0f8a0353ca561feae4ba67e83ee9db54a3f87a8f580913995419574289403ece"
+        },
+        {
+          "rank": 2,
+          "score": 0.47607,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 3,
+          "score": 0.474802,
+          "task_id": "18831",
+          "task": "Conduct market research and analyze industry trends.",
+          "onet_soc_code": "11-9171.00",
+          "onet_soc_title": "Funeral Home Managers",
+          "embedding_key": "10d229eee401e2cd867b72567ac21fbea8e09991f9def51a2feefa1815901c07"
+        },
+        {
+          "rank": 4,
+          "score": 0.473592,
+          "task_id": "15417",
+          "task": "Participate in the development of product specifications.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "7a135d8ec2a302f745f256a5909c013b28f07ed5ed1d8fc4b47520774fbbbdae"
+        },
+        {
+          "rank": 5,
+          "score": 0.466007,
+          "task_id": "8467",
+          "task": "Plan and develop new products and production processes.",
+          "onet_soc_code": "51-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Production and Operating Workers",
+          "embedding_key": "4239729605f5bc95c6e5cf0cf17febe938169d3ac8173f0c5cf34a4b36da1c74"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__preferred__013",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "preferred",
+      "text": "4+ years improving product metrics such as customer growth, usage, or churn reduction.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.57989,
+          "task_id": "21090",
+          "task": "Keep informed regarding pending industry changes, trends, or best practices.",
+          "onet_soc_code": "11-9199.02",
+          "onet_soc_title": "Compliance Managers",
+          "embedding_key": "194354391d411ea94683a15fed32499743ef862c553e7fbbd937d72963c2c11c"
+        },
+        {
+          "rank": 2,
+          "score": 0.57989,
+          "task_id": "21459",
+          "task": "Keep informed regarding pending industry changes, trends, or best practices.",
+          "onet_soc_code": "13-1041.00",
+          "onet_soc_title": "Compliance Officers",
+          "embedding_key": "194354391d411ea94683a15fed32499743ef862c553e7fbbd937d72963c2c11c"
+        },
+        {
+          "rank": 3,
+          "score": 0.577538,
+          "task_id": "1086",
+          "task": "Establish standards for personnel performance and customer service.",
+          "onet_soc_code": "11-9051.00",
+          "onet_soc_title": "Food Service Managers",
+          "embedding_key": "690a0dedb2618696d9a800013371dded700d9824d4bf6fd25b56f32a5a7d3bde"
+        },
+        {
+          "rank": 4,
+          "score": 0.575646,
+          "task_id": "20763",
+          "task": "Apply customer feedback to service improvement efforts.",
+          "onet_soc_code": "39-1022.00",
+          "onet_soc_title": "First-Line Supervisors of Personal Service Workers",
+          "embedding_key": "69546e4716bb3c865d09b13a6350b548975fdcb45d001d9540b83fab8ce7c827"
+        },
+        {
+          "rank": 5,
+          "score": 0.575646,
+          "task_id": "23697",
+          "task": "Apply customer feedback to service improvement efforts.",
+          "onet_soc_code": "53-1044.00",
+          "onet_soc_title": "First-Line Supervisors of Passenger Attendants",
+          "embedding_key": "69546e4716bb3c865d09b13a6350b548975fdcb45d001d9540b83fab8ce7c827"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__preferred__014",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "preferred",
+      "text": "4+ years disrupting a market for a product, feature, or experience.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.482829,
+          "task_id": "18831",
+          "task": "Conduct market research and analyze industry trends.",
+          "onet_soc_code": "11-9171.00",
+          "onet_soc_title": "Funeral Home Managers",
+          "embedding_key": "10d229eee401e2cd867b72567ac21fbea8e09991f9def51a2feefa1815901c07"
+        },
+        {
+          "rank": 2,
+          "score": 0.481468,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 3,
+          "score": 0.476071,
+          "task_id": "20377",
+          "task": "Research latest products, technology, or design trends to stay current in the field.",
+          "onet_soc_code": "17-1012.00",
+          "onet_soc_title": "Landscape Architects",
+          "embedding_key": "6757ada91dc04b5916291b913d9055f4825cd55c8da8705b359a3631da6f40f4"
+        },
+        {
+          "rank": 4,
+          "score": 0.457513,
+          "task_id": "9696",
+          "task": "Develop sales plans to introduce products in new markets.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "0f8a0353ca561feae4ba67e83ee9db54a3f87a8f580913995419574289403ece"
+        },
+        {
+          "rank": 5,
+          "score": 0.452135,
+          "task_id": "16147",
+          "task": "Analyze technology trends to identify markets for future product development or to improve sales of existing products.",
+          "onet_soc_code": "15-2051.01",
+          "onet_soc_title": "Business Intelligence Analysts",
+          "embedding_key": "5ee627cfec544c22b646d7cf1d0c84a5c5b99f45951461f5f79536b2c9edb3e2"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_senior_product_manager_200015570__preferred__015",
+      "job_key": "microsoft_senior_product_manager_200015570",
+      "job_name": "Microsoft Senior Product Manager",
+      "company": "Microsoft",
+      "title": "Senior Product Manager",
+      "location": "United States, Multiple Locations / Remote",
+      "job_id": "200015570",
+      "category": "preferred",
+      "text": "Experience using generative AI tools to improve product development and product experiences.",
+      "source_file": "Senior Product Manager _ Microsoft Careers.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.485273,
+          "task_id": "21709",
+          "task": "Research and apply innovative solutions for product design, visuals, and user experience to meet the needs of individual Web development projects.",
+          "onet_soc_code": "15-1255.00",
+          "onet_soc_title": "Web and Digital Interface Designers",
+          "embedding_key": "92801e7e9eb044b3ff3b5d0140ac264787dbd5ac77a584bee15e2c31e2270506"
+        },
+        {
+          "rank": 2,
+          "score": 0.477879,
+          "task_id": "11256",
+          "task": "Provide feedback to product design teams so that products can be tailored to clients' needs.",
+          "onet_soc_code": "41-4011.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+          "embedding_key": "0cd6ab3a63620de69bf1f6d4b1f86b38299365f0182cef67c84b9926c05eba97"
+        },
+        {
+          "rank": 3,
+          "score": 0.467017,
+          "task_id": "13024",
+          "task": "Collaborate with other designers to coordinate special products and designs.",
+          "onet_soc_code": "27-1022.00",
+          "onet_soc_title": "Fashion Designers",
+          "embedding_key": "d20512bdeaead48439a379bc8fe2713b3379a13c7122dd5f6d9eaf2d4eb60c8a"
+        },
+        {
+          "rank": 4,
+          "score": 0.461531,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 5,
+          "score": 0.454958,
+          "task_id": "15417",
+          "task": "Participate in the development of product specifications.",
+          "onet_soc_code": "11-3051.01",
+          "onet_soc_title": "Quality Control Systems Managers",
+          "embedding_key": "7a135d8ec2a302f745f256a5909c013b28f07ed5ed1d8fc4b47520774fbbbdae"
+        }
+      ]
+    }
+  ]
+}

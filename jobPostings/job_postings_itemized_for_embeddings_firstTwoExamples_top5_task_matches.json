@@ -1,0 +1,2664 @@
+{
+  "input_jsonl_path": "jobPostings\\job_postings_itemized_for_embeddings_firstTwoExamples.jsonl",
+  "task_embedding_json": "V:\\repoLocation2\\SOC_2026_classExpansion\\scripts\\task_dwa_embeddings_all_mpnet_base_v2.json",
+  "model_name": "sentence-transformers/all-mpnet-base-v2",
+  "top_k": 5,
+  "item_count": 45,
+  "results": [
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__overview__001",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "overview",
+      "text": "Drive the transformation of developer experience across Mastercard.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.445584,
+          "task_id": "9699",
+          "task": "Train team members in the customer applications of technologies.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "19681b1e585171f6ca8a6a368b143f685d434dab36287aa935837f376b27524e"
+        },
+        {
+          "rank": 2,
+          "score": 0.440486,
+          "task_id": "16211",
+          "task": "Create gameplay prototypes for presentation to creative and technical staff and management.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "ca5c955897e944e5aab67135a7063f67f18bf2fcf9a1549d76303a52f8f671d4"
+        },
+        {
+          "rank": 3,
+          "score": 0.428834,
+          "task_id": "14737",
+          "task": "Collaborate with development teams to discuss, analyze, or resolve usability issues.",
+          "onet_soc_code": "15-1299.01",
+          "onet_soc_title": "Web Administrators",
+          "embedding_key": "8962207125eaf95ad55a357a4dcfe709c03253a53354d2e8b673716438767b17"
+        },
+        {
+          "rank": 4,
+          "score": 0.427453,
+          "task_id": "7404",
+          "task": "Provide training and support to system designers and users.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "bd87725918a95ed7589c590683a3415fb73e096a605944b31fb58e60542f5025"
+        },
+        {
+          "rank": 5,
+          "score": 0.415361,
+          "task_id": "14653",
+          "task": "Provide feedback and recommendations to developers on software usability and functionality.",
+          "onet_soc_code": "15-1253.00",
+          "onet_soc_title": "Software Quality Assurance Analysts and Testers",
+          "embedding_key": "3313185613acb6791f0ae83b735a289b949aedf6122f287bbb475102cb5e107b"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__overview__002",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "overview",
+      "text": "Support software engineers by improving documentation workflows, streamlining onboarding for internal products, and enhancing platform usability.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.676008,
+          "task_id": "7404",
+          "task": "Provide training and support to system designers and users.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "bd87725918a95ed7589c590683a3415fb73e096a605944b31fb58e60542f5025"
+        },
+        {
+          "rank": 2,
+          "score": 0.665191,
+          "task_id": "21713",
+          "task": "Write and edit technical documentation for digital interface products and designs, such as user manuals, testing protocols, and reports.",
+          "onet_soc_code": "15-1255.00",
+          "onet_soc_title": "Web and Digital Interface Designers",
+          "embedding_key": "945d8f71486cdad9668c963161246570a3cf25899430fe2009cf7cb7aae35dd1"
+        },
+        {
+          "rank": 3,
+          "score": 0.644344,
+          "task_id": "22024",
+          "task": "Assist engineers in developing, building, or testing prototypes or new products, processes, or procedures.",
+          "onet_soc_code": "17-3026.00",
+          "onet_soc_title": "Industrial Engineering Technologists and Technicians",
+          "embedding_key": "bd19d79c6f3a63b745d7c56b843362fb0d5b1013a0a2e37b8fadc002189926f3"
+        },
+        {
+          "rank": 4,
+          "score": 0.643253,
+          "task_id": "15982",
+          "task": "Prepare requirements documentation for use by software developers.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "bae6f6f36104d0c9aab81e76371c98dfb2549d0e4f865ad96006c0407031041d"
+        },
+        {
+          "rank": 5,
+          "score": 0.640954,
+          "task_id": "14670",
+          "task": "Collaborate with engineers or software developers to select appropriate design solutions or ensure the compatibility of system components.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "a20458c4ad3e5d1f3ad0a587e35a6a973bfeef1f7a95c4695f4f65ba62323a06"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__overview__003",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "overview",
+      "text": "Collaborate across engineering, product, and technical writing teams to help developers build and operate high-quality software with speed and confidence.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.629612,
+          "task_id": "16207",
+          "task": "Guide design discussions between development teams.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "3f65d2e12549296dc6f7dcdd64b29657af6d58e2666f9ffbc5126a6dfa49f6ca"
+        },
+        {
+          "rank": 2,
+          "score": 0.582513,
+          "task_id": "14670",
+          "task": "Collaborate with engineers or software developers to select appropriate design solutions or ensure the compatibility of system components.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "a20458c4ad3e5d1f3ad0a587e35a6a973bfeef1f7a95c4695f4f65ba62323a06"
+        },
+        {
+          "rank": 3,
+          "score": 0.581532,
+          "task_id": "14737",
+          "task": "Collaborate with development teams to discuss, analyze, or resolve usability issues.",
+          "onet_soc_code": "15-1299.01",
+          "onet_soc_title": "Web Administrators",
+          "embedding_key": "8962207125eaf95ad55a357a4dcfe709c03253a53354d2e8b673716438767b17"
+        },
+        {
+          "rank": 4,
+          "score": 0.572106,
+          "task_id": "14653",
+          "task": "Provide feedback and recommendations to developers on software usability and functionality.",
+          "onet_soc_code": "15-1253.00",
+          "onet_soc_title": "Software Quality Assurance Analysts and Testers",
+          "embedding_key": "3313185613acb6791f0ae83b735a289b949aedf6122f287bbb475102cb5e107b"
+        },
+        {
+          "rank": 5,
+          "score": 0.568373,
+          "task_id": "16212",
+          "task": "Create and manage documentation, production schedules, prototyping goals, and communication plans in collaboration with production staff.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "c0e032693dc9265ce964c279a8ca157ad6469938cd59734c09393044f3d45af6"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__004",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Partner closely with customers, Technical Program Managers, Software Design Engineers, and User Experience teams.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.751128,
+          "task_id": "16396",
+          "task": "Advocate for end users in collaboration with other professionals, including engineers, designers, managers, or customers.",
+          "onet_soc_code": "17-2112.01",
+          "onet_soc_title": "Human Factors Engineers and Ergonomists",
+          "embedding_key": "be8ee682e3b3af8a890af5c5d7b7c4b18b64ffb31dec3791c5380af8bb268856"
+        },
+        {
+          "rank": 2,
+          "score": 0.737008,
+          "task_id": "16113",
+          "task": "Collaborate with system architects, software architects, design analysts, and others to understand business or industry requirements.",
+          "onet_soc_code": "15-1243.00",
+          "onet_soc_title": "Database Architects",
+          "embedding_key": "d5c6f021852e80a299887276c01824f73aa99c8feebc32274665e271fe5763e3"
+        },
+        {
+          "rank": 3,
+          "score": 0.699503,
+          "task_id": "7404",
+          "task": "Provide training and support to system designers and users.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "bd87725918a95ed7589c590683a3415fb73e096a605944b31fb58e60542f5025"
+        },
+        {
+          "rank": 4,
+          "score": 0.681407,
+          "task_id": "7392",
+          "task": "Provide technical support to designers, marketing and sales departments, suppliers, engineers and other team members throughout the product development and implementation process.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "64ce4aa7c96fec3e5f54f2530c6e057ef0d3b5674a14179d4d30b4c95d30d541"
+        },
+        {
+          "rank": 5,
+          "score": 0.678737,
+          "task_id": "14670",
+          "task": "Collaborate with engineers or software developers to select appropriate design solutions or ensure the compatibility of system components.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "a20458c4ad3e5d1f3ad0a587e35a6a973bfeef1f7a95c4695f4f65ba62323a06"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__005",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Define and guide products from conception to launch by bridging technical and business needs.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.70092,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 2,
+          "score": 0.683512,
+          "task_id": "8467",
+          "task": "Plan and develop new products and production processes.",
+          "onet_soc_code": "51-1011.00",
+          "onet_soc_title": "First-Line Supervisors of Production and Operating Workers",
+          "embedding_key": "4239729605f5bc95c6e5cf0cf17febe938169d3ac8173f0c5cf34a4b36da1c74"
+        },
+        {
+          "rank": 3,
+          "score": 0.681578,
+          "task_id": "11239",
+          "task": "Emphasize product features, based on analyses of customers' needs and on technical knowledge of product capabilities and limitations.",
+          "onet_soc_code": "41-4011.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+          "embedding_key": "0fdc7fdfbf4c427980b8dac85d7ff753d596f093bdde74facf193f1d22840fc5"
+        },
+        {
+          "rank": 4,
+          "score": 0.672087,
+          "task_id": "8941",
+          "task": "Direct and support the compilation and analysis of technical source data necessary for product development.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "af999b4dc12921c0fd56fec404b694cbd03e99c5fc9cceca3517724893a51595"
+        },
+        {
+          "rank": 5,
+          "score": 0.669267,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__006",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Break down requirements into features and user stories, prioritize the backlog, and define acceptance criteria.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.65684,
+          "task_id": "18129",
+          "task": "Develop validation master plans, process flow diagrams, test cases, or standard operating procedures.",
+          "onet_soc_code": "17-2112.02",
+          "onet_soc_title": "Validation Engineers",
+          "embedding_key": "3054e447313d63a5d4e66feaf2a9167a9a88ef0eb9bec979dfb4a92d0859f57b"
+        },
+        {
+          "rank": 2,
+          "score": 0.645436,
+          "task_id": "3476",
+          "task": "Define the goals of the system and devise flow charts and diagrams describing logical operational steps of programs.",
+          "onet_soc_code": "15-1211.00",
+          "onet_soc_title": "Computer Systems Analysts",
+          "embedding_key": "9fcd29e315366969751e2d65c2ef4a28744b3581f1a0a3cb63a1025ed0c4854d"
+        },
+        {
+          "rank": 3,
+          "score": 0.644749,
+          "task_id": "14702",
+          "task": "Analyze user needs to determine technical requirements.",
+          "onet_soc_code": "15-1254.00",
+          "onet_soc_title": "Web Developers",
+          "embedding_key": "99b9f53e77a3f73df7fb41a797b1b80295b41db058f46859aad3381a08c798ad"
+        },
+        {
+          "rank": 4,
+          "score": 0.642116,
+          "task_id": "21689",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1255.00",
+          "onet_soc_title": "Web and Digital Interface Designers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        },
+        {
+          "rank": 5,
+          "score": 0.642116,
+          "task_id": "14697",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1254.00",
+          "onet_soc_title": "Web Developers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__007",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Take a long-term view and become a domain expert beyond the scope of a single project.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.661084,
+          "task_id": "21582",
+          "task": "Collaborate on projects with other professionals, such as lawyers, accountants, or public relations experts.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "690f674271b74baf30a983315d434dd7bf233d8e943b75a7911773e91daaed72"
+        },
+        {
+          "rank": 2,
+          "score": 0.660708,
+          "task_id": "7206",
+          "task": "Prepare project proposals.",
+          "onet_soc_code": "11-9121.00",
+          "onet_soc_title": "Natural Sciences Managers",
+          "embedding_key": "9593e71f6059d2eb01c5c07601157768ee06bf9ffb77a436adb74b1116ad39a3"
+        },
+        {
+          "rank": 3,
+          "score": 0.624318,
+          "task_id": "21477",
+          "task": "Recruit or hire project personnel.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "8a65395345ec01bfdd5c973883c0f248585594c552f6b3a6e4b5a20975dfd8fc"
+        },
+        {
+          "rank": 4,
+          "score": 0.609586,
+          "task_id": "21107",
+          "task": "Write proposals to win new projects.",
+          "onet_soc_code": "19-3022.00",
+          "onet_soc_title": "Survey Researchers",
+          "embedding_key": "a05f52491d386c5e7e625554ef5fb65cf41667d6ca20bba90eff16fb72be99bb"
+        },
+        {
+          "rank": 5,
+          "score": 0.608945,
+          "task_id": "22089",
+          "task": "Attend conferences, workshops, or other training sessions to learn about new tools or methods.",
+          "onet_soc_code": "17-3028.00",
+          "onet_soc_title": "Calibration Technologists and Technicians",
+          "embedding_key": "f0704942e7d44d5f66a255d7c1da4f1c14241badea0a8c17c6f03135d9801b57"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__008",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Provide engineering teams with a well-groomed backlog of features and user stories.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.608013,
+          "task_id": "21854",
+          "task": "Manage teams of engineers by creating schedules, tracking inventory, creating or using budgets, or overseeing contract obligations or deadlines.",
+          "onet_soc_code": "17-2031.00",
+          "onet_soc_title": "Bioengineers and Biomedical Engineers",
+          "embedding_key": "f81121460f8ffdc0ced49f456afe0984616d2a19b402eb3ffe9ea5ccec59b64a"
+        },
+        {
+          "rank": 2,
+          "score": 0.579314,
+          "task_id": "20161",
+          "task": "Complete production reports to communicate team production level to management.",
+          "onet_soc_code": "51-2092.00",
+          "onet_soc_title": "Team Assemblers",
+          "embedding_key": "39c477e87bd9445e2515877e01143e918fa91e5fc0d1d23af30e88d5ff25e977"
+        },
+        {
+          "rank": 3,
+          "score": 0.568859,
+          "task_id": "16212",
+          "task": "Create and manage documentation, production schedules, prototyping goals, and communication plans in collaboration with production staff.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "c0e032693dc9265ce964c279a8ca157ad6469938cd59734c09393044f3d45af6"
+        },
+        {
+          "rank": 4,
+          "score": 0.558404,
+          "task_id": "1347",
+          "task": "Confer with engineers, customers, or others to discuss existing or potential engineering projects or products.",
+          "onet_soc_code": "17-2071.00",
+          "onet_soc_title": "Electrical Engineers",
+          "embedding_key": "af97b30a1e06f7dfeffdceaf691bec5a7637ed51bca6f6ff980ee16b81d4f2a1"
+        },
+        {
+          "rank": 5,
+          "score": 0.558378,
+          "task_id": "16157",
+          "task": "Monitor or track project milestones and deliverables.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "5043f67598e68e1d7ea67feb13ac95d7f68d79914c6855d3e34650f86c2856bd"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__009",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Promote reuse of product building blocks and drive continuous innovation for internal and external customers.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.669762,
+          "task_id": "20715",
+          "task": "Collaborate with vendors to obtain or develop desired products.",
+          "onet_soc_code": "13-1022.00",
+          "onet_soc_title": "Wholesale and Retail Buyers, Except Farm Products",
+          "embedding_key": "d89fcccc7418db8d0b3bf6d2f2fd9178531329562ee864664ebeecee6326a286"
+        },
+        {
+          "rank": 2,
+          "score": 0.628948,
+          "task_id": "9259",
+          "task": "Develop product packaging, display, and pricing strategies.",
+          "onet_soc_code": "27-1012.00",
+          "onet_soc_title": "Craft Artists",
+          "embedding_key": "f97b735a8ea084545ef1553079f3216cacba51000e000667eeb246cd7026e00d"
+        },
+        {
+          "rank": 3,
+          "score": 0.627434,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 4,
+          "score": 0.625657,
+          "task_id": "11256",
+          "task": "Provide feedback to product design teams so that products can be tailored to clients' needs.",
+          "onet_soc_code": "41-4011.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+          "embedding_key": "0cd6ab3a63620de69bf1f6d4b1f86b38299365f0182cef67c84b9926c05eba97"
+        },
+        {
+          "rank": 5,
+          "score": 0.620653,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__010",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Define how new capabilities fit within the platform ecosystem and write and prioritize user stories to build new components.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.577155,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 2,
+          "score": 0.572686,
+          "task_id": "22030",
+          "task": "Develop manufacturing infrastructure to integrate or deploy new manufacturing processes.",
+          "onet_soc_code": "17-3026.00",
+          "onet_soc_title": "Industrial Engineering Technologists and Technicians",
+          "embedding_key": "783637fa66526caef8a63d54d1d1942317f527ec9b42d6c77358bfbb0e012498"
+        },
+        {
+          "rank": 3,
+          "score": 0.570416,
+          "task_id": "21653",
+          "task": "Develop methods for integrating different products so they work properly together, such as customizing commercial databases to fit specific needs.",
+          "onet_soc_code": "15-1243.00",
+          "onet_soc_title": "Database Architects",
+          "embedding_key": "1c31546e3f21262c27a411d37a56b6cfa39fad5376bafc84c9f1f88f233bd04e"
+        },
+        {
+          "rank": 4,
+          "score": 0.558993,
+          "task_id": "14697",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1254.00",
+          "onet_soc_title": "Web Developers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        },
+        {
+          "rank": 5,
+          "score": 0.558993,
+          "task_id": "21689",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1255.00",
+          "onet_soc_title": "Web and Digital Interface Designers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__011",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Identify commercialization opportunities for product building blocks and propose ideas to product development teams for further advancement.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.726129,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 2,
+          "score": 0.711079,
+          "task_id": "20715",
+          "task": "Collaborate with vendors to obtain or develop desired products.",
+          "onet_soc_code": "13-1022.00",
+          "onet_soc_title": "Wholesale and Retail Buyers, Except Farm Products",
+          "embedding_key": "d89fcccc7418db8d0b3bf6d2f2fd9178531329562ee864664ebeecee6326a286"
+        },
+        {
+          "rank": 3,
+          "score": 0.70748,
+          "task_id": "6911",
+          "task": "Participate in new product planning or market research, including studying the potential need for new products.",
+          "onet_soc_code": "27-1021.00",
+          "onet_soc_title": "Commercial and Industrial Designers",
+          "embedding_key": "a19affbbb06d523acf1dc473317cb0989067160204bb0a27aa707d551f6cdd06"
+        },
+        {
+          "rank": 4,
+          "score": 0.703551,
+          "task_id": "3244",
+          "task": "Direct and coordinate product research and development.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "37c7c93ea52a14b6232cba0f6fd12846b2fc17dfee0f226b9429069129cb162e"
+        },
+        {
+          "rank": 5,
+          "score": 0.69027,
+          "task_id": "16147",
+          "task": "Analyze technology trends to identify markets for future product development or to improve sales of existing products.",
+          "onet_soc_code": "15-2051.01",
+          "onet_soc_title": "Business Intelligence Analysts",
+          "embedding_key": "5ee627cfec544c22b646d7cf1d0c84a5c5b99f45951461f5f79536b2c9edb3e2"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__012",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Advocate for customers by engaging with them to understand use cases, pain points, workflows, priorities, and daily tools.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.780398,
+          "task_id": "18765",
+          "task": "Assist customers by providing information and resolving their complaints.",
+          "onet_soc_code": "41-2011.00",
+          "onet_soc_title": "Cashiers",
+          "embedding_key": "60238621149a84f1b1691cf719326793424f267c53396db8200fe332aec98242"
+        },
+        {
+          "rank": 2,
+          "score": 0.769996,
+          "task_id": "21311",
+          "task": "Establish and maintain relationships with individual or business customers or provide assistance with problems these customers may encounter.",
+          "onet_soc_code": "11-3031.00",
+          "onet_soc_title": "Financial Managers",
+          "embedding_key": "a250caadc9438ab323c0f3ce5f1163b55fe3e98ea41c8aaae07bd9da380699ea"
+        },
+        {
+          "rank": 3,
+          "score": 0.767317,
+          "task_id": "16396",
+          "task": "Advocate for end users in collaboration with other professionals, including engineers, designers, managers, or customers.",
+          "onet_soc_code": "17-2112.01",
+          "onet_soc_title": "Human Factors Engineers and Ergonomists",
+          "embedding_key": "be8ee682e3b3af8a890af5c5d7b7c4b18b64ffb31dec3791c5380af8bb268856"
+        },
+        {
+          "rank": 4,
+          "score": 0.762803,
+          "task_id": "3155",
+          "task": "Listen to and resolve customers' complaints regarding products or services.",
+          "onet_soc_code": "53-3031.00",
+          "onet_soc_title": "Driver/Sales Workers",
+          "embedding_key": "45c28be169887b8df90aabed4c10663844e3cf0819254931f26b332f29183265"
+        },
+        {
+          "rank": 5,
+          "score": 0.762783,
+          "task_id": "8933",
+          "task": "Develop an understanding of customers' needs and take actions to ensure that such needs are met.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "a85eae2f6bcc5542e702baaa8b7370ed844105dd893caf6a7960572091c11937"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__013",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Understand the customer journey and user experience to help customers efficiently develop, deploy, and scale applications across multiple platforms.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.581513,
+          "task_id": "3475",
+          "task": "Assess the usefulness of pre-developed application packages and adapt them to a user environment.",
+          "onet_soc_code": "15-1211.00",
+          "onet_soc_title": "Computer Systems Analysts",
+          "embedding_key": "e4a13108a047c6b2ce8c627d9fdd89f2d4d4efe0b29ab4d9faea5ab12eb91c51"
+        },
+        {
+          "rank": 2,
+          "score": 0.536765,
+          "task_id": "16174",
+          "task": "Implement online customer service processes to ensure positive and consistent user experiences.",
+          "onet_soc_code": "13-1161.01",
+          "onet_soc_title": "Search Marketing Strategists",
+          "embedding_key": "5ff0b883647acbc9a0f17a6343175c79f87fcafb2b7daa7785d6938bfaa836bf"
+        },
+        {
+          "rank": 3,
+          "score": 0.509443,
+          "task_id": "21732",
+          "task": "Confer with users to analyze, configure, or troubleshoot applications.",
+          "onet_soc_code": "15-1299.02",
+          "onet_soc_title": "Geographic Information Systems Technologists and Technicians",
+          "embedding_key": "ac6e4c75715cd295b241caf1fdc581350c810516555d4b45f3026acaa6af277c"
+        },
+        {
+          "rank": 4,
+          "score": 0.497179,
+          "task_id": "9678",
+          "task": "Plan and modify product configurations to meet customer needs.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "77aabb42cddac5cd71f8ca6b1c42774377f3ff236db07a52cc90d093f457b0a5"
+        },
+        {
+          "rank": 5,
+          "score": 0.49666,
+          "task_id": "1328",
+          "task": "Gather data pertaining to customer needs, and use the information to identify, predict, interpret, and evaluate system and network requirements.",
+          "onet_soc_code": "15-1244.00",
+          "onet_soc_title": "Network and Computer Systems Administrators",
+          "embedding_key": "c9008b00c922ebba7d0cfb401d3e6a393bef665ac280d20022b6256ac392a9b5"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__014",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Collaborate closely with engineering teams to deliver platform capabilities that meet internal and external customer needs.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.637755,
+          "task_id": "14670",
+          "task": "Collaborate with engineers or software developers to select appropriate design solutions or ensure the compatibility of system components.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "a20458c4ad3e5d1f3ad0a587e35a6a973bfeef1f7a95c4695f4f65ba62323a06"
+        },
+        {
+          "rank": 2,
+          "score": 0.615958,
+          "task_id": "20715",
+          "task": "Collaborate with vendors to obtain or develop desired products.",
+          "onet_soc_code": "13-1022.00",
+          "onet_soc_title": "Wholesale and Retail Buyers, Except Farm Products",
+          "embedding_key": "d89fcccc7418db8d0b3bf6d2f2fd9178531329562ee864664ebeecee6326a286"
+        },
+        {
+          "rank": 3,
+          "score": 0.608164,
+          "task_id": "16396",
+          "task": "Advocate for end users in collaboration with other professionals, including engineers, designers, managers, or customers.",
+          "onet_soc_code": "17-2112.01",
+          "onet_soc_title": "Human Factors Engineers and Ergonomists",
+          "embedding_key": "be8ee682e3b3af8a890af5c5d7b7c4b18b64ffb31dec3791c5380af8bb268856"
+        },
+        {
+          "rank": 4,
+          "score": 0.603374,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 5,
+          "score": 0.603306,
+          "task_id": "7392",
+          "task": "Provide technical support to designers, marketing and sales departments, suppliers, engineers and other team members throughout the product development and implementation process.",
+          "onet_soc_code": "17-2061.00",
+          "onet_soc_title": "Computer Hardware Engineers",
+          "embedding_key": "64ce4aa7c96fec3e5f54f2530c6e057ef0d3b5674a14179d4d30b4c95d30d541"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__role__015",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "role",
+      "text": "Identify and track key product metrics such as usage, quality, and satisfaction to inform product decisions.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.68791,
+          "task_id": "1535",
+          "task": "Monitor product quality to ensure compliance with standards and specifications.",
+          "onet_soc_code": "19-4031.00",
+          "onet_soc_title": "Chemical Technicians",
+          "embedding_key": "77df12e58f17ab990869c7ce94d727423273fa1eaca6673f0d82ee9388d77f5d"
+        },
+        {
+          "rank": 2,
+          "score": 0.670128,
+          "task_id": "15695",
+          "task": "Define performance metrics for measurement, comparison, or evaluation of supply chain factors, such as product cost or quality.",
+          "onet_soc_code": "11-3071.04",
+          "onet_soc_title": "Supply Chain Managers",
+          "embedding_key": "ef39e6eafc202f2a914a799ee4c4257b40f63aff03a2b43a076b9f58140451f7"
+        },
+        {
+          "rank": 3,
+          "score": 0.666193,
+          "task_id": "18068",
+          "task": "Develop or track quality metrics.",
+          "onet_soc_code": "13-1041.07",
+          "onet_soc_title": "Regulatory Affairs Specialists",
+          "embedding_key": "fcd49c35fd93cc8ac36326336daeb3274a6b9086d6d35534a305c0cb59176255"
+        },
+        {
+          "rank": 4,
+          "score": 0.655099,
+          "task_id": "18175",
+          "task": "Evaluate manufactured products according to specifications and quality standards.",
+          "onet_soc_code": "17-2112.03",
+          "onet_soc_title": "Manufacturing Engineers",
+          "embedding_key": "76bae6a0f53f2b435390e0367515120317f7139c7b89b4a09e5d268e35cc6d68"
+        },
+        {
+          "rank": 5,
+          "score": 0.640159,
+          "task_id": "8122",
+          "task": "Monitor market conditions, product innovations, and competitors' products, prices, and sales.",
+          "onet_soc_code": "41-4012.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+          "embedding_key": "3aadee9a7a82202752fef7ffcb6dc9832ee11ac0943e0d9b76ed32bd5d3a661d"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__016",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "Bachelor\u2019s degree in Information Technology, Computer Science, or Management Information Systems, or equivalent relevant experience or education.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.571593,
+          "task_id": "1326",
+          "task": "Train people in computer system use.",
+          "onet_soc_code": "15-1244.00",
+          "onet_soc_title": "Network and Computer Systems Administrators",
+          "embedding_key": "236bf9bd70628f24f87db9f5c5fc6910795c188f0e2ba5b850b702b7676777d4"
+        },
+        {
+          "rank": 2,
+          "score": 0.553911,
+          "task_id": "3481",
+          "task": "Supervise computer programmers or other systems analysts or serve as project leaders for particular systems projects.",
+          "onet_soc_code": "15-1211.00",
+          "onet_soc_title": "Computer Systems Analysts",
+          "embedding_key": "5cab2a9c107d86f7dad9e3730c15293cbcc96243f7536f8e1ccd92c620566514"
+        },
+        {
+          "rank": 3,
+          "score": 0.507077,
+          "task_id": "21718",
+          "task": "Provide technical expertise in Geographic Information Systems (GIS) technology to clients or users.",
+          "onet_soc_code": "15-1299.02",
+          "onet_soc_title": "Geographic Information Systems Technologists and Technicians",
+          "embedding_key": "6eb777c9f6e626b141a4201faebda6077c84ef3d68f5f6afafcb7538ed006585"
+        },
+        {
+          "rank": 4,
+          "score": 0.500409,
+          "task_id": "21741",
+          "task": "Conduct research, data analysis, systems design, or support for software such as Geographic Information Systems (GIS) or Global Positioning Systems (GPS) mapping software.",
+          "onet_soc_code": "15-1299.02",
+          "onet_soc_title": "Geographic Information Systems Technologists and Technicians",
+          "embedding_key": "f8ba4897095184a26645ed8636faaf29b924c4a258b210d9d57107ad351d1be8"
+        },
+        {
+          "rank": 5,
+          "score": 0.500245,
+          "task_id": "5574",
+          "task": "Develop and maintain computer databases.",
+          "onet_soc_code": "19-4071.00",
+          "onet_soc_title": "Forest and Conservation Technicians",
+          "embedding_key": "a688696667a9e48348d3664d2065d08260b083e3889260e758b5fcdd0e666710"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__017",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "Excellent verbal and written communication skills.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.571517,
+          "task_id": "22633",
+          "task": "Establish and maintain relationships with individuals who are credible sources of information.",
+          "onet_soc_code": "27-3023.00",
+          "onet_soc_title": "News Analysts, Reporters, and Journalists",
+          "embedding_key": "a43409347e15494651f1397a98a4e673873ef4064cc993f673e5c2c498a4f828"
+        },
+        {
+          "rank": 2,
+          "score": 0.562906,
+          "task_id": "8610",
+          "task": "Earn and maintain appropriate certifications.",
+          "onet_soc_code": "53-3011.00",
+          "onet_soc_title": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+          "embedding_key": "7c7bb6980ffd2aae8dcb9ed8bd009a08b96a99211e3bfa64f0a0b37a025969aa"
+        },
+        {
+          "rank": 3,
+          "score": 0.545914,
+          "task_id": "22405",
+          "task": "Teach social skills to students, such as communication, conflict resolution, and etiquette.",
+          "onet_soc_code": "25-3031.00",
+          "onet_soc_title": "Substitute Teachers, Short-Term",
+          "embedding_key": "b506ed0d505777066b1f2d5d174935a26c347d1c65b9929371ccdb05b2f5aa85"
+        },
+        {
+          "rank": 4,
+          "score": 0.540574,
+          "task_id": "6792",
+          "task": "Teach personal development skills, such as goal setting, independence, and self-advocacy.",
+          "onet_soc_code": "25-2058.00",
+          "onet_soc_title": "Special Education Teachers, Secondary School",
+          "embedding_key": "33afca76f794291c22d093e74f1a37d9be0cdcd604a48b00e46f34747426c055"
+        },
+        {
+          "rank": 5,
+          "score": 0.53314,
+          "task_id": "7021",
+          "task": "Use telephone to deliver verbal messages.",
+          "onet_soc_code": "43-5021.00",
+          "onet_soc_title": "Couriers and Messengers",
+          "embedding_key": "7c05f04e0034b6654138421a89496c9fc1a6d25ade3b14937cd829c3c65a7ff7"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__018",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "Strong understanding of software methodologies, including functionality and limitations.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.596199,
+          "task_id": "21667",
+          "task": "Design, develop and modify software systems, using scientific analysis and mathematical models to predict and measure outcomes and consequences of design.",
+          "onet_soc_code": "15-1252.00",
+          "onet_soc_title": "Software Developers",
+          "embedding_key": "46bdba3da7e38aa1f5000b7a760b7ea70c832445ad9e8229132a8d401b505433"
+        },
+        {
+          "rank": 2,
+          "score": 0.576446,
+          "task_id": "21669",
+          "task": "Develop or direct software system testing or validation procedures, programming, or documentation.",
+          "onet_soc_code": "15-1252.00",
+          "onet_soc_title": "Software Developers",
+          "embedding_key": "9212a34188f3ab41f9c57dadf466f3aaebf79f1dd13e2a6ee1fb5b2b9471cc6d"
+        },
+        {
+          "rank": 3,
+          "score": 0.56301,
+          "task_id": "1273",
+          "task": "Write, analyze, review, and rewrite programs, using workflow chart and diagram, and applying knowledge of computer capabilities, subject matter, and symbolic logic.",
+          "onet_soc_code": "15-1251.00",
+          "onet_soc_title": "Computer Programmers",
+          "embedding_key": "e7bf3cd53df436311c17e27c4ce406659829cd88e1a93e2acd7de19ba42c6ca0"
+        },
+        {
+          "rank": 4,
+          "score": 0.560555,
+          "task_id": "3480",
+          "task": "Read manuals, periodicals, and technical reports to learn how to develop programs that meet staff and user requirements.",
+          "onet_soc_code": "15-1211.00",
+          "onet_soc_title": "Computer Systems Analysts",
+          "embedding_key": "78f11dcda49b3c1bdead83e4ed0fa442d93d04447ee641ac48f7967c63c17d64"
+        },
+        {
+          "rank": 5,
+          "score": 0.55935,
+          "task_id": "16271",
+          "task": "Develop or select specific software programs for various research scenarios.",
+          "onet_soc_code": "15-2051.02",
+          "onet_soc_title": "Clinical Data Managers",
+          "embedding_key": "07cccdf7fc9c528b31fba4ae727d0b520697615c21cda3c957cd4ca5cdba8db2"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__019",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "Ability to work with little supervision.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.535456,
+          "task_id": "18768",
+          "task": "Supervise others and provide on-the-job training.",
+          "onet_soc_code": "41-2011.00",
+          "onet_soc_title": "Cashiers",
+          "embedding_key": "8ec75d03fa0ab994f8f262912d801bb2c1ae716336e2dd7684cd42a018b0869c"
+        },
+        {
+          "rank": 2,
+          "score": 0.529902,
+          "task_id": "8594",
+          "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+          "onet_soc_code": "53-1043.00",
+          "onet_soc_title": "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
+          "embedding_key": "871c84b971382683eb555be6703bf4a89824668d3a7e26da6b107d35e443ba5f"
+        },
+        {
+          "rank": 3,
+          "score": 0.529902,
+          "task_id": "23702",
+          "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+          "onet_soc_code": "53-1044.00",
+          "onet_soc_title": "First-Line Supervisors of Passenger Attendants",
+          "embedding_key": "871c84b971382683eb555be6703bf4a89824668d3a7e26da6b107d35e443ba5f"
+        },
+        {
+          "rank": 4,
+          "score": 0.524231,
+          "task_id": "1846",
+          "task": "Direct or supervise less-skilled nursing or healthcare personnel or supervise a particular unit.",
+          "onet_soc_code": "29-1141.00",
+          "onet_soc_title": "Registered Nurses",
+          "embedding_key": "1435cf4cef9506b1f5246163aedb58f341ce022be9cb5c1f0747e97db01ecc20"
+        },
+        {
+          "rank": 5,
+          "score": 0.521001,
+          "task_id": "350",
+          "task": "Select activities that will help individuals learn work and life-management skills within limits of their mental or physical capabilities.",
+          "onet_soc_code": "29-1122.00",
+          "onet_soc_title": "Occupational Therapists",
+          "embedding_key": "618e72ff6eac658b0f355938b6e126c01906d3a264424ea13a0f5ee19cb2990e"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__020",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "Developed leadership skills.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.605998,
+          "task_id": "20229",
+          "task": "Coach senior executives and managers on leadership and performance.",
+          "onet_soc_code": "19-3032.00",
+          "onet_soc_title": "Industrial-Organizational Psychologists",
+          "embedding_key": "fcc3893db36921fce3dc7b54b01f026d831edd8732a750e7e17aaa08886d76b3"
+        },
+        {
+          "rank": 2,
+          "score": 0.602373,
+          "task_id": "6792",
+          "task": "Teach personal development skills, such as goal setting, independence, and self-advocacy.",
+          "onet_soc_code": "25-2058.00",
+          "onet_soc_title": "Special Education Teachers, Secondary School",
+          "embedding_key": "33afca76f794291c22d093e74f1a37d9be0cdcd604a48b00e46f34747426c055"
+        },
+        {
+          "rank": 3,
+          "score": 0.600159,
+          "task_id": "2396",
+          "task": "Encourage participants to develop their own activities and leadership skills through group discussions.",
+          "onet_soc_code": "39-9032.00",
+          "onet_soc_title": "Recreation Workers",
+          "embedding_key": "00f85e464ca880b96cfb4bdab3625fcf49f4cf0da92a429a867f5507973af729"
+        },
+        {
+          "rank": 4,
+          "score": 0.570168,
+          "task_id": "14631",
+          "task": "Participate in staffing decisions and direct training of subordinates.",
+          "onet_soc_code": "15-1221.00",
+          "onet_soc_title": "Computer and Information Research Scientists",
+          "embedding_key": "8bed7086f2454533884aac09aed3cb0b23da755a51787bc7eebc6d4b7ef4ca73"
+        },
+        {
+          "rank": 5,
+          "score": 0.560296,
+          "task_id": "6760",
+          "task": "Teach students personal development skills, such as goal setting, independence, and self-advocacy.",
+          "onet_soc_code": "25-2057.00",
+          "onet_soc_title": "Special Education Teachers, Middle School",
+          "embedding_key": "e18f4bafb2f6293ddfc7b6f97e0fe1d402ac1d8edde9269d8861dc96e96b9397"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__021",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "High energy, attention to detail, and a proactive approach, with the ability to function under pressure in an independent environment.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.500773,
+          "task_id": "10993",
+          "task": "Maintain portfolios of artistic work to demonstrate styles, interests, and abilities.",
+          "onet_soc_code": "27-1013.00",
+          "onet_soc_title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "embedding_key": "d00afef042724fef1b7ee202b857f1c7ecebc28ee2b25b5536b2702e040e8aae"
+        },
+        {
+          "rank": 2,
+          "score": 0.500261,
+          "task_id": "22811",
+          "task": "Take thorough and accurate patient medical histories.",
+          "onet_soc_code": "29-2034.00",
+          "onet_soc_title": "Radiologic Technologists and Technicians",
+          "embedding_key": "4ef60167e9490d7698d01c4b69dc0f2a6c43303f99c304d85e87470dfd5d82f2"
+        },
+        {
+          "rank": 3,
+          "score": 0.493344,
+          "task_id": "19451",
+          "task": "Perform highly skilled hand finishing binding operations, such as grooving or lettering.",
+          "onet_soc_code": "51-5113.00",
+          "onet_soc_title": "Print Binding and Finishing Workers",
+          "embedding_key": "6dfbe8fd84abe2b79468081ca646ff4ee76e53f893c74d87393df021111f7e6c"
+        },
+        {
+          "rank": 4,
+          "score": 0.468964,
+          "task_id": "1839",
+          "task": "Maintain accurate, detailed reports and records.",
+          "onet_soc_code": "29-1141.00",
+          "onet_soc_title": "Registered Nurses",
+          "embedding_key": "4858ab3abc5cda94824f06e94203898902f1d208f89832bf60faf96087b59b03"
+        },
+        {
+          "rank": 5,
+          "score": 0.466479,
+          "task_id": "14632",
+          "task": "Develop performance standards, and evaluate work in light of established standards.",
+          "onet_soc_code": "15-1221.00",
+          "onet_soc_title": "Computer and Information Research Scientists",
+          "embedding_key": "431e3e2b04a58f4cc395414b246a09e63a26b152018462ab2da335dc4fb58fe1"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__022",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "High degree of initiative and self-motivation, with willingness and ability to learn and take on challenging opportunities.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.517039,
+          "task_id": "8610",
+          "task": "Earn and maintain appropriate certifications.",
+          "onet_soc_code": "53-3011.00",
+          "onet_soc_title": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+          "embedding_key": "7c7bb6980ffd2aae8dcb9ed8bd009a08b96a99211e3bfa64f0a0b37a025969aa"
+        },
+        {
+          "rank": 2,
+          "score": 0.507346,
+          "task_id": "18625",
+          "task": "Evaluate students' or individuals' abilities, interests, and personality characteristics, using tests, records, interviews, or professional sources.",
+          "onet_soc_code": "21-1012.00",
+          "onet_soc_title": "Educational, Guidance, and Career Counselors and Advisors",
+          "embedding_key": "be2e73ecec8fea14c34778d30a402c340d4a28b19edcb24ec789bbb9b391431f"
+        },
+        {
+          "rank": 3,
+          "score": 0.505971,
+          "task_id": "6832",
+          "task": "Prepare students for further education by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+          "onet_soc_code": "25-3011.00",
+          "onet_soc_title": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",
+          "embedding_key": "68ec803be6c6b495d315d3ea2fd60a667bba3142d66334da7dfe591141b48591"
+        },
+        {
+          "rank": 4,
+          "score": 0.496487,
+          "task_id": "8671",
+          "task": "Prepare students for further development by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+          "onet_soc_code": "25-3021.00",
+          "onet_soc_title": "Self-Enrichment Teachers",
+          "embedding_key": "5395a09e14574e20944c95354b4819b5843d192f8d79a01c9cdebcbee65d5cb3"
+        },
+        {
+          "rank": 5,
+          "score": 0.491583,
+          "task_id": "6792",
+          "task": "Teach personal development skills, such as goal setting, independence, and self-advocacy.",
+          "onet_soc_code": "25-2058.00",
+          "onet_soc_title": "Special Education Teachers, Secondary School",
+          "embedding_key": "33afca76f794291c22d093e74f1a37d9be0cdcd604a48b00e46f34747426c055"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__023",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "Strong relationship-building, collaboration, and organizational skills.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.634462,
+          "task_id": "21588",
+          "task": "Develop and maintain client relationships.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "6c3d83da47b05ed01c3169b8670c83759e33cc974f83d116ff810b47e061d14f"
+        },
+        {
+          "rank": 2,
+          "score": 0.591697,
+          "task_id": "8932",
+          "task": "Maintain and develop positive business relationships with a customer's key personnel involved in, or directly relevant to, a logistics activity.",
+          "onet_soc_code": "13-1081.00",
+          "onet_soc_title": "Logisticians",
+          "embedding_key": "9d84ebb8ae4d50d9aea3a9cc923695875c57cea8d5aec10f85a4f7184bc8b666"
+        },
+        {
+          "rank": 3,
+          "score": 0.583,
+          "task_id": "11245",
+          "task": "Collaborate with colleagues to exchange information, such as selling strategies or marketing information.",
+          "onet_soc_code": "41-4011.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+          "embedding_key": "07ae2c6391bc3ad33132c908f8ad629a0f2f0aff8b9cde79fd1916b72de4657f"
+        },
+        {
+          "rank": 4,
+          "score": 0.575157,
+          "task_id": "1086",
+          "task": "Establish standards for personnel performance and customer service.",
+          "onet_soc_code": "11-9051.00",
+          "onet_soc_title": "Food Service Managers",
+          "embedding_key": "690a0dedb2618696d9a800013371dded700d9824d4bf6fd25b56f32a5a7d3bde"
+        },
+        {
+          "rank": 5,
+          "score": 0.566291,
+          "task_id": "22633",
+          "task": "Establish and maintain relationships with individuals who are credible sources of information.",
+          "onet_soc_code": "27-3023.00",
+          "onet_soc_title": "News Analysts, Reporters, and Journalists",
+          "embedding_key": "a43409347e15494651f1397a98a4e673873ef4064cc993f673e5c2c498a4f828"
+        }
+      ]
+    },
+    {
+      "id": "mastercard_senior_product_manager_technical_r267359__requirement__024",
+      "job_key": "mastercard_senior_product_manager_technical_r267359",
+      "job_name": "Mastercard Senior Product Manager - Technical",
+      "company": "Mastercard",
+      "title": "Senior Product Manager - Technical",
+      "location": "O'Fallon, MO",
+      "job_id": "R-267359",
+      "category": "requirement",
+      "text": "Ability to train and guide more junior resources.",
+      "source_file": "Senior Product Manager \u2013 Technical in O Fallon, United States of America, 63368-7263 _ R-267359 _ Product Management Jobs at Mastercard.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.699826,
+          "task_id": "14631",
+          "task": "Participate in staffing decisions and direct training of subordinates.",
+          "onet_soc_code": "15-1221.00",
+          "onet_soc_title": "Computer and Information Research Scientists",
+          "embedding_key": "8bed7086f2454533884aac09aed3cb0b23da755a51787bc7eebc6d4b7ef4ca73"
+        },
+        {
+          "rank": 2,
+          "score": 0.679876,
+          "task_id": "18768",
+          "task": "Supervise others and provide on-the-job training.",
+          "onet_soc_code": "41-2011.00",
+          "onet_soc_title": "Cashiers",
+          "embedding_key": "8ec75d03fa0ab994f8f262912d801bb2c1ae716336e2dd7684cd42a018b0869c"
+        },
+        {
+          "rank": 3,
+          "score": 0.67614,
+          "task_id": "20785",
+          "task": "Train and supervise subordinates and other staff.",
+          "onet_soc_code": "43-3061.00",
+          "onet_soc_title": "Procurement Clerks",
+          "embedding_key": "2fc6762a8ac31324adb620f08d5f7152cf580c185783fb0f2e01a35a55fc6b37"
+        },
+        {
+          "rank": 4,
+          "score": 0.665883,
+          "task_id": "22825",
+          "task": "Assist with on-the-job training of new employees or students or provide input to supervisors regarding training performance.",
+          "onet_soc_code": "29-2034.00",
+          "onet_soc_title": "Radiologic Technologists and Technicians",
+          "embedding_key": "de6e9404189385c67a1bf6c8fa6d58d94934a09050be7e2dbd0dfeda6f713e14"
+        },
+        {
+          "rank": 5,
+          "score": 0.660911,
+          "task_id": "21604",
+          "task": "Supervise, train, or mentor junior team members.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "11ba68344e584de40e0b93b7494daed8d07547c8fc0a1d4fc2be4947be6ec9a2"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__overview__001",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "overview",
+      "text": "Join Slalom\u2019s Delivery capability, which works across capabilities to turn strategy into execution that is rigorous, adaptive, and outcome-driven.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.491256,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 2,
+          "score": 0.485179,
+          "task_id": "15698",
+          "task": "Participate in the coordination of engineering changes, product line extensions, or new product launches to ensure orderly and timely transitions in material or production flow.",
+          "onet_soc_code": "11-3071.04",
+          "onet_soc_title": "Supply Chain Managers",
+          "embedding_key": "6be00fd06d79dc86a2acf334b29cad4ef41fe28107e374689e7fdf4337147d69"
+        },
+        {
+          "rank": 3,
+          "score": 0.473309,
+          "task_id": "20715",
+          "task": "Collaborate with vendors to obtain or develop desired products.",
+          "onet_soc_code": "13-1022.00",
+          "onet_soc_title": "Wholesale and Retail Buyers, Except Farm Products",
+          "embedding_key": "d89fcccc7418db8d0b3bf6d2f2fd9178531329562ee864664ebeecee6326a286"
+        },
+        {
+          "rank": 4,
+          "score": 0.45608,
+          "task_id": "7378",
+          "task": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "e6ed8fa9fa46ef9d86b9017fb95be4bb117ebd2b7fa4e873ae236506cf6d1d49"
+        },
+        {
+          "rank": 5,
+          "score": 0.451291,
+          "task_id": "15961",
+          "task": "Identify opportunities for strategic improvement or mitigation of business interruption and other risks caused by business, regulatory, or industry-specific change initiatives.",
+          "onet_soc_code": "13-1199.04",
+          "onet_soc_title": "Business Continuity Planners",
+          "embedding_key": "1977ea3d2e5eb5cc5828e04d97a9250beae49d96e3ab2711f8c7eed1a748c485"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__overview__002",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "overview",
+      "text": "Lead complex initiatives, align stakeholders, and deliver measurable results across industries using Agile, Waterfall, or hybrid approaches depending on client need.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.614186,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 2,
+          "score": 0.604447,
+          "task_id": "21463",
+          "task": "Communicate with key stakeholders to determine project requirements and objectives.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "dd492a3683a3bdeb6b018a2ec901af9a9b086f059a352306458c46780bd1fd4d"
+        },
+        {
+          "rank": 3,
+          "score": 0.592727,
+          "task_id": "15981",
+          "task": "Develop sustainability project goals, objectives, initiatives, or strategies in collaboration with other sustainability professionals.",
+          "onet_soc_code": "13-1199.05",
+          "onet_soc_title": "Sustainability Specialists",
+          "embedding_key": "9aa77518b79de3dd9d7d85f4ce3a4025e3f5cbe7db9c1d52a4c8bbb5894a8c07"
+        },
+        {
+          "rank": 4,
+          "score": 0.587608,
+          "task_id": "1373",
+          "task": "Develop proposed project objectives and targets and report to management on progress in attaining them.",
+          "onet_soc_code": "17-2081.00",
+          "onet_soc_title": "Environmental Engineers",
+          "embedding_key": "bbfc6a4ad0058d78b1b73dbda2871b16e3e29024654b8224c88ce94b700253c8"
+        },
+        {
+          "rank": 5,
+          "score": 0.574777,
+          "task_id": "7378",
+          "task": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "e6ed8fa9fa46ef9d86b9017fb95be4bb117ebd2b7fa4e873ae236506cf6d1d49"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__003",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Lead complex, high-impact client initiatives across industries, aligned to business goals and measurable outcomes.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.642952,
+          "task_id": "21588",
+          "task": "Develop and maintain client relationships.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "6c3d83da47b05ed01c3169b8670c83759e33cc974f83d116ff810b47e061d14f"
+        },
+        {
+          "rank": 2,
+          "score": 0.626537,
+          "task_id": "12867",
+          "task": "Develop contacts with individuals and organizations, and apply effective strategies and techniques to ensure their clients' success.",
+          "onet_soc_code": "13-1011.00",
+          "onet_soc_title": "Agents and Business Managers of Artists, Performers, and Athletes",
+          "embedding_key": "6910b69616eb11a543ea09942e9fdaa292c6b5fcc61f8a4b451625d3cc2a82f0"
+        },
+        {
+          "rank": 3,
+          "score": 0.612449,
+          "task_id": "22419",
+          "task": "Plan and deliver client-centered programs and services, such as special services for corporate clients, storytelling for children, newsletters, or programs for special groups.",
+          "onet_soc_code": "25-4022.00",
+          "onet_soc_title": "Librarians and Media Collections Specialists",
+          "embedding_key": "3e95f97973d02a032f018a90a870ca5eed1abee481b120da6178d801c4921519"
+        },
+        {
+          "rank": 4,
+          "score": 0.598243,
+          "task_id": "9200",
+          "task": "Monitor and record clients' progress to ensure that goals and objectives are met.",
+          "onet_soc_code": "21-1015.00",
+          "onet_soc_title": "Rehabilitation Counselors",
+          "embedding_key": "e329b0adbc1ee9492d6c682604c473aee06b3c197b0e430f1875d6c52bec519f"
+        },
+        {
+          "rank": 5,
+          "score": 0.574759,
+          "task_id": "21481",
+          "task": "Submit project deliverables to clients, ensuring adherence to quality standards.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "e85300ed4b7f854e1005101fb3a0c993d72aa1261d445583bd9a989289f9a1bc"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__004",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Define project scope, delivery approach, timelines, and success metrics, and manage engagements from start to finish.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.769838,
+          "task_id": "16169",
+          "task": "Manage project execution to ensure adherence to budget, schedule, and scope.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "4403fc5d0fd2ad638502e65ed5e8271412ac5c7a9b1086bd4d3f11a27791b0ea"
+        },
+        {
+          "rank": 2,
+          "score": 0.741317,
+          "task_id": "1373",
+          "task": "Develop proposed project objectives and targets and report to management on progress in attaining them.",
+          "onet_soc_code": "17-2081.00",
+          "onet_soc_title": "Environmental Engineers",
+          "embedding_key": "bbfc6a4ad0058d78b1b73dbda2871b16e3e29024654b8224c88ce94b700253c8"
+        },
+        {
+          "rank": 3,
+          "score": 0.737544,
+          "task_id": "21466",
+          "task": "Develop or update project plans including information such as objectives, technologies, schedules, funding, and staffing.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "4f8dbfe78585fa0aa410c9bd0beb04686fb69a0b0fc0e7250c396f5699cb34b2"
+        },
+        {
+          "rank": 4,
+          "score": 0.728697,
+          "task_id": "16157",
+          "task": "Monitor or track project milestones and deliverables.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "5043f67598e68e1d7ea67feb13ac95d7f68d79914c6855d3e34650f86c2856bd"
+        },
+        {
+          "rank": 5,
+          "score": 0.719148,
+          "task_id": "11002",
+          "task": "Develop project budgets for approval, estimating time lines and material costs.",
+          "onet_soc_code": "27-1013.00",
+          "onet_soc_title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "embedding_key": "df071763a4dfb95c20f2efdeaa1cfb96ab2e1dd19e9bf58e348d6c4a04460dbb"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__005",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Partner with cross-functional teams including engineering, design, data, and business stakeholders.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.68491,
+          "task_id": "16113",
+          "task": "Collaborate with system architects, software architects, design analysts, and others to understand business or industry requirements.",
+          "onet_soc_code": "15-1243.00",
+          "onet_soc_title": "Database Architects",
+          "embedding_key": "d5c6f021852e80a299887276c01824f73aa99c8feebc32274665e271fe5763e3"
+        },
+        {
+          "rank": 2,
+          "score": 0.665828,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        },
+        {
+          "rank": 3,
+          "score": 0.652762,
+          "task_id": "16396",
+          "task": "Advocate for end users in collaboration with other professionals, including engineers, designers, managers, or customers.",
+          "onet_soc_code": "17-2112.01",
+          "onet_soc_title": "Human Factors Engineers and Ergonomists",
+          "embedding_key": "be8ee682e3b3af8a890af5c5d7b7c4b18b64ffb31dec3791c5380af8bb268856"
+        },
+        {
+          "rank": 4,
+          "score": 0.652087,
+          "task_id": "3503",
+          "task": "Collaborate with programmers, underwriters, accounts, claims experts, and senior management to help companies develop plans for new lines of business or improvements to existing business.",
+          "onet_soc_code": "15-2011.00",
+          "onet_soc_title": "Actuaries",
+          "embedding_key": "d1beb164708a68e46d89e142b161ac0060519c4a87d8d585a516e413c3cd8182"
+        },
+        {
+          "rank": 5,
+          "score": 0.629779,
+          "task_id": "20170",
+          "task": "Manage the coordination and overall integration of technical activities in architecture or engineering projects.",
+          "onet_soc_code": "11-9041.00",
+          "onet_soc_title": "Architectural and Engineering Managers",
+          "embedding_key": "5d7ed2feca7713983ab68ec0e3184ab61a0071a9795c20eb1f1a047c0b6ebfdc"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__006",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Oversee project execution with both leadership and hands-on involvement, including delivery plans, resource coordination, risk mitigation, and responsibility for utilization and profitability targets.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.782622,
+          "task_id": "16169",
+          "task": "Manage project execution to ensure adherence to budget, schedule, and scope.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "4403fc5d0fd2ad638502e65ed5e8271412ac5c7a9b1086bd4d3f11a27791b0ea"
+        },
+        {
+          "rank": 2,
+          "score": 0.766974,
+          "task_id": "1357",
+          "task": "Oversee project production efforts to assure projects are completed on time and within budget.",
+          "onet_soc_code": "17-2071.00",
+          "onet_soc_title": "Electrical Engineers",
+          "embedding_key": "2033830b5c98fed8192bf8466bbc7fe424b31935416d2d677bc9699c105359ed"
+        },
+        {
+          "rank": 3,
+          "score": 0.723935,
+          "task_id": "16163",
+          "task": "Direct or coordinate activities of project personnel.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "fcf8ac3e6466f02598bccd32c3324218ae9e3783eabe6c17edace171c65a9663"
+        },
+        {
+          "rank": 4,
+          "score": 0.697189,
+          "task_id": "11204",
+          "task": "Monitor project activities to ensure that instructions are followed, deadlines are met, and schedules are maintained.",
+          "onet_soc_code": "37-1012.00",
+          "onet_soc_title": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
+          "embedding_key": "900aa708df8b69e52abfeba2f2c9bed7759640270b03a99d8dba750e5f5b5d64"
+        },
+        {
+          "rank": 5,
+          "score": 0.68708,
+          "task_id": "14680",
+          "task": "Develop or approve project plans, schedules, or budgets.",
+          "onet_soc_code": "15-1299.08",
+          "onet_soc_title": "Computer Systems Engineers/Architects",
+          "embedding_key": "5b89825f3c99c9f3f6ccbb45b83eb10f793c86d7f16643b714328d772c58cb8d"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__007",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Facilitate discovery sessions, stakeholder interviews, and working sessions.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.683126,
+          "task_id": "173",
+          "task": "Develop and maintain liaisons and effective working relations with groups and individuals, agencies, and the public to encourage cooperative management strategies or to develop information and interpret findings.",
+          "onet_soc_code": "19-1029.04",
+          "onet_soc_title": "Biologists",
+          "embedding_key": "bc26ca5aeb23d1234f738a79f9eeba0d017ea5afe1ef884c0f59b625a7f0792b"
+        },
+        {
+          "rank": 2,
+          "score": 0.659156,
+          "task_id": "8824",
+          "task": "Confer with board members, organization officials, or staff members to discuss issues, coordinate activities, or resolve problems.",
+          "onet_soc_code": "11-1011.00",
+          "onet_soc_title": "Chief Executives",
+          "embedding_key": "e47cf73454eaec39eb815b24e916aa4b64b00b4ee78ae088e1971638f1b38e4d"
+        },
+        {
+          "rank": 3,
+          "score": 0.656005,
+          "task_id": "21909",
+          "task": "Confer with research personnel to clarify or resolve problems and to develop or modify designs.",
+          "onet_soc_code": "17-2121.00",
+          "onet_soc_title": "Marine Engineers and Naval Architects",
+          "embedding_key": "b302d9725797fdacde4ed42bbb79ba6315e5610a5e56388de53301b6d667e494"
+        },
+        {
+          "rank": 4,
+          "score": 0.647162,
+          "task_id": "21629",
+          "task": "Produce reports or presentations that outline findings, explain risk positions, or recommend changes.",
+          "onet_soc_code": "13-2054.00",
+          "onet_soc_title": "Financial Risk Specialists",
+          "embedding_key": "04efaa305b2e410d408ba1e35fbcc1cf98956409a48f399d075d3edc4d3a6541"
+        },
+        {
+          "rank": 5,
+          "score": 0.639534,
+          "task_id": "7280",
+          "task": "Review forms and reports and confer with management and users about format, distribution, and purpose, identifying problems and improvements.",
+          "onet_soc_code": "13-1111.00",
+          "onet_soc_title": "Management Analysts",
+          "embedding_key": "28af08529b3c9486d7d2cef9bfa311ea923e5031e7162286db3e50aa963b8706"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__008",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Apply agile methodologies to improve collaboration, delivery speed, and adaptability.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.555061,
+          "task_id": "7212",
+          "task": "Develop innovative technology or train staff for its implementation.",
+          "onet_soc_code": "11-9121.00",
+          "onet_soc_title": "Natural Sciences Managers",
+          "embedding_key": "271ab0d0f513aa5fd9d20d0bf2986dd44c6969e631df8db1a5bf24dcd4510b4a"
+        },
+        {
+          "rank": 2,
+          "score": 0.550793,
+          "task_id": "7378",
+          "task": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "e6ed8fa9fa46ef9d86b9017fb95be4bb117ebd2b7fa4e873ae236506cf6d1d49"
+        },
+        {
+          "rank": 3,
+          "score": 0.540406,
+          "task_id": "14697",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1254.00",
+          "onet_soc_title": "Web Developers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        },
+        {
+          "rank": 4,
+          "score": 0.540406,
+          "task_id": "21689",
+          "task": "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "onet_soc_code": "15-1255.00",
+          "onet_soc_title": "Web and Digital Interface Designers",
+          "embedding_key": "97239fb3739697fd41371abff36d1cc660325d4b5b34e347a1888f28883aeced"
+        },
+        {
+          "rank": 5,
+          "score": 0.533118,
+          "task_id": "16776",
+          "task": "Recommend new systems and processes to improve operations.",
+          "onet_soc_code": "19-1029.01",
+          "onet_soc_title": "Bioinformatics Scientists",
+          "embedding_key": "6c7bde659ceb6965748ce69049dea3d574637e0f35f606db6bff6bbb02535ef1"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__009",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Use AI-enabled tools and techniques such as predictive analytics for forecasting, automation for reporting, and generative AI for documentation.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.639237,
+          "task_id": "9070",
+          "task": "Prepare forecasts or briefings to meet the needs of industry, business, government, or other groups.",
+          "onet_soc_code": "19-2021.00",
+          "onet_soc_title": "Atmospheric and Space Scientists",
+          "embedding_key": "d7adb866c96624d6f6b4bcd8bf51ef70e2b8adcb7f376677778034293648b8f4"
+        },
+        {
+          "rank": 2,
+          "score": 0.633285,
+          "task_id": "21969",
+          "task": "Write technical reports and draw charts that display statistics and data.",
+          "onet_soc_code": "17-3012.00",
+          "onet_soc_title": "Electrical and Electronics Drafters",
+          "embedding_key": "b3fb5e035e928fbba5bb20d5e2570cb9c1efc31fb1737061a8844d9896979d23"
+        },
+        {
+          "rank": 3,
+          "score": 0.631073,
+          "task_id": "16394",
+          "task": "Apply modeling or quantitative analysis to forecast events, such as human decisions or behaviors, the structure or processes of organizations, or the attitudes or actions of human groups.",
+          "onet_soc_code": "17-2112.01",
+          "onet_soc_title": "Human Factors Engineers and Ergonomists",
+          "embedding_key": "67bc71466a0cf380963d46371ebdacfde73e62ed539c55fa68f76436ed775eb5"
+        },
+        {
+          "rank": 4,
+          "score": 0.624829,
+          "task_id": "16787",
+          "task": "Develop data models and databases.",
+          "onet_soc_code": "19-1029.01",
+          "onet_soc_title": "Bioinformatics Scientists",
+          "embedding_key": "bdbfa0dff429e611f4b6a3a6d16aefdb6dd0f7d392d51aac1a1b545a35e0b0a4"
+        },
+        {
+          "rank": 5,
+          "score": 0.62459,
+          "task_id": "7538",
+          "task": "Compile, analyze, and report data to explain economic phenomena and forecast market trends, applying mathematical models and statistical techniques.",
+          "onet_soc_code": "19-3011.00",
+          "onet_soc_title": "Economists",
+          "embedding_key": "fca20e2184f34f569d4aeea66c20c350a3815714d12403d1c126d8653562e002"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__010",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Support the sales lifecycle by scoping opportunities, developing delivery approaches, contributing to proposals, and selling delivery capabilities and outcomes.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.766753,
+          "task_id": "9680",
+          "task": "Collaborate with sales teams to understand customer requirements, to promote the sale of company products, and to provide sales support.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "a6b076c3c27b80ce36fb57bdaeae999e240a5d46494cb6d6474302b26c0bcfb1"
+        },
+        {
+          "rank": 2,
+          "score": 0.735225,
+          "task_id": "9697",
+          "task": "Identify resale opportunities and support them to achieve sales plans.",
+          "onet_soc_code": "41-9031.00",
+          "onet_soc_title": "Sales Engineers",
+          "embedding_key": "755482026891bf2daa13d0aee5249a4f8681030a40cbc00078f5aeba61f6f416"
+        },
+        {
+          "rank": 3,
+          "score": 0.708417,
+          "task_id": "20618",
+          "task": "Initiate sales campaigns to meet sales and production expectations.",
+          "onet_soc_code": "41-4011.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+          "embedding_key": "154de5b35f32a076fab64113bd67eec0f1292ac2a8560c8404b2bc610e82a82e"
+        },
+        {
+          "rank": 4,
+          "score": 0.674584,
+          "task_id": "20717",
+          "task": "Conduct sales meetings to introduce new merchandise.",
+          "onet_soc_code": "13-1022.00",
+          "onet_soc_title": "Wholesale and Retail Buyers, Except Farm Products",
+          "embedding_key": "9bc2fb53bc3b714afc03cf377063ac1ed6f4ea7a905d1e51525a109a236b3b8a"
+        },
+        {
+          "rank": 5,
+          "score": 0.673173,
+          "task_id": "23228",
+          "task": "Develop sales presentations or proposals to explain service specifications.",
+          "onet_soc_code": "41-3091.00",
+          "onet_soc_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+          "embedding_key": "e76d1cae02ae8e8f917e8daa10fbcd66c2327539c6b630784a92a0cbc3b44125"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__role__011",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "role",
+      "text": "Mentor consultants and delivery leads, and help grow Slalom\u2019s delivery frameworks and practices.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.518089,
+          "task_id": "22186",
+          "task": "Develop, direct, and participate in training programs for staff and students.",
+          "onet_soc_code": "19-3033.00",
+          "onet_soc_title": "Clinical and Counseling Psychologists",
+          "embedding_key": "5163c00455372a6d05b7fc043eba349257b0b4cb747e9f1c854956af1671e6ba"
+        },
+        {
+          "rank": 2,
+          "score": 0.512855,
+          "task_id": "21171",
+          "task": "Mentor graduate students and junior colleagues.",
+          "onet_soc_code": "19-2011.00",
+          "onet_soc_title": "Astronomers",
+          "embedding_key": "5ba8e01a3fb18ff1ad4e04cc8d85b74c629c4ed4e132b7d097a6b209c1d9a065"
+        },
+        {
+          "rank": 3,
+          "score": 0.511943,
+          "task_id": "18322",
+          "task": "Participate in the development of practice protocols.",
+          "onet_soc_code": "29-1141.01",
+          "onet_soc_title": "Acute Care Nurses",
+          "embedding_key": "3a49ebb513af5949510e58a1832d88cb88edd3854b5a7b55fc8b579409ddb460"
+        },
+        {
+          "rank": 4,
+          "score": 0.505434,
+          "task_id": "21316",
+          "task": "Oversee training programs.",
+          "onet_soc_code": "11-3031.00",
+          "onet_soc_title": "Financial Managers",
+          "embedding_key": "8f6f1b1bf50ac869f280ac44b44f0a883d995e0f3951485f3362318bcaeeb24b"
+        },
+        {
+          "rank": 5,
+          "score": 0.502087,
+          "task_id": "18963",
+          "task": "Design, organize, and deliver product awareness, skills transfer, or product education sessions for staff or suppliers.",
+          "onet_soc_code": "15-1241.00",
+          "onet_soc_title": "Computer Network Architects",
+          "embedding_key": "f1cd451df885b574622dee7187f3bd0e8d70740a0462a296b92490aa0c80bd99"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__012",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Proven experience selling professional services, including shaping solutions, working with sales teams, and influencing decision-makers throughout the deal cycle.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.677782,
+          "task_id": "23228",
+          "task": "Develop sales presentations or proposals to explain service specifications.",
+          "onet_soc_code": "41-3091.00",
+          "onet_soc_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+          "embedding_key": "e76d1cae02ae8e8f917e8daa10fbcd66c2327539c6b630784a92a0cbc3b44125"
+        },
+        {
+          "rank": 2,
+          "score": 0.634928,
+          "task_id": "12867",
+          "task": "Develop contacts with individuals and organizations, and apply effective strategies and techniques to ensure their clients' success.",
+          "onet_soc_code": "13-1011.00",
+          "onet_soc_title": "Agents and Business Managers of Artists, Performers, and Athletes",
+          "embedding_key": "6910b69616eb11a543ea09942e9fdaa292c6b5fcc61f8a4b451625d3cc2a82f0"
+        },
+        {
+          "rank": 3,
+          "score": 0.632034,
+          "task_id": "21588",
+          "task": "Develop and maintain client relationships.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "6c3d83da47b05ed01c3169b8670c83759e33cc974f83d116ff810b47e061d14f"
+        },
+        {
+          "rank": 4,
+          "score": 0.621145,
+          "task_id": "4589",
+          "task": "Obtain and study information about clients' products, needs, problems, advertising history, and business practices to offer effective sales presentations and appropriate product assistance.",
+          "onet_soc_code": "41-3011.00",
+          "onet_soc_title": "Advertising Sales Agents",
+          "embedding_key": "0a12d36d083a96866d728b769de3851ac54ada6d1870d916d2b9801813e36ca9"
+        },
+        {
+          "rank": 5,
+          "score": 0.617282,
+          "task_id": "3228",
+          "task": "Prepare and negotiate advertising and sales contracts.",
+          "onet_soc_code": "11-2011.00",
+          "onet_soc_title": "Advertising and Promotions Managers",
+          "embedding_key": "5d0a87d1e24cf6dfb6be3e15fed1ab7e966131942f1d46b591faf0590136c9d1"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__013",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Strong experience in stakeholder management, project management, product management, program management, and delivery leadership within consulting environments.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.613856,
+          "task_id": "6377",
+          "task": "Provide professional consulting services to government, educational institutions, or industry.",
+          "onet_soc_code": "25-1125.00",
+          "onet_soc_title": "History Teachers, Postsecondary",
+          "embedding_key": "2548c8a2a0cb83e073575f7e73f615a04d3d4adf0efd7342194c8d4e2f2e3200"
+        },
+        {
+          "rank": 2,
+          "score": 0.602774,
+          "task_id": "5512",
+          "task": "Provide consulting services in fields such as resource development and management, business location and market area analysis, environmental hazards, regional cultural history, and urban social planning.",
+          "onet_soc_code": "19-3092.00",
+          "onet_soc_title": "Geographers",
+          "embedding_key": "4c0e47502d0c3d89af1498f8cba79a2aa8eed6e00d5c023207770351974788d7"
+        },
+        {
+          "rank": 3,
+          "score": 0.585838,
+          "task_id": "6309",
+          "task": "Provide professional consulting services to government or industry.",
+          "onet_soc_code": "25-1122.00",
+          "onet_soc_title": "Communications Teachers, Postsecondary",
+          "embedding_key": "b79cc304210272e1517f14285ebdac44e916346582e8c809b3352b6303f2628b"
+        },
+        {
+          "rank": 4,
+          "score": 0.585838,
+          "task_id": "5910",
+          "task": "Provide professional consulting services to government or industry.",
+          "onet_soc_code": "25-1053.00",
+          "onet_soc_title": "Environmental Science Teachers, Postsecondary",
+          "embedding_key": "b79cc304210272e1517f14285ebdac44e916346582e8c809b3352b6303f2628b"
+        },
+        {
+          "rank": 5,
+          "score": 0.585838,
+          "task_id": "5959",
+          "task": "Provide professional consulting services to government or industry.",
+          "onet_soc_code": "25-1061.00",
+          "onet_soc_title": "Anthropology and Archeology Teachers, Postsecondary",
+          "embedding_key": "b79cc304210272e1517f14285ebdac44e916346582e8c809b3352b6303f2628b"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__014",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Proven success leading and delivering complex initiatives across industries and technology platforms.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.536041,
+          "task_id": "7378",
+          "task": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions.",
+          "onet_soc_code": "15-2031.00",
+          "onet_soc_title": "Operations Research Analysts",
+          "embedding_key": "e6ed8fa9fa46ef9d86b9017fb95be4bb117ebd2b7fa4e873ae236506cf6d1d49"
+        },
+        {
+          "rank": 2,
+          "score": 0.501734,
+          "task_id": "21836",
+          "task": "Recommend data-driven solutions to key stakeholders.",
+          "onet_soc_code": "15-2051.00",
+          "onet_soc_title": "Data Scientists",
+          "embedding_key": "cd0f748bebde2c08d819f554e0b486b22e5260ee9bd189f2ee517bc1b05cf57f"
+        },
+        {
+          "rank": 3,
+          "score": 0.49917,
+          "task_id": "20326",
+          "task": "Identify appropriate Key Performance Indicators (KPIs) and report key metrics from digital campaigns.",
+          "onet_soc_code": "13-1161.01",
+          "onet_soc_title": "Search Marketing Strategists",
+          "embedding_key": "5be0147e2b384c9234ea14e2eb6a03669a671b799ba30ea7d55d143bcff5d6e4"
+        },
+        {
+          "rank": 4,
+          "score": 0.495678,
+          "task_id": "12867",
+          "task": "Develop contacts with individuals and organizations, and apply effective strategies and techniques to ensure their clients' success.",
+          "onet_soc_code": "13-1011.00",
+          "onet_soc_title": "Agents and Business Managers of Artists, Performers, and Athletes",
+          "embedding_key": "6910b69616eb11a543ea09942e9fdaa292c6b5fcc61f8a4b451625d3cc2a82f0"
+        },
+        {
+          "rank": 5,
+          "score": 0.49525,
+          "task_id": "15994",
+          "task": "Collaborate with product development teams to research, model, validate, or implement quantitative structured solutions for new or expanded markets.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "5afd02eefe6c6dc47e2406b1e0d57d22021981fefcda067a19d2b0f46cf5b130"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__015",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Strong knowledge of delivery frameworks such as Agile, SAFe, Lean, and PMBOK, with the judgment to apply them pragmatically.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.506613,
+          "task_id": "21481",
+          "task": "Submit project deliverables to clients, ensuring adherence to quality standards.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "e85300ed4b7f854e1005101fb3a0c993d72aa1261d445583bd9a989289f9a1bc"
+        },
+        {
+          "rank": 2,
+          "score": 0.506462,
+          "task_id": "21477",
+          "task": "Recruit or hire project personnel.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "8a65395345ec01bfdd5c973883c0f248585594c552f6b3a6e4b5a20975dfd8fc"
+        },
+        {
+          "rank": 3,
+          "score": 0.506456,
+          "task_id": "16152",
+          "task": "Submit project deliverables, ensuring adherence to quality standards.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "e20c0c7ebaa022a40ab9d675c8574c00f9fc502a01405e729f6cc8b4a11c4427"
+        },
+        {
+          "rank": 4,
+          "score": 0.500701,
+          "task_id": "16157",
+          "task": "Monitor or track project milestones and deliverables.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "5043f67598e68e1d7ea67feb13ac95d7f68d79914c6855d3e34650f86c2856bd"
+        },
+        {
+          "rank": 5,
+          "score": 0.495686,
+          "task_id": "21475",
+          "task": "Produce and distribute project documents.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "bc82083707f26a02743ef616bfc81d387b1f39678bb708d34622042ec291471a"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__016",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Experience leading large, cross-functional teams with accountability for delivery quality, client satisfaction, and financial outcomes including revenue, utilization, margin, and profitability.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.618452,
+          "task_id": "21588",
+          "task": "Develop and maintain client relationships.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "6c3d83da47b05ed01c3169b8670c83759e33cc974f83d116ff810b47e061d14f"
+        },
+        {
+          "rank": 2,
+          "score": 0.593574,
+          "task_id": "18306",
+          "task": "Collaborate with members of multidisciplinary health care teams to plan, manage, or assess patient treatments.",
+          "onet_soc_code": "29-1141.01",
+          "onet_soc_title": "Acute Care Nurses",
+          "embedding_key": "198272919171a086108b64f988a9defd1c5319f6ee66aba71cd0303095dbb929"
+        },
+        {
+          "rank": 3,
+          "score": 0.586414,
+          "task_id": "17165",
+          "task": "Collaborate with multidisciplinary teams of health professionals to provide optimal patient care.",
+          "onet_soc_code": "29-1241.00",
+          "onet_soc_title": "Ophthalmologists, Except Pediatric",
+          "embedding_key": "926ab66c3166944a33c746b4594582dd61f7346697c2030fcd9972bfbdd677cf"
+        },
+        {
+          "rank": 4,
+          "score": 0.582872,
+          "task_id": "7229",
+          "task": "Direct and coordinate the activities of staff and contract personnel and evaluate their performance.",
+          "onet_soc_code": "11-9141.00",
+          "onet_soc_title": "Property, Real Estate, and Community Association Managers",
+          "embedding_key": "052aed1ec4ba3ee94c73494f0e37caa7ee9069271aa4c97592a00e4eea1eabd8"
+        },
+        {
+          "rank": 5,
+          "score": 0.58164,
+          "task_id": "8871",
+          "task": "Lead staff training and development in budgeting and financial management areas.",
+          "onet_soc_code": "11-3031.01",
+          "onet_soc_title": "Treasurers and Controllers",
+          "embedding_key": "bda189e42061bc7117cd55021aa2af80c73acb73cbcaa36952f7dafe0e2c7423"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__017",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Track record of supporting pursuits and contributing to solutioning, scoping, and estimation.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.565329,
+          "task_id": "383",
+          "task": "Conduct or support research and apply research findings to practice.",
+          "onet_soc_code": "29-1123.00",
+          "onet_soc_title": "Physical Therapists",
+          "embedding_key": "c43d61c12d5d4403d3d624d97474f687f46800b22eba7daec6c633f4a8db4eb2"
+        },
+        {
+          "rank": 2,
+          "score": 0.562295,
+          "task_id": "17183",
+          "task": "Conduct research and present scientific findings.",
+          "onet_soc_code": "29-1222.00",
+          "onet_soc_title": "Physicians, Pathologists",
+          "embedding_key": "bd5838e1e1ff30d7a30a43e23ba03f651ca1f297ee3b57669f7038512a1910fa"
+        },
+        {
+          "rank": 3,
+          "score": 0.554951,
+          "task_id": "15983",
+          "task": "Provide application or analytical support to researchers or traders on issues such as valuations or data.",
+          "onet_soc_code": "13-2099.01",
+          "onet_soc_title": "Financial Quantitative Analysts",
+          "embedding_key": "335ee07e6985dab99ad1d1edaefe6b71838e082c994310f5b30d1a933ce67dc1"
+        },
+        {
+          "rank": 4,
+          "score": 0.547218,
+          "task_id": "5504",
+          "task": "Write and present reports of research findings.",
+          "onet_soc_code": "19-3092.00",
+          "onet_soc_title": "Geographers",
+          "embedding_key": "29e5d4b5924d870d4ff64894acf490392606c01ab618e24640a806db9e861191"
+        },
+        {
+          "rank": 5,
+          "score": 0.54292,
+          "task_id": "10968",
+          "task": "Provide assistance to faculty members or staff with laboratory or field research.",
+          "onet_soc_code": "25-9044.00",
+          "onet_soc_title": "Teaching Assistants, Postsecondary",
+          "embedding_key": "8499fc6d069ff98556d68a3955aa7157338e0c4cf6884518392074fb4ac65372"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__018",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Skill in anticipating risks, managing dependencies, adapting plans, and driving stakeholder alignment.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.597808,
+          "task_id": "15964",
+          "task": "Conduct or oversee contingency plan integration and operation.",
+          "onet_soc_code": "13-1199.04",
+          "onet_soc_title": "Business Continuity Planners",
+          "embedding_key": "4bbf06de8f5ee0c66ea8857ea89e4a2201ea5fe96c9c8d82e67aa884a4f15332"
+        },
+        {
+          "rank": 2,
+          "score": 0.596104,
+          "task_id": "21745",
+          "task": "Collect stakeholder data to evaluate risk and to develop mitigation strategies.",
+          "onet_soc_code": "15-1299.04",
+          "onet_soc_title": "Penetration Testers",
+          "embedding_key": "2e4f38c5987cbde2f0060e6e6681cc8b2d7192f81ee8899c6ecb8acd65ea9c34"
+        },
+        {
+          "rank": 3,
+          "score": 0.588827,
+          "task_id": "21612",
+          "task": "Develop contingency plans to deal with emergencies.",
+          "onet_soc_code": "13-2054.00",
+          "onet_soc_title": "Financial Risk Specialists",
+          "embedding_key": "c48c8bd496f950a6621f6475e227d654f6a2153445eb4504204031a7bc39a667"
+        },
+        {
+          "rank": 4,
+          "score": 0.585289,
+          "task_id": "14630",
+          "task": "Develop and interpret organizational goals, policies, and procedures.",
+          "onet_soc_code": "15-1221.00",
+          "onet_soc_title": "Computer and Information Research Scientists",
+          "embedding_key": "2dea1ddda2958f7540200ef4f1b3ea7df6c7cf9dc0492d31533bab52a1107c0d"
+        },
+        {
+          "rank": 5,
+          "score": 0.585289,
+          "task_id": "976",
+          "task": "Develop and interpret organizational goals, policies, and procedures.",
+          "onet_soc_code": "11-3021.00",
+          "onet_soc_title": "Computer and Information Systems Managers",
+          "embedding_key": "2dea1ddda2958f7540200ef4f1b3ea7df6c7cf9dc0492d31533bab52a1107c0d"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__019",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Hands-on experience with agile ceremonies, backlog management, and scaled delivery frameworks.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.504012,
+          "task_id": "16157",
+          "task": "Monitor or track project milestones and deliverables.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "5043f67598e68e1d7ea67feb13ac95d7f68d79914c6855d3e34650f86c2856bd"
+        },
+        {
+          "rank": 2,
+          "score": 0.503581,
+          "task_id": "21470",
+          "task": "Monitor project milestones and deliverables.",
+          "onet_soc_code": "13-1082.00",
+          "onet_soc_title": "Project Management Specialists",
+          "embedding_key": "a083981e68ffed87d770cd18ff7da4db0aa9539d52e783fe35429ae170370c10"
+        },
+        {
+          "rank": 3,
+          "score": 0.455062,
+          "task_id": "16212",
+          "task": "Create and manage documentation, production schedules, prototyping goals, and communication plans in collaboration with production staff.",
+          "onet_soc_code": "15-1255.01",
+          "onet_soc_title": "Video Game Designers",
+          "embedding_key": "c0e032693dc9265ce964c279a8ca157ad6469938cd59734c09393044f3d45af6"
+        },
+        {
+          "rank": 4,
+          "score": 0.453056,
+          "task_id": "14645",
+          "task": "Plan test schedules or strategies in accordance with project scope or delivery dates.",
+          "onet_soc_code": "15-1253.00",
+          "onet_soc_title": "Software Quality Assurance Analysts and Testers",
+          "embedding_key": "a813d70884e7a9209cd509a4fdb1f989873c9c23df84edcfba589c710dd74148"
+        },
+        {
+          "rank": 5,
+          "score": 0.451605,
+          "task_id": "16169",
+          "task": "Manage project execution to ensure adherence to budget, schedule, and scope.",
+          "onet_soc_code": "15-1299.09",
+          "onet_soc_title": "Information Technology Project Managers",
+          "embedding_key": "4403fc5d0fd2ad638502e65ed5e8271412ac5c7a9b1086bd4d3f11a27791b0ea"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__020",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Experience managing engagements under different contractual structures.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.615486,
+          "task_id": "20268",
+          "task": "Negotiate details of contracts and payments.",
+          "onet_soc_code": "41-4012.00",
+          "onet_soc_title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+          "embedding_key": "5cc5b5f57db656afb8d00e91f982a2e0065fe9a08b39ba20789452868f42b40c"
+        },
+        {
+          "rank": 2,
+          "score": 0.612443,
+          "task_id": "1030",
+          "task": "Represent companies in negotiating contracts and formulating policies with suppliers.",
+          "onet_soc_code": "11-3061.00",
+          "onet_soc_title": "Purchasing Managers",
+          "embedding_key": "d1e5841c976b0139b0c880a750cfc6b64ffd6886b6d5d4a5271afcfc9aebd7d2"
+        },
+        {
+          "rank": 3,
+          "score": 0.571853,
+          "task_id": "12869",
+          "task": "Negotiate with managers, promoters, union officials, and other persons regarding clients' contractual rights and obligations.",
+          "onet_soc_code": "13-1011.00",
+          "onet_soc_title": "Agents and Business Managers of Artists, Performers, and Athletes",
+          "embedding_key": "a8987b0597f2b0ab49b003a3d8a8fdc8952d0e65d59a821b918c7c2b7d69f4dd"
+        },
+        {
+          "rank": 4,
+          "score": 0.571408,
+          "task_id": "90",
+          "task": "Establish and maintain tendering process, and conduct negotiations.",
+          "onet_soc_code": "13-1051.00",
+          "onet_soc_title": "Cost Estimators",
+          "embedding_key": "5784a9d13cadf8e5b744d87349e780fa977532d2c28775a9481ff818d1337fad"
+        },
+        {
+          "rank": 5,
+          "score": 0.566046,
+          "task_id": "16312",
+          "task": "Participate in contract bidding, negotiation, or administration.",
+          "onet_soc_code": "17-2051.01",
+          "onet_soc_title": "Transportation Engineers",
+          "embedding_key": "18a9c701b302cc7f88b5124de60e38d7925b0ef370f96ae7d3dd06b8b2d5b30f"
+        }
+      ]
+    },
+    {
+      "id": "slalom_senior_principal_product_management_delivery_jo260227275__requirement__021",
+      "job_key": "slalom_senior_principal_product_management_delivery_jo260227275",
+      "job_name": "Slalom Senior Principal, Product Management & Delivery",
+      "company": "Slalom",
+      "title": "Senior Principal, Product Management & Delivery",
+      "location": "St. Louis, MO",
+      "job_id": "JO-2602-27275",
+      "category": "requirement",
+      "text": "Strong business acumen, executive communication, and stakeholder engagement skills.",
+      "source_file": "Job Post _ Slalom.pdf",
+      "top_task_matches": [
+        {
+          "rank": 1,
+          "score": 0.560524,
+          "task_id": "21233",
+          "task": "Establish and maintain effective working relationships with clients, government officials, and media representatives and use these relationships to develop new business opportunities.",
+          "onet_soc_code": "11-2032.00",
+          "onet_soc_title": "Public Relations Managers",
+          "embedding_key": "1399ef8b2fc1cf23736879e4c486f54f2a742a2c8c77e9db3405808e8ecfcf72"
+        },
+        {
+          "rank": 2,
+          "score": 0.539721,
+          "task_id": "21232",
+          "task": "Draft speeches for company executives and arrange interviews and other forms of contact for them.",
+          "onet_soc_code": "11-2032.00",
+          "onet_soc_title": "Public Relations Managers",
+          "embedding_key": "882f9a85e10bc2f18991a52a994c02bfb16175eec8f90b50f5c872560d0dc7bf"
+        },
+        {
+          "rank": 3,
+          "score": 0.537707,
+          "task_id": "20229",
+          "task": "Coach senior executives and managers on leadership and performance.",
+          "onet_soc_code": "19-3032.00",
+          "onet_soc_title": "Industrial-Organizational Psychologists",
+          "embedding_key": "fcc3893db36921fce3dc7b54b01f026d831edd8732a750e7e17aaa08886d76b3"
+        },
+        {
+          "rank": 4,
+          "score": 0.534325,
+          "task_id": "21588",
+          "task": "Develop and maintain client relationships.",
+          "onet_soc_code": "13-2051.00",
+          "onet_soc_title": "Financial and Investment Analysts",
+          "embedding_key": "6c3d83da47b05ed01c3169b8670c83759e33cc974f83d116ff810b47e061d14f"
+        },
+        {
+          "rank": 5,
+          "score": 0.530234,
+          "task_id": "8610",
+          "task": "Earn and maintain appropriate certifications.",
+          "onet_soc_code": "53-3011.00",
+          "onet_soc_title": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+          "embedding_key": "7c7bb6980ffd2aae8dcb9ed8bd009a08b96a99211e3bfa64f0a0b37a025969aa"
+        }
+      ]
+    }
+  ]
+}
