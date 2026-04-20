@@ -27,9 +27,11 @@ The current pipeline is:
    Produces `scripts/tasks_to_dwas.json`
 7. `scripts/tasks_to_dwas.json`
    Produces `scripts/task_dwa_embeddings_all_mpnet_base_v2.json`
-8. `jobPostings/*.jsonl`
-   Produces job-posting task-match JSON outputs
-9. Job-posting task-match JSON outputs
+8. `jobPostings/linkedin_job_search_results.json`
+   Produces `jobPostings/linkedin_job_search_results_itemized_for_embeddings.jsonl`
+9. `jobPostings/*.jsonl`
+   Produce job-posting task-match JSON outputs
+10. Job-posting task-match JSON outputs
    Produce a flattened Excel review workbook
 
 ## Source Documents
@@ -79,6 +81,8 @@ Reference files currently present but not part of the main scripted pipeline:
 
 ### Job Posting Matching and Review
 
+- `scripts/preprocess_linkedin_job_search_results.py`
+  Converts the raw LinkedIn search-results JSON into the itemized JSONL format expected by the existing job-posting matcher.
 - `scripts/match_job_postings_to_tasks.py`
   Embeds each job-posting item and compares it against the task embedding library to return the nearest task matches.
 - `scripts/export_task_matches_to_excel.py`
@@ -125,6 +129,11 @@ Reference files currently present but not part of the main scripted pipeline:
   `emerson_senior_product_manager_26002939`
   `enterprise_mobility_product_manager_ii_enterprise_applications`
   `microsoft_senior_product_manager_200015570`
+- `jobPostings/linkedin_job_search_results.json`
+  Raw LinkedIn search scrape with 6 search queries and 36 full posting texts total.
+- `jobPostings/linkedin_job_search_results_itemized_for_embeddings.jsonl`
+  Preprocessed LinkedIn posting items generated for the matcher.
+  Current size: 1,190 itemized records across 36 postings.
 
 ### Job Posting Matching Outputs
 

@@ -275,3 +275,80 @@ yes, please cook up a project summary and add an appropriately detailed version 
 [ Codex worked for 1 min, 26 sec ]
 [--------------------------------]
 
+
+
+Prompt #15
+
+amazing- AMAZING! thank you thank you :-)
+
+can you (1) take a look at the new json I just added to the jobpostings directory?
+
+(it should have 6 full texts of postings from 6 different searches)
+
+then (2) can you write a pre-processing script (or re-use one we've already made... I've forgotten... sorry) that takes that json and prepares it for the same 'matching job postings to tasks' process that we've already done?
+
+then perhaps add a blip about those items (the new postins set and the new pre-processor) to the readme?
+
+
+[--------------------------------]
+[ Codex worked for 7 min, 33 sec ]
+[--------------------------------]
+
+Prompt #16
+
+amazing- thank you :-)
+
+please remind me how to run that on the new posting items so I don't bork it up :-P
+
+[----------------------]
+[ No Codex work needed ]
+[----------------------]
+
+
+Propmt #17
+
+incredible :-) okay...
+
+I need another 'human-readable' output step to strategize...
+
+can you take the most recent output:
+"linkedin_job_search_results_itemized_for_embeddings_top5_task_matches.json" 
+and write a temp script that gives me an xlsx with a row for each match score and these columns in this order:
+
+id | title | category | text | match.score | match.task | match.soc_code | match.soc_title
+
+then please run that and I'll take a look :-)
+
+
+[--------------------------------]
+[ Codex worked for 1 min, 26 sec ]
+[--------------------------------]
+
+
+Prompt #18
+
+perfect THANK you! :-)
+
+alright - next task:
+can you perform the itemizaton on the NEWEST results json (called "lineman_crawler_results")
+
+THEN can you give me an xslx that I can (manually, myself) add these tags to each item:
+OCC = occupation-defining duty
+ACT = detailed/general work activity
+REQ = worker requirement
+CTX = work context / industry / tooling / compliance
+LVL = organizational level / authority
+NOISE = benefits / employer brand / boilerplate
+
+I'll do my best to label them accurately :-)
+
+
+[--------------------------------]
+[ Codex worked for 5 min, 15 sec ]
+[--------------------------------]
+
+
+
+
+
+

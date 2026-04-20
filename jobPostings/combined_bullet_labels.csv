@@ -1,0 +1,209 @@
+text,tag,labeled_by,batch,duplicate_text_count,has_multiple_labels_for_same_text
+"For over seven decades investor-owned utilities, municipalities, cooperatives, and others have entrusted their electrical construction and maintenance needs to Davis H.",NOISE,Dan,manual_csv_upload,1,False
+"Elliot Company, Inc. (Elliot).",NOISE,Dan,manual_csv_upload,1,False
+"Elliot is a full-service electrical contractor specializing in overhead and underground distribution, transmission, substations, lighting, traffic signaling, utility locating and industrial/commercial services.",CTX,Dan,manual_csv_upload,1,False
+"As a Lineman C you will be assisting in the installation, construction, maintenance, and repair of overhead electric lines.",OCC,Dan,manual_csv_upload,1,False
+"This position is managed out of Lexington, KY with work in multiple locations and opportunities throughout KY.",NOISE,Dan,manual_csv_upload,1,False
+Valid Class A CDL license and medical card recommended,REQ,Dan,manual_csv_upload,1,False
+1 year of experience required,REQ,Dan,manual_csv_upload,1,False
+1-2 years of experience recommended,REQ,Dan,manual_csv_upload,1,False
+Own your own hand tools,REQ,Dan,manual_csv_upload,1,False
+Intermediate understanding of electrical distribution systems,REQ,Dan,manual_csv_upload,1,False
+Must be able to pass a criminal background check and drug screening,NOISE,Dan,manual_csv_upload,1,False
+Short-Term Disability and Long-Term Disability Insurance,NOISE,Dan,manual_csv_upload,1,False
+Company Paid Life Insurance w/ additional Voluntary Life Insurance,NOISE,Dan,manual_csv_upload,1,False
+401K w/ company match,NOISE,Dan,manual_csv_upload,1,False
+State and Federally accredited Lineman Apprenticeship program,NOISE,Dan,manual_csv_upload,1,False
+Uniforms and PPE provided,NOISE,Dan,manual_csv_upload,1,False
+"The Class C Lineman - Overhead is a semi-skilled position in the construction, maintenance and repair of electrical overhead distribution systems.",CTX,Dan,manual_csv_upload,1,False
+This position works at various locations.,NOISE,Dan,manual_csv_upload,1,False
+"Work safely while performing new construction, maintenance or repair work of energized and de-energized overhead work.",OCC,Dan,manual_csv_upload,2,False
+Strings overhead wire.,OCC,Dan,manual_csv_upload,2,False
+Sets poles and anchors.,OCC,Dan,manual_csv_upload,2,False
+"Installs transformers, lightening arrestors, cut-outs, crossarms, insulators, switches and switchgear.",OCC,Dan,manual_csv_upload,2,False
+Troubleshoots in primary and secondary systems.,OCC,Dan,manual_csv_upload,2,False
+Replaces fuses in transformers and clears faulted circuits and systems.,OCC,Dan,manual_csv_upload,2,False
+Frequently works with energized high voltage systems requiring skill and care to protect the lives of themselves and others.,OCC,Dan,manual_csv_upload,2,False
+"Maintains company vehicles, equipment and tools in good working order.",OCC,Dan,manual_csv_upload,2,False
+Does all other related work as required to complete the job.,ACT,Dan,manual_csv_upload,2,False
+Able to perform rigorous physical labor.,ACT,Dan,manual_csv_upload,3,True
+Must be able to identify primary and secondary voltage on a circuit.,OCC,Dan,manual_csv_upload,2,False
+Must be familiar with induced voltage.,OCC,Dan,manual_csv_upload,2,False
+Understands grounding procedures.,OCC,Dan,manual_csv_upload,2,False
+Understands how to use a load buster tool.,OCC,Dan,manual_csv_upload,2,False
+Capable of installing and hooking up a single-phase transformer.,OCC,Dan,manual_csv_upload,2,False
+Capable of safely setting a pole.,OCC,Dan,manual_csv_upload,2,False
+Must understand equipment set up and grounding.,OCC,Dan,manual_csv_upload,2,False
+Capable of working at heights and/or confined spaces.,OCC,Dan,manual_csv_upload,3,True
+Capable of properly installing and removing PPE and cover up.,OCC,Dan,manual_csv_upload,2,True
+Capable of checking voltage on transformers.,OCC,Dan,manual_csv_upload,2,False
+Capable of tying in a primary conductor.,OCC,Dan,manual_csv_upload,2,False
+"Must be able to climb different types of structures (wood, steel, etc.) and possess the necessary tools to do so.",OCC,Dan,manual_csv_upload,2,False
+Understands how to phase out a line using phasing sticks.,OCC,Dan,manual_csv_upload,2,False
+Understands how to obtain a one shot on a recloser.,OCC,Dan,manual_csv_upload,2,False
+Must be able to effectively conduct a pre-job or tailgate briefing.,OCC,Dan,manual_csv_upload,2,True
+Must be able to safely perform a reconductoring job.,OCC,Dan,manual_csv_upload,2,False
+Willingness to glove/work live high voltage distribution power lines.,OCC,Dan,manual_csv_upload,2,False
+Capable of safely installing and removing mechanical jumpers.,OCC,Dan,manual_csv_upload,2,False
+"Must be able to work outside, frequently in inclement weather.",OCC,Dan,manual_csv_upload,2,True
+4-year minimum of recent field experience.,REQ,Dan,manual_csv_upload,1,False
+Able to read and communicate effectively in English.,ACT,Dan,manual_csv_upload,2,True
+Able to obtain a Commercial Driver’s License permit within 60 days of employment.,REQ,Dan,manual_csv_upload,1,False
+A Commercial Driver’s License is preferred.,REQ,Dan,manual_csv_upload,1,False
+"Able to travel long distances on short notice, when required.",ACT,Dan,manual_csv_upload,2,False
+"Able to work for extended periods in various locations, when required.",ACT,Dan,manual_csv_upload,2,False
+Able to lift in excess of 50 lbs.,ACT,Dan,manual_csv_upload,2,False
+Able to properly inspect rubber goods and PPE.,OCC,Dan,manual_csv_upload,2,False
+Willing to work over-time when requested.,ACT,Dan,manual_csv_upload,2,False
+"Welcome to United Utility Services, a dynamic player in the electric utility industry.",CTX,Dan,manual_csv_upload,1,False
+"As a trailblazer, we provide comprehensive and innovative offerings that bolster power infrastructure investments across the U.S.",CTX,Dan,manual_csv_upload,1,False
+"We proudly serve as the parent company to industry-leading utility service contractors specializing in transmission, substation, distribution, and grid hardening projects.",CTX,Dan,manual_csv_upload,1,False
+"Our Core Values are clear and simple: Safety, Quality, Integrity, and Professionalism.",NOISE,Dan,manual_csv_upload,1,False
+"At United Utility Services, we craft power delivery solutions –",NOISE,Dan,manual_csv_upload,1,False
+"built safe, engineered smart, and driven by what customers demand",NOISE,Dan,manual_csv_upload,1,False
+– fueling communities with reliable energy.,NOISE,Dan,manual_csv_upload,1,False
+"We are the best-in-class, trusted partner delivering customer-centric Power Delivery Construction and Engineering solutions.",NOISE,Dan,manual_csv_upload,1,False
+We are currently seeking,NOISE,Dan,manual_csv_upload,1,False
+"for the Conroe, TX and Cleveland, TX area.",NOISE,Dan,manual_csv_upload,1,False
+"Install, maintain, and repair overhead distribution lines and equipment (poles, crossarms, insulators, switches, transformers, conductors).",OCC,Dan,manual_csv_upload,1,False
+"Respond to outages, emergency calls, and storm restoration assignments.",OCC,Dan,manual_csv_upload,1,False
+Perform routine system inspections to identify safety and reliability issues.,OCC,Dan,manual_csv_upload,1,False
+"Participate in job briefings, tailboard meetings, and hazard assessments.",OCC,Dan,manual_csv_upload,1,False
+Maintain and use proper PPE and fall protection equipment.,OCC,Dan,manual_csv_upload,1,False
+"Operate company vehicles and equipment safely (bucket trucks, digger derricks, line trucks).",OCC,Dan,manual_csv_upload,1,False
+"Work closely with crew members, supervisors, and dispatch.",ACT,Dan,manual_csv_upload,1,False
+"Communicate clearly and follow direction from the Foreman, Lead Lineman or Superintendent.",OCC,Dan,manual_csv_upload,1,False
+"Complete work orders, material logs, and time sheets accurately.",ACT,Dan,manual_csv_upload,1,False
+Minimum of 4 years' experience.,REQ,Dan,manual_csv_upload,1,False
+Ability to climb poles and work at heights.,OCC,Dan,manual_csv_upload,1,False
+Valid CDL (Class A or B) License.,REQ,Dan,manual_csv_upload,1,False
+Experience in high-voltage and low-voltage electrical systems is preferred,REQ,Dan,manual_csv_upload,1,False
+Familiarity with construction site operations and safety standards.,REQ,Dan,manual_csv_upload,1,False
+Ability to work extended hours during outages and storm events.,ACT,Dan,manual_csv_upload,1,False
+Physical ability to lift heavy equipment and work in demanding field conditions.,ACT,Dan,manual_csv_upload,1,False
+"Accessibility: If you need an accommodation as part of the employment process, please contact",NOISE,Dan,manual_csv_upload,1,False
+email: HRSC,NOISE,Dan,manual_csv_upload,1,False
+Equal Opportunity Employer is committed to diversity and inclusion in the workplace.,NOISE,Dan,manual_csv_upload,1,False
+"We prohibit discrimination and harassment of any kind based on race, color, sex, religion, sexual orientation, national origin, disability, genetic information, pregnancy, or any other protected characteristic as outlined by federal, state, or local laws.",NOISE,Dan,manual_csv_upload,1,False
+"The Class B Lineman - Overhead is a semi-skilled position in the construction, maintenance and repair of electrical overhead distribution systems.",OCC,Dan,manual_csv_upload,1,False
+This position works at various locations and may also be required to travel to another state depending on customer demands.,NOISE,Dan,manual_csv_upload,1,False
+"Work safely while performing new construction, maintenance or repair work of energized and de-energized overhead work.",OCC,Dan,manual_csv_upload,2,False
+Strings overhead wire.,OCC,Dan,manual_csv_upload,2,False
+Sets poles and anchors.,OCC,Dan,manual_csv_upload,2,False
+"Installs transformers, lightening arrestors, cut-outs, crossarms, insulators, switches and switchgear.",OCC,Dan,manual_csv_upload,2,False
+Troubleshoots in primary and secondary systems.,OCC,Dan,manual_csv_upload,2,False
+Replaces fuses in transformers and clears faulted circuits and systems.,OCC,Dan,manual_csv_upload,2,False
+Frequently works with energized high voltage systems requiring skill and care to protect the lives of themselves and others.,OCC,Dan,manual_csv_upload,2,False
+"Maintains company vehicles, equipment and tools in good working order.",OCC,Dan,manual_csv_upload,2,False
+Does all other related work as required to complete the job.,ACT,Dan,manual_csv_upload,2,False
+Able to perform rigorous physical labor.,ACT,Dan,manual_csv_upload,3,True
+Must be able to identify primary and secondary voltage on a circuit.,OCC,Dan,manual_csv_upload,2,False
+Must be familiar with induced voltage.,OCC,Dan,manual_csv_upload,2,False
+Understands grounding procedures.,OCC,Dan,manual_csv_upload,2,False
+Understands how to use a load buster tool.,OCC,Dan,manual_csv_upload,2,False
+Capable of installing and hooking up a single-phase transformer.,OCC,Dan,manual_csv_upload,2,False
+Capable of safely setting a pole.,OCC,Dan,manual_csv_upload,2,False
+Must understand equipment set up and grounding.,OCC,Dan,manual_csv_upload,2,False
+Capable of working at heights and/or confined spaces.,ACT,Dan,manual_csv_upload,3,True
+Capable of properly installing and removing PPE and cover up.,ACT,Dan,manual_csv_upload,2,True
+Capable of checking voltage on transformers.,OCC,Dan,manual_csv_upload,2,False
+Capable of tying in a primary conductor.,OCC,Dan,manual_csv_upload,2,False
+"Must be able to climb different types of structures (wood, steel, etc.) and possess the necessary tools to do so.",OCC,Dan,manual_csv_upload,2,False
+Understands how to phase out a line using phasing sticks.,OCC,Dan,manual_csv_upload,2,False
+Understands how to obtain a one shot on a recloser.,OCC,Dan,manual_csv_upload,2,False
+Must be able to effectively conduct a pre-job or tailgate briefing.,ACT,Dan,manual_csv_upload,2,True
+Must be able to safely perform a reconductoring job.,OCC,Dan,manual_csv_upload,2,False
+Willingness to glove/work live high voltage distribution power lines.,OCC,Dan,manual_csv_upload,2,False
+Capable of safely installing and removing mechanical jumpers.,OCC,Dan,manual_csv_upload,2,False
+"Must be able to work outside, frequently in inclement weather.",ACT,Dan,manual_csv_upload,2,True
+5-year minimum of recent field experience.,REQ,Dan,manual_csv_upload,1,False
+Able to read and communicate effectively in English.,NOISE,Dan,manual_csv_upload,2,True
+A Commercial Driver’s License is required,REQ,Dan,manual_csv_upload,1,False
+or able to obtain CDL-A permit within 60 days of employment.,REQ,Dan,manual_csv_upload,1,False
+"Able to travel long distances on short notice, when required.",ACT,Dan,manual_csv_upload,2,False
+"Able to work for extended periods in various locations, when required.",ACT,Dan,manual_csv_upload,2,False
+Able to lift in excess of 50 lbs.,ACT,Dan,manual_csv_upload,2,False
+Able to properly inspect rubber goods and PPE.,OCC,Dan,manual_csv_upload,2,False
+Willing to work over-time when requested.,ACT,Dan,manual_csv_upload,2,False
+Able to perform rigorous physical labor.,REQ,ChatGPT,assistant_correction_from_duplicate_batch,3,True
+Capable of working at heights and/or confined spaces.,REQ,ChatGPT,assistant_correction_from_duplicate_batch,3,True
+"Bartholomew County REMC is a forward-thinking electric cooperative dedicated to delivering reliable, safe, and efficient electrical service to our community.",NOISE,ChatGPT,assistant_next_20_batch,1,False
+We are committed to staying at the forefront of technological advancements to improve service and support our members.,NOISE,ChatGPT,assistant_next_20_batch,1,False
+Join our team and play an important role in maintaining and enhancing our power distribution systems.,NOISE,ChatGPT,assistant_next_20_batch,1,False
+"As a Journeyman Lineman, you’ll be on the front lines of constructing, maintaining, and troubleshooting Bartholomew County REMC’s overhead and underground distribution network.",OCC,ChatGPT,assistant_next_20_batch,1,False
+"You’ll perform energized work, complete routine and emergency repairs, and support storm restoration—always with an uncompromising focus on safety and teamwork.",OCC,ChatGPT,assistant_next_20_batch,1,False
+"If you thrive in hands-on, outdoor work, take pride in craftsmanship, and want to make a tangible impact on the community, this role is for you!",NOISE,ChatGPT,assistant_next_20_batch,1,False
+"Impactful Work: Keep the lights on for our members by ensuring reliability, resilience, and rapid restoration across our electric grid.",NOISE,ChatGPT,assistant_next_20_batch,1,False
+"Safety-First Culture: Work within a culture that invests in training, PPE, and safe work practices—so you go home the way you arrived.",CTX,ChatGPT,assistant_next_20_batch,1,False
+"Modern Tools & Technology: Operate well-maintained equipment (bucket trucks, digger derricks, testing instruments) and leverage updated mapping and work-management systems.",CTX,ChatGPT,assistant_next_20_batch,1,False
+"Professional Growth: Access continuous skills development, leadership pathways, and collaborative learning with an experienced line crew.",NOISE,ChatGPT,assistant_next_20_batch,1,False
+"Community & Team: Be part of a mission-driven cooperative that values service, integrity, and helping neighbors—especially when it matters most.",NOISE,ChatGPT,assistant_next_20_batch,1,False
+Safely construct and maintain electric distribution lines.,OCC,ChatGPT,assistant_next_20_batch,1,False
+"Climb poles of all types and perform jobs including but not limited to changing transformers, conductors, wire, capacitors, regulators, etc.",OCC,ChatGPT,assistant_next_20_batch,1,False
+Patrols the Cooperative’s existing power lines for problems or unsafe conditions.,OCC,ChatGPT,assistant_next_20_batch,1,False
+Reports these conditions to the Line Operations Manager.,LVL,ChatGPT,assistant_next_20_batch,1,False
+Perform substation technical maintenance and repair.,OCC,ChatGPT,assistant_next_20_batch,1,False
+"Read and interpret blueprints, work orders, and staking sheets.",ACT,ChatGPT,assistant_next_20_batch,1,False
+"Be familiar with REA specifications, the National Electrical Safety Code and OSHA regarding utility distribution line construction and service.",REQ,ChatGPT,assistant_next_20_batch,1,False
+Keep the Line Operations Manager informed as to the status of jobs and estimated timeline for completion.,LVL,ChatGPT,assistant_next_20_batch,1,False
+"Promptly report all safety issues including hazard reports, accident reports and near misses.",ACT,ChatGPT,assistant_next_20_batch,1,False
+Fully participate in any ensuing investigation.,ACT,ChatGPT,assistant_next_60_batch,1,False
+Be on time and ready to work at the start of each standard shift.,REQ,ChatGPT,assistant_next_60_batch,1,False
+"Complete tail gate meetings and job briefings at each job site to review expectations, procedures and safety factors.",ACT,ChatGPT,assistant_next_60_batch,1,False
+"Accurately complete all required job paperwork including time tickets, job briefings, work order packets, etc.",ACT,ChatGPT,assistant_next_60_batch,1,False
+"Work as necessary on the underground construction, overhead construction or service crews.",OCC,ChatGPT,assistant_next_60_batch,1,False
+Serve as a crew leader as required per the collective bargaining agreement.,LVL,ChatGPT,assistant_next_60_batch,1,False
+Perform meter reading and disconnect/reconnects as necessary to support the Meter Technician.,OCC,ChatGPT,assistant_next_60_batch,1,False
+"Drive and operate a bucket truck, line truck, digger, trencher, forklift and other equipment as necessary to set poles, lay wire, connect and disconnect services and perform tree trimming.",OCC,ChatGPT,assistant_next_60_batch,1,False
+"Maintain all assigned company equipment, tools and vehicles in good working and visual condition.",ACT,ChatGPT,assistant_next_60_batch,1,False
+Inform the Cooperative mechanic of issues with the vehicle and the Line Operations Manager of equipment needs.,ACT,ChatGPT,assistant_next_60_batch,1,False
+Must maintain positive attitude.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Observe the performance of any assigned crew members ensuring they are following an effective work procedure and observing company safety rules.,LVL,ChatGPT,assistant_next_60_batch,1,False
+Report any deficiencies or issues to the Line Operations Manager.,LVL,ChatGPT,assistant_next_60_batch,1,False
+"Direct, guide and train apprentice lineman.",LVL,ChatGPT,assistant_next_60_batch,1,False
+"Attend and participate in job safety programs, other relevant training, and company meetings.",ACT,ChatGPT,assistant_next_60_batch,1,False
+Ensure that job locations are left in a neat and safe condition following the completion of work.,ACT,ChatGPT,assistant_next_60_batch,1,False
+Participate in service watch duty which requires the individual to be on-call at locations where they may be quickly and conveniently reached by telephone in an outage or emergency situation.,CTX,ChatGPT,assistant_next_60_batch,1,False
+Promptly respond to all service calls.,OCC,ChatGPT,assistant_next_60_batch,1,False
+Be available for unscheduled overtime during consumer outages or emergencies as required by the company.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Operate truck radio as required and according to company and FCC procedures.,ACT,ChatGPT,assistant_next_60_batch,1,False
+"Comply, while operating any vehicle assigned to this position, all traffic laws, safety rules and regulations and safe practices.",CTX,ChatGPT,assistant_next_60_batch,1,False
+Participate in the Cooperative’s school safety program.,ACT,ChatGPT,assistant_next_60_batch,1,False
+Participate in the Cooperative’s safety program including serving on the safety committee.,ACT,ChatGPT,assistant_next_60_batch,1,False
+Keep informed and follow all Cooperative policies and procedures.,ACT,ChatGPT,assistant_next_60_batch,1,False
+Other duties as assigned by the Line Operations Manager.,ACT,ChatGPT,assistant_next_60_batch,1,False
+This position has no supervisory responsibilities.,LVL,ChatGPT,assistant_next_60_batch,1,False
+"In instances where two or more employees are assigned to a crew, the company will assign a crew leader.",LVL,ChatGPT,assistant_next_60_batch,1,False
+"To perform this job successfully, an individual must be able to perform each essential duty satisfactorily and attain the position objective.",NOISE,ChatGPT,assistant_next_60_batch,1,False
+"The requirements listed below are representative of the knowledge, skill, and/or ability required.",NOISE,ChatGPT,assistant_next_60_batch,1,False
+Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.,NOISE,ChatGPT,assistant_next_60_batch,1,False
+High school diploma or completion of a GED is required.,REQ,ChatGPT,assistant_next_60_batch,1,False
+"Graduated from an electrical Lineworker Training School, have an Associate’s degree (A.A.) or equivalent from a two-year college or technical school is preferred.",REQ,ChatGPT,assistant_next_60_batch,1,False
+"Four or more years in electric utility distribution operations, including distribution system construction and maintenance is required.",REQ,ChatGPT,assistant_next_60_batch,1,False
+Completion of a power line apprenticeship is required.,REQ,ChatGPT,assistant_next_60_batch,1,False
+"Must be able to perform all required duties of a qualified Journeyman lineman, to include hot line work and Pole top and bucket rescue.",REQ,ChatGPT,assistant_next_60_batch,1,False
+Ability to effectively read and follow operations and safety manuals.,REQ,ChatGPT,assistant_next_60_batch,1,False
+"Must interpret blueprints, work orders, and other electrical specifications.",REQ,ChatGPT,assistant_next_60_batch,1,False
+Must be able to use line construction hand tools.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Basic computer skills and the ability to learn and use company specific software such as outage management software.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Ability to understand and carry out written or oral instructions.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Ability to multi-task and work well with others in a fast paced environment,REQ,ChatGPT,assistant_next_60_batch,1,False
+A proficiency in the English language and its proper usage.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Knowledge of a second language is a plus for this position.,REQ,ChatGPT,assistant_next_60_batch,1,False
+"Must have excellent oral and written communication skills, as well as patience",REQ,ChatGPT,assistant_next_60_batch,1,False
+Ability to perform first aid and CPR.,REQ,ChatGPT,assistant_next_60_batch,1,False
+"This position also requires basic technical utility knowledge, skills, and abilities to perform transformer hookups, set poles, operate heavy equipment, tools, and machinery.",REQ,ChatGPT,assistant_next_60_batch,1,False
+Must adhere to Company Safety Rules.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Must be able to drive and maintain a current Indiana driver’s license.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Must have a valid Commercial Driver’s License.,REQ,ChatGPT,assistant_next_60_batch,1,False
+Must reside within or approved proximity of our service territory (mainly Bartholomew County).,REQ,ChatGPT,assistant_next_60_batch,1,False
+PHYSICAL DEMANDS,NOISE,ChatGPT,assistant_next_60_batch,1,False
+"This position requires that the individual load and unload vehicles, travel to and from job sites, and perform maintenance and construction activities on power distribution lines. While performing the duties of this job, the employee is required to:",CTX,ChatGPT,assistant_next_60_batch,1,False
+"Frequently – see, talk, hear, walk, sit, stand, handle, write, feel and reach with hands and arms.",REQ,ChatGPT,assistant_next_60_batch,1,False
+"Occasionally – stoop, kneel, crouch, climb, balance, crawl, and occasionally lift and/or move up to 100 pounds.",REQ,ChatGPT,assistant_next_60_batch,1,False
+WORK ENVIRONMENT,NOISE,ChatGPT,assistant_next_60_batch,1,False
+Work is mostly outside in close proximity to hot line construction and maintenance and energized conductors in varying weather conditions and is exposed to the hazards of electrical shock and burns as well as to falls.,CTX,ChatGPT,assistant_next_60_batch,1,False
+Position requires travel throughout the service area.,CTX,ChatGPT,assistant_next_60_batch,1,False
+"Work regularly scheduled Monday-Friday, although weekends and after hours may be required to meet deadlines or address distribution problems.",CTX,ChatGPT,assistant_next_60_batch,1,False
+Bartholomew County REMC is an Equal Employment Opportunity Employer,NOISE,ChatGPT,assistant_next_60_batch,1,False
+Powered by ExactHire: 190140,NOISE,ChatGPT,assistant_next_60_batch,1,False

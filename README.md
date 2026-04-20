@@ -33,6 +33,8 @@ Primary job-posting test inputs:
 
 - `jobPostings/job_postings_itemized_for_embeddings_firstTwoExamples.jsonl`
 - `jobPostings/job_postings_itemized_for_embeddings.jsonl`
+- `jobPostings/linkedin_job_search_results.json`
+  Raw LinkedIn scrape with 6 search queries and 36 full posting texts total.
 
 ## Generated Outputs
 
@@ -55,6 +57,8 @@ Job-posting matching outputs:
   Top-5 task matches for 45 posting items across the first two example listings.
 - `jobPostings/job_postings_itemized_for_embeddings_top5_task_matches.json`
   Top-5 task matches for 54 posting items across the next three listings.
+- `jobPostings/linkedin_job_search_results_itemized_for_embeddings.jsonl`
+  Preprocessed JSONL generated from the raw LinkedIn scrape, ready to feed into the existing matcher.
 - `jobPostings/job_postings_all_top5_task_matches.xlsx`
   Flattened Excel review sheet with 495 rows across both match result files.
 
@@ -75,6 +79,7 @@ Crosswalks, tasks, and embeddings:
 
 Job-posting matching and export:
 
+- `scripts/preprocess_linkedin_job_search_results.py`
 - `scripts/match_job_postings_to_tasks.py`
 - `scripts/export_task_matches_to_excel.py`
 
@@ -183,6 +188,20 @@ The script reads `scripts/tasks_to_dwas.json`, embeds each unique text once, and
 
 - `embeddings_by_key` with one embedding per unique text
 - `by_onet_soc_code` with task and DWA references back to those embedding keys
+
+## LinkedIn Job Search Preprocessing
+
+Use `scripts/preprocess_linkedin_job_search_results.py` to convert the raw LinkedIn scrape JSON into the same itemized JSONL shape used by the existing task matcher.
+
+Examples:
+
+```bash
+python scripts/preprocess_linkedin_job_search_results.py
+python scripts/match_job_postings_to_tasks.py --input-jsonl jobPostings/linkedin_job_search_results_itemized_for_embeddings.jsonl --top-k 5
+```
+
+The preprocessor reads `jobPostings/linkedin_job_search_results.json` and writes `jobPostings/linkedin_job_search_results_itemized_for_embeddings.jsonl`.
+It extracts lightweight metadata from the LinkedIn URLs, removes obvious scrape boilerplate such as `Show more` / `Show less`, and itemizes each posting into `overview`, `role`, `requirement`, and `preferred` snippets for downstream embedding and matching.
 
 ## Job Posting Task Matching
 
