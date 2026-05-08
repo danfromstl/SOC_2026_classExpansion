@@ -1,1 +1,8 @@
 ~*
+
+# Large embedding files (>100 MB, over GitHub limit — generate locally)
+scripts/task_dwa_embeddings_*.json
+scripts/dog_title_embeddings_*.json
+
+# Claude Code internal worktree tooling
+.claude/

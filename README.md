@@ -1,5 +1,15 @@
 # SOC_2026_classExpansion
-small tool to "fully expand" SOC classifications using O*NET's database of tasks, activities, skills, knowledge, technology skills, etc. 
+A tool to "fully expand" SOC classifications using O*NET's database of tasks, activities, skills, knowledge, technology skills, etc. — and to use real-world job posting data as empirical evidence for occupational taxonomy gaps.
+
+## Long-Term Vision
+
+The Bureau of Labor Statistics is planning a [2028 SOC revision](https://www.bls.gov/soc/notices/2024/next_revision.htm). A central goal of this project is to contribute to that process by demonstrating, quantitatively, where the current SOC 2018 classification fails to capture distinct clusters of real-world work.
+
+Roles like *Product Manager*, *AI Safety Engineer*, *AI Harness Testing Specialist*, and *Transformer Model Training Specialist* represent work that is:
+- **clearly distinct** from one another and from existing Detailed Occupational Groups (DOGs)
+- **substantially present** in the current labor market, as evidenced by public job postings
+
+This system is designed to make that case with data: by matching job postings against the O*NET task library and identifying where postings land in occupationally implausible places, we can surface clusters of activity that have no clean home in SOC 2018 — the raw material for new DOG proposals.
 
 ## Project Summary
 
@@ -80,8 +90,17 @@ Crosswalks, tasks, and embeddings:
 Job-posting matching and export:
 
 - `scripts/preprocess_linkedin_job_search_results.py`
-- `scripts/match_job_postings_to_tasks.py`
+- `scripts/match_job_postings_to_tasks.py` — single-stage (baseline) matcher
 - `scripts/export_task_matches_to_excel.py`
+
+Two-stage (DOG-filtered) matching pipeline:
+
+- `scripts/build_dog_title_embeddings.py` — embeds DOG title examples for stage-1 classification
+- `scripts/match_job_postings_two_stage.py` — DOG-filtered task matcher (improved precision)
+
+Analysis and quality evaluation:
+
+- `scripts/analyze_match_quality.py` — reports DOG alignment statistics for lineman postings
 
 ## SOC 2018 detailed occupation lookup
 
@@ -240,3 +259,55 @@ The workbook includes these columns:
 - `Task ID`
 - `O-SOC Code`
 - `O-SOC Title`
+
+## Two-Stage (DOG-Filtered) Matching
+
+The single-stage matcher finds tasks whose text is semantically similar to a job posting bullet — but those tasks may belong to completely unrelated occupational groups. A lineman bullet about "replacing fuses" can surface tasks from Telecommunications Repairers, Computer Network Architects, or Industrial Machinery Mechanics — all reasonable text matches, none the right occupation.
+
+**Baseline quality (lineman postings, measured):**
+- Expected DOG (49-9051 electric / 49-9052 telecom) at rank-1: **1.0%** of entries
+- Expected DOG anywhere in top-5: **12.7%** of entries
+
+The two-stage approach fixes this by grounding task retrieval in occupational context:
+
+**Stage 1 — DOG classification:** Embed the job title and find the top-N closest DOGs by cosine similarity to their pooled title-example embeddings. Requires building `scripts/dog_title_embeddings_all_mpnet_base_v2.json` first.
+
+**Stage 2 — filtered task retrieval:** Restrict the task library to only tasks from the candidate DOGs (via the SOC 2018 → O*NET 2019 crosswalk), then run standard top-K matching against that subset.
+
+### Step 1: Build DOG title embeddings (one-time)
+
+```bash
+python scripts/build_dog_title_embeddings.py
+```
+
+Embeds the name, title examples, and first-sentence description for all 867 SOC Detailed groups. Writes `scripts/dog_title_embeddings_all_mpnet_base_v2.json`.
+
+### Step 2: Run two-stage matcher
+
+```bash
+# LinkedIn results (default):
+python scripts/match_job_postings_two_stage.py
+
+# Custom input, wider DOG net:
+python scripts/match_job_postings_two_stage.py \
+  --input-jsonl jobPostings/lineman_crawler_results_itemized_for_tagging.jsonl \
+  --top-n-dogs 5 \
+  --output jobPostings/lineman_crawler_two_stage_matches.json
+```
+
+Key options:
+- `--top-n-dogs N` — how many DOG candidates to consider per job title (default: 3)
+- `--top-k K` — task matches per posting item (default: 5)
+
+Output JSON includes a `stage1_dog_candidates` field per result showing which DOGs were selected and their similarity scores, making the classification transparent and auditable.
+
+## Match Quality Analysis
+
+Use `scripts/analyze_match_quality.py` to check what fraction of top-5 task matches come from expected DOGs for lineman job postings. Requires no external dependencies.
+
+```bash
+python scripts/analyze_match_quality.py
+python scripts/analyze_match_quality.py --input jobPostings/linkedin_job_search_results_two_stage_top5_task_matches.json
+```
+
+Run against both the baseline and two-stage output files to compare DOG alignment rates before and after the pipeline change.
