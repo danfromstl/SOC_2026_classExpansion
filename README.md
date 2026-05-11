@@ -23,8 +23,9 @@ The current workflow:
 4. maps SOC 2018 detailed groups to O*NET-SOC 2019 subgroup codes
 5. maps O*NET-SOC codes to tasks and DWAs
 6. embeds the task library with `sentence-transformers/all-mpnet-base-v2`
-7. embeds itemized job-posting text and compares it to the task library
-8. exports the results into JSON and Excel for manual review
+7. scores itemized job-posting snippets with a reviewed relevance-filter bundle
+8. embeds itemized job-posting text and compares it to the task library
+9. exports the results into JSON and Excel for manual review
 
 For a fuller project inventory, see [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md).
 
@@ -69,6 +70,8 @@ Job-posting matching outputs:
   Top-5 task matches for 54 posting items across the next three listings.
 - `jobPostings/linkedin_job_search_results_itemized_for_embeddings.jsonl`
   Preprocessed JSONL generated from the raw LinkedIn scrape, ready to feed into the existing matcher.
+- `scripts/relevance_bundles/job_snippet_relevance_20260510T174010Z`
+  Portable relevance scorer bundle exported from the tagging UI's reviewed snippets.
 - `jobPostings/job_postings_all_top5_task_matches.xlsx`
   Flattened Excel review sheet with 495 rows across both match result files.
 
@@ -90,7 +93,9 @@ Crosswalks, tasks, and embeddings:
 Job-posting matching and export:
 
 - `scripts/preprocess_linkedin_job_search_results.py`
+- `scripts/score_job_posting_relevance.py` - first-pass relevance scorer for itemized snippets
 - `scripts/match_job_postings_to_tasks.py` — single-stage (baseline) matcher
+- `scripts/run_pipeline.py` — orchestrates relevance scoring, two-stage matching, and run scoring
 - `scripts/export_task_matches_to_excel.py`
 
 Two-stage (DOG-filtered) matching pipeline:
@@ -101,6 +106,7 @@ Two-stage (DOG-filtered) matching pipeline:
 Analysis and quality evaluation:
 
 - `scripts/analyze_match_quality.py` — reports DOG alignment statistics for lineman postings
+- `scripts/score_match_results.py` — records repeatable DOG-alignment metrics in `jobPostings/scoring_history.json`
 
 ## SOC 2018 detailed occupation lookup
 
@@ -221,6 +227,62 @@ python scripts/match_job_postings_to_tasks.py --input-jsonl jobPostings/linkedin
 
 The preprocessor reads `jobPostings/linkedin_job_search_results.json` and writes `jobPostings/linkedin_job_search_results_itemized_for_embeddings.jsonl`.
 It extracts lightweight metadata from the LinkedIn URLs, removes obvious scrape boilerplate such as `Show more` / `Show less`, and itemizes each posting into `overview`, `role`, `requirement`, and `preferred` snippets for downstream embedding and matching.
+
+## Job Posting Relevance Filter
+
+Use `scripts/score_job_posting_relevance.py` to run the portable relevance scorer before SOC/O*NET task matching.
+The script adds a `relevance_filter` object to each JSONL row, using the versioned bundle named in `scripts/relevance_bundles/LATEST.txt`.
+
+Examples:
+
+```bash
+python scripts/score_job_posting_relevance.py
+python scripts/score_job_posting_relevance.py --limit 25 --output-jsonl jobPostings/relevance_smoke_test.jsonl
+python scripts/score_job_posting_relevance.py --drop-not-relevant --drop-confidence 0.75 --output-jsonl jobPostings/linkedin_job_search_results_relevance_filtered.jsonl
+```
+
+Then feed the scored rows into the two-stage matcher and let it skip rows labeled `not_relevant`:
+
+```bash
+python scripts/match_job_postings_two_stage.py --input-jsonl jobPostings/linkedin_job_search_results_relevance_scored.jsonl --skip-not-relevant --skip-confidence 0.75
+```
+
+You can also pass a filtered JSONL directly if you used `--drop-not-relevant` in the scoring step.
+
+The reusable Python API lives in `scripts/relevance_filter`:
+
+```python
+from relevance_filter import RelevanceScorer
+
+scorer = RelevanceScorer.from_bundle("scripts/relevance_bundles/job_snippet_relevance_20260510T174010Z")
+scores = scorer.score_texts(["Compensation ranges vary based on experience."])
+```
+
+## Pipeline Orchestrator
+
+Use `scripts/run_pipeline.py` when you want one command to score relevance, run two-stage matching, and append DOG-alignment metrics to a history file.
+By default it scores snippets and has the matcher skip high-confidence `not_relevant` rows before embedding.
+
+Examples:
+
+```bash
+python scripts/run_pipeline.py --run-name relevance_skip_title
+python scripts/run_pipeline.py --run-name relevance_drop_title_company --stage1-text-mode title_company --relevance-mode drop
+python scripts/run_pipeline.py --run-name baseline_no_relevance --relevance-mode off
+```
+
+Key relevance options:
+
+- `--relevance-mode skip` scores all rows and passes `--skip-not-relevant` into the matcher.
+- `--relevance-mode drop` writes a filtered intermediate JSONL before matching.
+- `--relevance-mode score` annotates rows but keeps all of them for matching.
+- `--relevance-confidence 0.75` controls the skip/drop confidence threshold.
+
+After several runs, compare them with:
+
+```bash
+python scripts/score_match_results.py --chart-only --chart-output jobPostings/pipeline_comparison.png
+```
 
 ## Job Posting Task Matching
 

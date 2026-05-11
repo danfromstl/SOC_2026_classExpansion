@@ -1,0 +1,87 @@
+[
+  {
+    "run_name": "relevance_skip_title",
+    "timestamp": "2026-05-11T14:10:13.192124+00:00",
+    "input_file": "C:\\Users\\danfr\\Documents\\GitHub\\SOC_2026_classExpansion\\jobPostings\\relevance_skip_title_top5_task_matches.json",
+    "params": {
+      "top_k": 5,
+      "top_n_dogs": 3,
+      "stage1_text_mode": "title",
+      "model_name": "sentence-transformers/all-mpnet-base-v2",
+      "input_jsonl": "C:\\Users\\danfr\\Documents\\GitHub\\SOC_2026_classExpansion\\jobPostings\\relevance_skip_title_relevance_scored.jsonl",
+      "input_item_count": 1190,
+      "item_count": 902,
+      "boilerplate_stripped": false,
+      "relevance_filter_skipped_count": 288,
+      "relevance_filter_skip_confidence": 0.75,
+      "relevance_pipeline": {
+        "mode": "skip",
+        "bundle": "C:\\Users\\danfr\\Documents\\GitHub\\SOC_2026_classExpansion\\scripts\\relevance_bundles\\job_snippet_relevance_20260510T174010Z",
+        "input_jsonl": "C:\\Users\\danfr\\Documents\\GitHub\\SOC_2026_classExpansion\\jobPostings\\linkedin_job_search_results_itemized_for_embeddings.jsonl",
+        "output_jsonl": "C:\\Users\\danfr\\Documents\\GitHub\\SOC_2026_classExpansion\\jobPostings\\relevance_skip_title_relevance_scored.jsonl",
+        "confidence": 0.75,
+        "input_item_count": 1190,
+        "written_item_count": 1190,
+        "reused_existing_output": false
+      }
+    },
+    "metrics": {
+      "total_entries": 902,
+      "lineman_entries": 58,
+      "unique_job_titles": [
+        "B Lineman Overhead",
+        "B Lineman Overhead Aep",
+        "City Of Morganton Electric Lineman Iii",
+        "Distribution Lineman C",
+        "Grounds Maintenance Worker Umatilla Or",
+        "Lineman Trainee"
+      ],
+      "unique_companies": [
+        "Cable Services Company Inc",
+        "Davis H Elliot Company Inc",
+        "Electricities Of Nc",
+        "Greenstone Electrical Services",
+        "Koman Family Of Companies",
+        "Pike Corporation"
+      ],
+      "expected_at_rank1": {
+        "count": 11,
+        "pct": 19.0
+      },
+      "expected_in_top5": {
+        "count": 30,
+        "pct": 51.7
+      },
+      "no_expected_dog": {
+        "count": 28,
+        "pct": 48.3
+      },
+      "dog_distribution_rank1": {
+        "47-3013": 16,
+        "49-9051": 11,
+        "53-1042": 10,
+        "53-4031": 5,
+        "37-2011": 4,
+        "39-3093": 3,
+        "47-2111": 2,
+        "33-1011": 2,
+        "49-9071": 2,
+        "37-1012": 2,
+        "11-3071": 1
+      },
+      "dog_distribution_any5": {
+        "49-9051": 30,
+        "47-3013": 26,
+        "53-1042": 17,
+        "47-2111": 9,
+        "53-4031": 9,
+        "49-9071": 7,
+        "37-2011": 6,
+        "37-1012": 6,
+        "11-3071": 6,
+        "39-3093": 5,
+        "33-1011": 5
+      }
+    }
+  }
+]

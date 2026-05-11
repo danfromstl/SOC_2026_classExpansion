@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 """
-Two-stage job posting → O*NET task matcher.
+Two-stage job posting -> O*NET task matcher.
 
 WHY TWO STAGES:
   Single-stage cosine similarity finds tasks whose text is semantically similar
   to a job posting bullet, but those tasks may be assigned to completely unrelated
   occupational groups in O*NET. A lineman bullet about "replacing fuses" can
   surface tasks from Telecommunications Equipment Installers, Computer Network
-  Architects, or Industrial Machinery Mechanics — all plausible text matches,
+  Architects, or Industrial Machinery Mechanics - all plausible text matches,
   none the right occupation.
 
 HOW IT WORKS:
-  Stage 1 — DOG classification:
+  Stage 1 - DOG classification:
     Embed the job posting's `title` field (e.g. "Electric Lineman II") and find
     the top-N closest Detailed Occupational Groups (DOGs) by cosine similarity
     to their pooled title-example embeddings (built by build_dog_title_embeddings.py).
 
-  Stage 2 — filtered task retrieval:
+  Stage 2 - filtered task retrieval:
     Restrict the O*NET task library to only tasks belonging to the candidate DOGs
-    (via the SOC 2018 → O*NET 2019 crosswalk), then run standard top-K cosine
+    (via the SOC 2018 -> O*NET 2019 crosswalk), then run standard top-K cosine
     similarity matching against that filtered subset.
 
   Result: task matches that are both lexically relevant AND occupationally grounded.
@@ -75,16 +75,24 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--dog-embeddings", type=Path, default=DEFAULT_DOG_EMB,
                    help="DOG title embedding JSON (from build_dog_title_embeddings.py).")
     p.add_argument("--crosswalk", type=Path, default=DEFAULT_CROSSWALK,
-                   help="SOC 2018 → O*NET 2019 crosswalk JSON.")
+                   help="SOC 2018 -> O*NET 2019 crosswalk JSON.")
     p.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     p.add_argument("--top-k", type=int, default=5,
                    help="Task matches per posting item (default: 5).")
     p.add_argument("--top-n-dogs", type=int, default=3,
                    help="DOG candidates per job title for stage-1 (default: 3).")
+    p.add_argument("--stage1-text-mode", choices=["title", "title_company"], default="title",
+                   help="Text fed to stage-1 DOG classification. "
+                        "'title' uses job title only (default). "
+                        "'title_company' appends company name for additional context.")
     p.add_argument("--batch-size", type=int, default=32,
                    help="Encoding batch size (default: 32).")
     p.add_argument("--device", type=str, default=None,
                    help="Torch device string, e.g. 'cuda', 'cpu' (default: auto).")
+    p.add_argument("--skip-not-relevant", action="store_true",
+                   help="Skip rows with relevance_filter.label == not_relevant.")
+    p.add_argument("--skip-confidence", type=float, default=0.0,
+                   help="Minimum relevance_filter confidence required when skipping rows.")
     return p.parse_args()
 
 
@@ -104,6 +112,32 @@ def load_job_postings(path: Path) -> list[dict]:
                 raise ValueError(f"Line {lineno}: missing 'id' or 'text' field.")
             items.append(item)
     return items
+
+
+def filter_not_relevant_items(
+    postings: list[dict],
+    *,
+    min_confidence: float,
+) -> tuple[list[dict], int]:
+    kept: list[dict] = []
+    skipped = 0
+    for posting in postings:
+        relevance = posting.get("relevance_filter")
+        confidence = 0.0
+        if isinstance(relevance, dict):
+            try:
+                confidence = float(relevance.get("confidence", 0.0))
+            except (TypeError, ValueError):
+                confidence = 0.0
+        if (
+            isinstance(relevance, dict)
+            and relevance.get("label") == "not_relevant"
+            and confidence >= min_confidence
+        ):
+            skipped += 1
+            continue
+        kept.append(posting)
+    return kept, skipped
 
 
 def load_task_library(
@@ -163,7 +197,7 @@ def load_crosswalk(path: Path) -> dict[str, list[str]]:
 
 
 # ---------------------------------------------------------------------------
-# Stage 1: classify job title → candidate DOGs
+# Stage 1: classify job title -> candidate DOGs
 # ---------------------------------------------------------------------------
 
 def classify_titles_batch(
@@ -263,7 +297,21 @@ def main() -> None:
 
     print("Loading job postings...", flush=True)
     postings = load_job_postings(args.input_jsonl)
-    print(f"  {len(postings)} posting items")
+    input_item_count = len(postings)
+    skipped_item_count = 0
+    print(f"  {input_item_count} posting items")
+    if args.skip_not_relevant:
+        postings, skipped_item_count = filter_not_relevant_items(
+            postings,
+            min_confidence=args.skip_confidence,
+        )
+        print(
+            f"  skipped {skipped_item_count} not-relevant items; {len(postings)} items remain",
+            flush=True,
+        )
+        if not postings:
+            print("Error: no posting items remain after relevance filtering.", file=sys.stderr)
+            sys.exit(1)
 
     print("Loading task embedding library...", flush=True)
     task_data, all_candidates, all_matrix = load_task_library(args.task_embeddings)
@@ -280,9 +328,20 @@ def main() -> None:
     print(f"Loading model: {model_name}", flush=True)
     model = SentenceTransformer(model_name, device=args.device)
 
-    # Stage 1: classify all unique job titles at once
-    unique_titles = list({p.get("title", "") for p in postings if p.get("title")})
-    print(f"Stage 1: classifying {len(unique_titles)} unique job titles → top-{args.top_n_dogs} DOGs...", flush=True)
+    def stage1_text(posting: dict) -> str:
+        title = posting.get("title", "")
+        if args.stage1_text_mode == "title_company":
+            company = posting.get("company", "")
+            return f"{title}, {company}" if company else title
+        return title
+
+    # Stage 1: classify all unique stage-1 texts at once
+    unique_titles = list({stage1_text(p) for p in postings if p.get("title")})
+    print(
+        f"Stage 1: classifying {len(unique_titles)} unique texts "
+        f"({args.stage1_text_mode} mode) -> top-{args.top_n_dogs} DOGs...",
+        flush=True,
+    )
     title_to_dogs = classify_titles_batch(unique_titles, model, dog_soc_codes, dog_matrix, args.top_n_dogs)
 
     # Stage 2: encode all posting texts, then per-item filtered matching
@@ -302,7 +361,7 @@ def main() -> None:
     filtered_cache: dict[str, tuple[list[dict], np.ndarray]] = {}
 
     for posting, vec in zip(postings, text_vecs):
-        job_title = posting.get("title", "")
+        job_title = stage1_text(posting)
         dog_candidates = title_to_dogs.get(job_title, [])
         candidate_soc_codes = [code for code, _ in dog_candidates]
 
@@ -332,6 +391,10 @@ def main() -> None:
         "model_name": model_name,
         "top_k": args.top_k,
         "top_n_dogs": args.top_n_dogs,
+        "stage1_text_mode": args.stage1_text_mode,
+        "input_item_count": input_item_count,
+        "relevance_filter_skipped_count": skipped_item_count,
+        "relevance_filter_skip_confidence": args.skip_confidence if args.skip_not_relevant else None,
         "item_count": len(results),
         "results": results,
     }
