@@ -1,0 +1,83 @@
+SOC Task Classification Results
+Target: Information Security Analyst (15-1212)
+Total snippets: 20
+
+COUNTS BY LABEL
+----------------------------------------
+  CONCEPT_MATCH          7 (35%)
+  NOT_RELEVANT           5 (25%)
+  EXACT_MATCH            3 (15%)
+  MULTI_TASK             3 (15%)
+  NEW_ROLE               1 (5%)
+  ROLE_EXTENSION         1 (5%)
+
+FLAGGED FOR REVIEW
+----------------------------------------
+
+[CONCEPT_MATCH] Information System Security Officer
+Text: Monitor security information and event management (SIEM) systems and other security tools for suspicious activity.
+Reason: The snippet describes monitoring security tools for suspicious activity, which aligns with the SOC tasks of monitoring current reports (virus/threat updates) and monitoring use of data files to safeguard information. SIEM is a modern technology platform that did not exist in the 2018 SOC framework but represents the contemporary implementation of these monitoring responsibilities.
+New tech: SIEM (Security Information and Event Management)
+
+[CONCEPT_MATCH] Information System Security Officer
+Text: Triage and prioritize security alerts and events based on their potential risk and impact.
+Reason: Triaging and prioritizing security alerts reflects modern implementations of monitoring and assessing system security (task 5320 - risk assessment, and task 5319 - monitoring data file use and access). The language reflects contemporary alert-driven security operations not explicitly detailed in 2018 SOC terminology.
+New tech: security alert systems, SOC/SIEM alert workflows
+
+[CONCEPT_MATCH] Information System Security Officer
+Text: Follow established incident response playbooks to investigate and contain security incidents.
+Reason: The snippet describes investigating and containing security incidents using formalized procedures (playbooks), which aligns with reviewing violations and discussing procedures to prevent recurrence. The term 'incident response playbooks' is modern terminology for structured response procedures not explicitly named in 2018 SOC language.
+New tech: incident response playbooks
+
+[CONCEPT_MATCH] Information System Security Officer
+Text: User creation and conditional email assignment of user and administrative accounts on CGFS General Support Systems.
+Reason: This task involves modifying access status for user and administrative accounts (task 5317) and regulating access to safeguard information (task 5319). The modern terminology 'conditional email assignment' and reference to 'CGFS General Support Systems' reflects contemporary identity and access management practices not explicitly detailed in 2018 SOC language.
+New tech: CGFS (General Support Systems), conditional email assignment logic
+
+[CONCEPT_MATCH] Information System Security Officer
+Text: Active role in network and systems design to ensure that appropriate systems security policies and procedures are contemplated and introduced into design.
+Reason: This snippet describes developing security policies and procedures integrated into system design, which aligns with safeguarding computer files and coordinating implementation of security plans. The modern framing emphasizes proactive security-by-design rather than reactive measures, reflecting contemporary security architecture practices.
+New tech: security-by-design architecture
+
+[MULTI_TASK] Security Analyst
+Text: You'll be responsible for analyzing network traffic to identify threats, executing incident response playbooks to contain breaches, and collaborating with senior analysts on root cause investigations to ensure effective remediation.
+Reason: This snippet contains three distinct security analysis tasks: threat detection via network traffic analysis, incident response execution, and collaborative investigation work.
+Subtasks:
+  * {'classification': 'CONCEPT_MATCH', 'matched_task_ids': ['5316', '5320'], 'reasoning': 'Analyzing network traffic to identify threats aligns with monitoring for security issues and performing assessments of system security, using modern network monitoring terminology.', 'new_technology_noted': 'network traffic analysis'}
+  * {'classification': 'ROLE_EXTENSION', 'matched_task_ids': ['5323'], 'reasoning': 'Executing incident response playbooks reflects systematic response procedures beyond the existing task of reviewing violations and discussing procedures; this extends to active containment and remediation execution.', 'new_technology_noted': 'incident response playbooks'}
+  * {'classification': 'CONCEPT_MATCH', 'matched_task_ids': ['5315'], 'reasoning': 'Collaborating with senior analysts on root cause investigations reflects conferring with colleagues on security issues and their resolution, consistent with discussing security violations and programming changes.', 'new_technology_noted': None}
+
+[MULTI_TASK] Security Analyst
+Text: Beyond active defense, you will drive proactive security measures by conducting vulnerability scans and coordinating with IT teams to ensure timely patching.
+Reason: The snippet describes two distinct security tasks: conducting vulnerability scans (risk assessment/testing) and coordinating patching efforts with IT teams (implementation coordination). These map to existing SOC tasks for risk assessments and coordination activities.
+Subtasks:
+  * {'subtask': 'Conducting vulnerability scans', 'classification': 'EXACT_MATCH', 'matched_task_ids': ['5320'], 'reasoning': 'Vulnerability scanning is a core component of performing risk assessments and executing tests of data processing systems to ensure security measures function properly.'}
+  * {'subtask': 'Coordinating with IT teams to ensure timely patching', 'classification': 'EXACT_MATCH', 'matched_task_ids': ['5318'], 'reasoning': 'Coordinating with IT teams on patching activities directly aligns with coordinating implementation of computer system plans with establishment personnel.'}
+
+[MULTI_TASK] Security Analyst
+Text: Your role also involves maintaining documentation of incidents and fostering a culture of vigilance by developing security awareness materials and educating colleagues on essential best practices like phishing prevention.
+Reason: This snippet contains three distinct information security analyst tasks: promoting security awareness through training materials (5313), documenting security incidents and procedures (5322), and addressing security violations through education (5323).
+Subtasks:
+  * {'task': 'developing security awareness materials and educating colleagues on best practices like phishing prevention', 'classification': 'EXACT_MATCH', 'matched_task_ids': ['5313'], 'reasoning': 'Directly aligns with training users and promoting security awareness to improve system security.'}
+  * {'task': 'maintaining documentation of incidents', 'classification': 'EXACT_MATCH', 'matched_task_ids': ['5322'], 'reasoning': 'Corresponds to documenting computer security and emergency measures policies, procedures, and tests.'}
+  * {'task': 'fostering a culture of vigilance by educating colleagues', 'classification': 'EXACT_MATCH', 'matched_task_ids': ['5323'], 'reasoning': 'Aligns with reviewing violations and discussing procedures to ensure violations are not repeated.'}
+
+[NEW_ROLE] AI Safety Engineer
+Text: Design and implement safety evaluation frameworks to assess risks in large language model deployments, including red-teaming, adversarial testing, and alignment verification.
+Reason: This task involves specialized evaluation of AI/LLM systems for safety and alignment, which is fundamentally different from traditional information security analyst work. While it shares risk assessment concepts with task 5320, the focus on LLM-specific safety, red-teaming, and alignment verification represents a distinct emerging role (AI Safety Engineer or ML Security Specialist) not covered by the 2018 SOC 15-1212 definition.
+New tech: Large Language Models (LLMs), red-teaming, adversarial testing, alignment verification
+
+[ROLE_EXTENSION] AI Safety Engineer
+Text: Collaborate with ML researchers to identify and mitigate potential failure modes in AI systems before production deployment.
+Reason: This task extends the risk assessment and testing work of Information Security Analysts (task 5320) into the emerging domain of AI/ML system security. While risk assessment and pre-deployment testing are core to the role, identifying failure modes in AI systems represents a new, specialized application area not covered in the 2018 SOC.
+New tech: AI/ML systems, machine learning security
+
+[CONCEPT_MATCH] Security Analyst
+Text: Monitor CrowdStrike Falcon alerts, investigate endpoint detections, and escalate confirmed incidents to the IR team.
+Reason: The snippet describes monitoring security alerts (CrowdStrike Falcon), investigating detections, and escalating incidents—core InfoSec Analyst tasks of monitoring system activity, detecting threats, and ensuring appropriate response. CrowdStrike Falcon is a modern endpoint detection and response (EDR) tool not referenced in the 2018 SOC.
+New tech: CrowdStrike Falcon (EDR)
+
+[CONCEPT_MATCH] Security Analyst
+Text: Build and tune Splunk dashboards to surface anomalous authentication patterns and lateral movement indicators.
+Reason: This task involves monitoring system activity and performing risk assessments using modern SIEM tooling (Splunk) to detect security threats. It aligns with tasks around monitoring for threats and testing security measures, but uses contemporary tools and terminology not present in the 2018 SOC baseline.
+New tech: Splunk
