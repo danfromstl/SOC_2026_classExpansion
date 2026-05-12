@@ -26,7 +26,7 @@ import anthropic
 # CONFIG — edit these
 # ─────────────────────────────────────────────
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "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")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "blahblahblah")
 
 # Point this at your actual JSONL file when you're ready to run for real.
 # Set to None to use the built-in test snippets below.
